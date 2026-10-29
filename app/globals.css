@@ -24,6 +24,18 @@ header{
 nav{display:flex;gap:36px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;}
 nav a{color:var(--bone);text-decoration:none;opacity:.8;}
 nav a:hover{opacity:1;color:var(--accent);}
+header nav{margin-left:auto;margin-right:28px;}
+.head-social{display:flex;gap:10px;align-items:center;}
+.head-social-btn{
+  width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  color:var(--bone);border:1px solid rgba(255,255,255,.22);background:rgba(10,10,10,.35);
+  transition:color .2s,border-color .2s,transform .2s,box-shadow .2s;
+}
+.head-social-btn:hover,.head-social-btn:focus-visible{
+  color:var(--accent);border-color:var(--accent);transform:translateY(-2px);
+  box-shadow:0 0 18px rgba(77,184,232,.35);outline:none;
+}
+.head-social-btn:active{transform:scale(.94);}
 
 .hero{
   min-height:100svh;display:flex;flex-direction:column;
