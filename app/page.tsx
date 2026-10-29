@@ -47,6 +47,7 @@ export default function Home() {
         <nav>
           <a href="#mission">O mně</a>
           <a href="#expedice">Expedice</a>
+          <a href="#prirucka">Příručka</a>
           <a href="#music">Hudba</a>
           <a href="#kolekce">Kolekce</a>
           <a href="#shop">Obchod</a>
@@ -168,6 +169,43 @@ export default function Home() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             />
+          </div>
+        </div>
+      </section>
+
+      <div className="rule" />
+
+      <section className="guide" id="prirucka">
+        <div className="guide-grid">
+          <a
+            href="/downloads/sharky-paul-prevence-zraloci.pdf"
+            download
+            className="guide-cover"
+            aria-label="Stáhnout příručku Prevence zdarma"
+          >
+            <img src="/images/prirucka-prevence.jpg" alt="Obálka příručky Prevence – jak se chovat bezpečně v přítomnosti žraloků" />
+          </a>
+          <div className="shop-head" style={{ marginBottom: 0 }}>
+            <div className="eyebrow-sm">Zdarma ke stažení</div>
+            <h2>
+              Příručka
+              <br />
+              Prevence
+            </h2>
+            <p>
+              Jak se chovat bezpečně v přítomnosti žraloků. Praktický průvodce pro potápěče,
+              šnorchlaře a milovníky oceánu — prevence, chování žraloků, krizové situace,
+              vybavení, kontrolní seznam a mýty, které je dobré opravit.
+            </p>
+            <p className="guide-meta">PDF · 9 stran A4 · 7 MB</p>
+            <div className="hero-cta" style={{ marginTop: 28 }}>
+              <a href="/downloads/sharky-paul-prevence-zraloci.pdf" download className="btn solid">
+                Stáhnout zdarma
+              </a>
+              <a href="/downloads/sharky-paul-prevence-zraloci.pdf" target="_blank" rel="noopener noreferrer" className="btn">
+                Otevřít online
+              </a>
+            </div>
           </div>
         </div>
       </section>

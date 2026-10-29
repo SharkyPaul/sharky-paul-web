@@ -190,3 +190,14 @@ footer{
 
 .spotify-embed{margin-top:36px;max-width:640px;border-radius:12px;overflow:hidden;}
 .spotify-embed iframe{display:block;border:0;border-radius:12px;}
+
+.guide{background:var(--navy2);}
+.guide-grid{display:grid;grid-template-columns:minmax(200px,340px) 1fr;gap:70px;align-items:center;max-width:1100px;}
+.guide-cover{display:block;box-shadow:0 30px 60px rgba(0,0,0,.5);transition:transform .25s,box-shadow .25s;}
+.guide-cover img{display:block;width:100%;height:auto;}
+.guide-cover:hover{transform:translateY(-6px) rotate(-1deg);box-shadow:0 40px 70px rgba(0,0,0,.6),0 0 30px rgba(77,184,232,.25);}
+.guide-meta{font-family:'JetBrains Mono';font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin-top:18px;}
+@media(max-width:800px){
+  .guide-grid{grid-template-columns:1fr;gap:40px;}
+  .guide-cover{max-width:260px;}
+}
