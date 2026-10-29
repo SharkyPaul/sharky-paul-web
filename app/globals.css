@@ -201,3 +201,4 @@ footer{
   .guide-grid{grid-template-columns:1fr;gap:40px;}
   .guide-cover{max-width:260px;}
 }
+.guide-note{margin-top:16px;padding:14px 16px;border:1px solid var(--accent);background:rgba(77,184,232,.08);font-size:14px;line-height:1.6;color:#c8dde8;}

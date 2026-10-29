@@ -1,5 +1,9 @@
 "use client";
 
+import { useEffect, useState } from "react";
+
+const GUIDE_URL = "/downloads/sharky-paul-prevence-zraloci.pdf";
+
 const SOCIALS = [
   {
     name: "Instagram",
@@ -19,6 +23,12 @@ const SOCIALS = [
 ];
 
 export default function Home() {
+  // V aplikacích TikTok / Instagram / Facebook vestavěný prohlížeč neumí stahovat soubory.
+  const [inApp, setInApp] = useState(false);
+  useEffect(() => {
+    const ua = navigator.userAgent || "";
+    setInApp(/TikTok|musical_ly|Bytedance|BytedanceWebview|Instagram|FBAN|FBAV|FB_IAB/i.test(ua));
+  }, []);
   const collageImages = Array.from({ length: 12 }, (_, i) => `/images/coll-${i + 1}.jpg`);
   const collectionItems = [
     { src: "/images/shop-men1.jpg", tag: "Rash guard — Ash" },
@@ -178,8 +188,8 @@ export default function Home() {
       <section className="guide" id="prirucka">
         <div className="guide-grid">
           <a
-            href="/downloads/sharky-paul-prevence-zraloci.pdf"
-            download
+            href={GUIDE_URL}
+            {...(inApp ? {} : { download: true })}
             className="guide-cover"
             aria-label="Stáhnout příručku Prevence zdarma"
           >
@@ -198,11 +208,18 @@ export default function Home() {
               vybavení, kontrolní seznam a mýty, které je dobré opravit.
             </p>
             <p className="guide-meta">PDF · 9 stran A4 · 7 MB</p>
+            {inApp && (
+              <p className="guide-note">
+                Jsi v aplikaci (TikTok / Instagram)? Ta často neumí stahovat soubory. Klepni na
+                tři tečky vpravo nahoře a zvol <strong>Otevřít v prohlížeči</strong>, pak příručku
+                stáhni.
+              </p>
+            )}
             <div className="hero-cta" style={{ marginTop: 28 }}>
-              <a href="/downloads/sharky-paul-prevence-zraloci.pdf" download className="btn solid">
+              <a href={GUIDE_URL} {...(inApp ? {} : { download: true })} className="btn solid">
                 Stáhnout zdarma
               </a>
-              <a href="/downloads/sharky-paul-prevence-zraloci.pdf" target="_blank" rel="noopener noreferrer" className="btn">
+              <a href={GUIDE_URL} target="_blank" rel="noopener noreferrer" className="btn">
                 Otevřít online
               </a>
             </div>
