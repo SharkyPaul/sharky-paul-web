@@ -187,3 +187,6 @@ footer{
   .item{grid-template-columns:40px 1fr;}
   .item-status{grid-column:2;margin-top:6px;}
 }
+
+.spotify-embed{margin-top:36px;max-width:640px;border-radius:12px;overflow:hidden;}
+.spotify-embed iframe{display:block;border:0;border-radius:12px;}

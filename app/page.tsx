@@ -1,14 +1,5 @@
 "use client";
 
-import { useRef, useState } from "react";
-
-function fmt(t: number) {
-  if (!isFinite(t)) return "0:00";
-  const m = Math.floor(t / 60);
-  const s = Math.floor(t % 60).toString().padStart(2, "0");
-  return `${m}:${s}`;
-}
-
 const SOCIALS = [
   {
     name: "Instagram",
@@ -23,23 +14,6 @@ const SOCIALS = [
 ];
 
 export default function Home() {
-  const audioRef = useRef<HTMLAudioElement>(null);
-  const [playing, setPlaying] = useState(false);
-  const [curTime, setCurTime] = useState(0);
-  const [duration, setDuration] = useState(0);
-
-  const toggle = () => {
-    const a = audioRef.current;
-    if (!a) return;
-    if (a.paused) {
-      a.play();
-      setPlaying(true);
-    } else {
-      a.pause();
-      setPlaying(false);
-    }
-  };
-
   const collageImages = Array.from({ length: 12 }, (_, i) => `/images/coll-${i + 1}.jpg`);
   const collectionItems = [
     { src: "/images/shop-men1.jpg", tag: "Rash guard — Ash" },
@@ -207,55 +181,24 @@ export default function Home() {
             tvorba tak spojuje dva zdánlivě odlišné světy — energii oceánu a energii hudby.
           </p>
 
-          <div className="player">
-            <button className="player-btn" onClick={toggle} aria-label="Přehrát">
-              {playing ? (
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M6 5h4v14H6zM14 5h4v14h-4z" />
-                </svg>
-              ) : (
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              )}
-            </button>
-            <div className="player-body">
-              <div className="player-title">
-                Solomon Calls Your Name <span>— Afro Tribal Bounce</span>
-              </div>
-              <div className="player-track">
-                <span className="player-time">{fmt(curTime)}</span>
-                <input
-                  type="range"
-                  className="player-seek"
-                  min={0}
-                  max={duration || 0}
-                  step={0.1}
-                  value={curTime}
-                  onChange={(e) => {
-                    const t = Number(e.target.value);
-                    if (audioRef.current) audioRef.current.currentTime = t;
-                    setCurTime(t);
-                  }}
-                />
-                <span className="player-time">{fmt(duration)}</span>
-              </div>
-            </div>
-            <audio
-              ref={audioRef}
-              src="/audio/song-final.mp3"
-              preload="metadata"
-              onLoadedMetadata={(e) => setDuration(e.currentTarget.duration)}
-              onTimeUpdate={(e) => setCurTime(e.currentTarget.currentTime)}
-              onEnded={() => setPlaying(false)}
+          <div className="spotify-embed">
+            <iframe
+              src="https://open.spotify.com/embed/artist/2GHTzhhq2NyBqjfnpyXTme?utm_source=generator&theme=0"
+              width="100%"
+              height="352"
+              frameBorder="0"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+              title="Sharky Paul na Spotify"
             />
           </div>
           <a
-            href="https://open.spotify.com/track/1xJspCXElQJUxS2i3zyaWO"
+            href="https://open.spotify.com/artist/2GHTzhhq2NyBqjfnpyXTme"
             target="_blank"
+            rel="noopener noreferrer"
             className="spotify-fallback"
           >
-            Poslechnout také na Spotify →
+            Otevřít profil na Spotify →
           </a>
         </div>
       </section>
