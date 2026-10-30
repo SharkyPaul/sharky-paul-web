@@ -63,6 +63,7 @@ export default function Home() {
           <a href="#music">Hudba</a>
           <a href="#kolekce">Kolekce</a>
           <a href="#shop">Obchod</a>
+          <a href="/booking">Booking</a>
           <a href="#kontakt">Kontakt</a>
         </nav>
         <a href="/en" className="lang-switch" hrefLang="en" aria-label="English version">EN</a>
@@ -277,6 +278,9 @@ export default function Home() {
             className="spotify-fallback"
           >
             Otevřít profil na Spotify →
+          </a>
+          <a href="/booking" className="spotify-fallback" style={{ marginLeft: 18 }}>
+            Booking: DJ set, Shark Night, spolupráce →
           </a>
         </div>
       </section>
