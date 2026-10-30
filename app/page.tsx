@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from "react";
 
-const GUIDE_URL = "/downloads/sharky-paul-prevence-zraloci.pdf";
+// Odkaz vede přes stránku /prirucka, aby se každé otevření/stažení započítalo v analytice.
+const GUIDE_URL = "/prirucka";
 
 const SOCIALS = [
   {
@@ -189,7 +190,7 @@ export default function Home() {
         <div className="guide-grid">
           <a
             href={GUIDE_URL}
-            {...(inApp ? {} : { download: true })}
+            
             className="guide-cover"
             aria-label="Stáhnout příručku Prevence zdarma"
           >
@@ -216,7 +217,7 @@ export default function Home() {
               </p>
             )}
             <div className="hero-cta" style={{ marginTop: 28 }}>
-              <a href={GUIDE_URL} {...(inApp ? {} : { download: true })} className="btn solid">
+              <a href={GUIDE_URL} className="btn solid">
                 Stáhnout zdarma
               </a>
               <a href={GUIDE_URL} target="_blank" rel="noopener noreferrer" className="btn">
