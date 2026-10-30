@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import ShareButtons from "./components/ShareButtons";
 
 // Odkaz vede přes stránku /prirucka, aby se každé otevření/stažení započítalo v analytice.
 const GUIDE_URL = "/prirucka";
@@ -64,6 +65,7 @@ export default function Home() {
           <a href="#shop">Obchod</a>
           <a href="#kontakt">Kontakt</a>
         </nav>
+        <a href="/en" className="lang-switch" hrefLang="en" aria-label="English version">EN</a>
         <div className="head-social">
           {SOCIALS.map((s) => (
             <a
@@ -225,6 +227,15 @@ export default function Home() {
                 Otevřít online
               </a>
             </div>
+            <ShareButtons
+              url="https://www.sharkypaul.com/prirucka"
+              text="Příručka zdarma: Jak se chovat bezpečně v přítomnosti žraloků 🦈"
+            />
+            <p style={{ marginTop: 10 }}>
+              <a href="/myty-o-zralocich" className="spotify-fallback">
+                Přečti si také: 9 mýtů o žralocích, kterým lidé věří →
+              </a>
+            </p>
           </div>
         </div>
       </section>
