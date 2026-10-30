@@ -197,7 +197,7 @@ export default function Home() {
             className="guide-cover"
             aria-label="Stáhnout příručku Prevence zdarma"
           >
-            <img src="/images/prirucka-prevence.jpg" alt="Obálka příručky Prevence – jak se chovat bezpečně v přítomnosti žraloků" />
+            <img src="/images/prirucka-prevence.jpg" loading="lazy" alt="Obálka příručky Prevence – jak se chovat bezpečně v přítomnosti žraloků" />
           </a>
           <div className="shop-head" style={{ marginBottom: 0 }}>
             <div className="eyebrow-sm">Zdarma ke stažení</div>
@@ -234,6 +234,11 @@ export default function Home() {
             <p style={{ marginTop: 10 }}>
               <a href="/myty-o-zralocich" className="spotify-fallback">
                 Přečti si také: 9 mýtů o žralocích, kterým lidé věří →
+              </a>
+            </p>
+            <p style={{ marginTop: 6 }}>
+              <a href="/co-delat-kdyz-potkas-zraloka" className="spotify-fallback">
+                Nové: Co dělat, když potkáš žraloka – krok za krokem →
               </a>
             </p>
           </div>

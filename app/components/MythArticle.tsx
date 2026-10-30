@@ -24,6 +24,8 @@ export type MythContent = {
   sourcesTitle: string;
   sources: { name: string; url: string }[];
   disclaimer: string;
+  related?: { label: string; url: string }[];
+  relatedTitle?: string;
 };
 
 export default function MythArticle({ c }: { c: MythContent }) {
@@ -101,6 +103,19 @@ export default function MythArticle({ c }: { c: MythContent }) {
         </section>
 
         <ShareButtons url={c.url} text={c.shareText} lang={c.lang} />
+
+        {c.related && c.related.length > 0 && (
+          <section className="article-sources">
+            <h2>{c.relatedTitle}</h2>
+            <ul>
+              {c.related.map((r, i) => (
+                <li key={i}>
+                  <a href={r.url}>{r.label}</a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <section className="article-sources">
           <h2>{c.sourcesTitle}</h2>

@@ -65,6 +65,8 @@ const c: MythContent = {
   shareText: "9 mýtů o žralocích, kterým lidé věří 🦈 Co je pravda?",
   sourcesTitle: "Odborné zdroje",
   sources: SOURCES,
+  relatedTitle: "Přečti si také",
+  related: [{ label: "Co dělat, když potkáš žraloka – krok za krokem", url: "/co-delat-kdyz-potkas-zraloka" }],
   disclaimer: "Obecná informace. Nenahrazuje potápěčský výcvik, kurz první pomoci ani pokyny místních autorit.",
 };
 

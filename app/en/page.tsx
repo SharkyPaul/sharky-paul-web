@@ -197,7 +197,7 @@ export default function HomeEn() {
             className="guide-cover"
             aria-label="Download the free shark safety guide"
           >
-            <img src="/images/prirucka-prevence.jpg" alt="Cover of the Prevention guide – how to stay safe around sharks" />
+            <img src="/images/prirucka-prevence.jpg" loading="lazy" alt="Cover of the Prevention guide – how to stay safe around sharks" />
           </a>
           <div className="shop-head" style={{ marginBottom: 0 }}>
             <div className="eyebrow-sm">Free download</div>
@@ -234,6 +234,11 @@ export default function HomeEn() {
             <p style={{ marginTop: 10 }}>
               <a href="/en/shark-myths" className="spotify-fallback">
                 Also read: 9 shark myths people still believe →
+              </a>
+            </p>
+            <p style={{ marginTop: 6 }}>
+              <a href="/en/what-to-do-if-you-see-a-shark" className="spotify-fallback">
+                New: What to do if you see a shark – step by step →
               </a>
             </p>
           </div>

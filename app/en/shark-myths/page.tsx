@@ -65,6 +65,8 @@ const c: MythContent = {
   shareText: "9 shark myths people still believe 🦈 What's true?",
   sourcesTitle: "Sources",
   sources: SOURCES,
+  relatedTitle: "Also read",
+  related: [{ label: "What to do if you see a shark – step by step", url: "/en/what-to-do-if-you-see-a-shark" }],
   disclaimer: "General information. Not a substitute for dive training, a first-aid course or instructions from local authorities.",
 };
 

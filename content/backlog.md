@@ -1,7 +1,7 @@
 # Backlog článků (CZ + EN dvojice)
 
 - [x] 9 mýtů o žralocích / 9 shark myths — /myty-o-zralocich, /en/shark-myths
-- [ ] Co dělat, když potkáš žraloka (krok za krokem) / What to do if you meet a shark
+- [x] Co dělat, když potkáš žraloka (krok za krokem) / What to do if you meet a shark — /co-delat-kdyz-potkas-zraloka, /en/what-to-do-if-you-see-a-shark
 - [ ] Jak žralok vnímá svět: 6 smyslů / How sharks sense the world: 6 senses
 - [ ] Šnorchlování v Rudém moři bezpečně / Safe snorkelling in the Red Sea
 - [ ] Žraloci v Rudém moři: které druhy můžeš potkat / Sharks of the Red Sea: species you may meet
