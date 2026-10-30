@@ -137,6 +137,19 @@ export default function HomeEn() {
             Part of the philosophy is the <strong>Respect the Locals</strong> project — respect for
             local communities, nature and the environment that divers and travellers move through.
           </p>
+          <div className="certs">
+            <div className="collab-label">Dive certifications</div>
+            <div className="cert-list">
+              <a href="https://www.padi.com" target="_blank" rel="noopener noreferrer" className="cert">
+                <b>PADI</b>
+                <span>Advanced Open Water Diver (AOWD)</span>
+              </a>
+              <a href="https://www.tdisdi.com" target="_blank" rel="noopener noreferrer" className="cert">
+                <b>SDI</b>
+                <span>Open Water Diver (OWD)</span>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 

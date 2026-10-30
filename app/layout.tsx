@@ -62,6 +62,20 @@ const jsonLd = {
       url: SITE,
       image: `${SITE}/images/og-sharkypaul.jpg`,
       jobTitle: "Potápěč, tvůrce obsahu a DJ",
+      hasCredential: [
+        {
+          "@type": "EducationalOccupationalCredential",
+          name: "PADI Advanced Open Water Diver",
+          credentialCategory: "certification",
+          recognizedBy: { "@type": "Organization", name: "PADI", url: "https://www.padi.com" },
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          name: "SDI Open Water Diver",
+          credentialCategory: "certification",
+          recognizedBy: { "@type": "Organization", name: "SDI – Scuba Diving International", url: "https://www.tdisdi.com" },
+        },
+      ],
       description: DESC,
       sameAs: [
         "https://www.instagram.com/sharky_paul_edu",

@@ -231,3 +231,10 @@ footer{
 .lang-switch{font-family:'JetBrains Mono';font-size:12px;letter-spacing:.15em;color:var(--bone);text-decoration:none;border:1px solid rgba(255,255,255,.22);padding:9px 11px;border-radius:20px;margin-right:10px;}
 .lang-switch:hover{color:var(--accent);border-color:var(--accent);}
 @media(max-width:800px){.myth-item{grid-template-columns:1fr;gap:8px;padding:18px;}.article{padding-top:110px;}}
+
+.certs{margin-top:34px;}
+.cert-list{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px;}
+.cert{display:flex;flex-direction:column;gap:4px;padding:14px 18px;border:1px solid var(--line);background:rgba(0,59,92,.15);text-decoration:none;color:var(--bone);transition:.2s;min-width:200px;}
+.cert b{font-family:'Bebas Neue';font-size:24px;letter-spacing:.06em;color:var(--accent);font-weight:400;}
+.cert span{font-size:13px;color:#c8dde8;}
+.cert:hover{border-color:var(--accent);transform:translateY(-2px);}

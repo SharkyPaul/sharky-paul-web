@@ -137,6 +137,19 @@ export default function Home() {
             Součástí filozofie je i projekt <strong>Respect the Locals</strong> — respekt k
             místním komunitám, přírodě a prostředí, ve kterém se potápěči a cestovatelé pohybují.
           </p>
+          <div className="certs">
+            <div className="collab-label">Potápěčské certifikace</div>
+            <div className="cert-list">
+              <a href="https://www.padi.com" target="_blank" rel="noopener noreferrer" className="cert">
+                <b>PADI</b>
+                <span>Advanced Open Water Diver (AOWD)</span>
+              </a>
+              <a href="https://www.tdisdi.com" target="_blank" rel="noopener noreferrer" className="cert">
+                <b>SDI</b>
+                <span>Open Water Diver (OWD)</span>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
