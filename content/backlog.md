@@ -1,5 +1,7 @@
 # Backlog článků (CZ + EN dvojice)
 
+> Týdenní obsahový balíček piš podle content/weekly/_SABLONA.md (včetně YouTube sekce).
+
 - [x] 9 mýtů o žralocích / 9 shark myths — /myty-o-zralocich, /en/shark-myths
 - [x] Co dělat, když potkáš žraloka (krok za krokem) / What to do if you meet a shark — /co-delat-kdyz-potkas-zraloka, /en/what-to-do-if-you-see-a-shark
 - [ ] Jak žralok vnímá svět: 6 smyslů / How sharks sense the world: 6 senses
