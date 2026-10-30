@@ -84,10 +84,11 @@ export default function Home() {
       </header>
 
       <section className="hero">
-        <img className="hero-fin" src="/images/fin.png" alt="Sharky Paul" />
+        <img className="hero-fin" src="/images/fin.png" alt="Sharky Paul logo" fetchPriority="high" />
+        <h1 className="sr-only">Sharky Paul – Respect the Locals: potápění, žraloci a oceán</h1>
         <div className="eyebrow">Welcome to Sharky Paul World</div>
         <img
-          src="/images/respect-the-locals.png"
+          src="/images/respect-the-locals.webp"
           alt="Respect The Locals"
           style={{ width: "min(420px, 80vw)", marginBottom: 20 }}
         />
@@ -106,7 +107,7 @@ export default function Home() {
       <section className="mission" id="mission">
         <div className="mission-collage">
           {collageImages.map((src, i) => (
-            <img key={i} src={src} alt="Sharky Paul" />
+            <img key={i} src={src} alt={`Sharky Paul – potápění a oceán, foto ${i + 1}`} loading="lazy" />
           ))}
         </div>
         <div className="mission-text">
@@ -308,7 +309,7 @@ export default function Home() {
         <div className="coll-grid">
           {collectionItems.map((item, i) => (
             <div className="coll-item" key={i}>
-              <img src={item.src} alt="Sharky Paul kolekce" />
+              <img src={item.src} alt={`Sharky Paul kolekce – ${item.tag}`} loading="lazy" />
               <div className="coll-tag">{item.tag}</div>
             </div>
           ))}
