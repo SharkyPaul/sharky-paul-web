@@ -40,8 +40,9 @@ export default function BookingPage({ c }: { c: BookingContent }) {
         <a href={c.homeUrl} className="word" style={{ textDecoration: "none" }}>
           SHARKY PAUL
         </a>
-        <nav style={{ display: "flex" }}>
+        <nav style={{ display: "flex", gap: 18 }}>
           <a href={c.homeUrl}>{c.homeLabel}</a>
+          <a href={c.lang === "en" ? "/en/media-kit" : "/media-kit"}>Media kit</a>
           <a href={c.altUrl}>{c.altLabel}</a>
         </nav>
       </header>
