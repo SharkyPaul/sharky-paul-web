@@ -8,7 +8,7 @@
 - [ ] Megalodon: existuje ještě? Co víme z fosilií / Megalodon: is it still out there? What fossils tell us
 - [ ] Největší bílí žraloci světa (Deep Blue a další) / The biggest great white sharks ever recorded
 - [ ] Grónský žralok: nejdéle žijící obratlovec / Greenland shark: the longest-living vertebrate
-- [ ] Nebezpečná zvířata u pláží v Egyptě / Dangerous marine animals on Egypt's beaches
+- [ ] (PRIORITA) Nebezpečná zvířata u pláží v Egyptě: na co šlapeš / Dangerous marine animals on Egypt's beaches: what you step on
 - [ ] Jak žralok vnímá svět: 6 smyslů / How sharks sense the world: 6 senses
 - [ ] Šnorchlování v Rudém moři bezpečně / Safe snorkelling in the Red Sea
 - [ ] Žraloci v Rudém moři: které druhy můžeš potkat / Sharks of the Red Sea: species you may meet

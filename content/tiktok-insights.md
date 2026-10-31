@@ -10,7 +10,13 @@ Zdroj: screenshoty TikTok Analytics od Pavla (31. 10. 2026). Číst před každ�
 - Lokality diváků: Česko 82,3 % · Slovensko 14,3 % · Egypt 1,9 % · Polsko 0,2 % · Chorvatsko 0,2 %
 - Aktivita: týden 23.–29. 10. – výrazná špička v sobotu 24. 10. (476), jinak ~100–150 denně; hodinová data zatím nespolehlivá (jen 1 sloupec)
 
-## Top videa (zobrazení)
+## Absolutně nejúspěšnější video (mimo 365denní okno)
+**Stonefish / „Bojíš se žraloků v Egyptě? Měl bys víc řešit to, na co šlapeš…“** (14. 6. 2025)
+476 K zobrazení · 15,1 K lajků · 402 komentářů · **4 029 uložení · 5 327 sdílení**
+→ Nejvyšší uložení a sdílení ze všech videí = **praktická rada pro dovolenou v Egyptě**, kterou si lidé schovají a pošlou kámošovi.
+→ Vzorec: obrat strachu („bojíš se žraloků? řeš spíš…“) + konkrétní nebezpečí + Egypt + tvoje tvář + výstražná cedule.
+
+## Top videa (zobrazení, posledních 365 dní)
 1. Megalodon – „Věříš, že se tam dole stále schovává?“ – 249 K (10. 1.)
 2. Deep Blue – „Zapomeňte na Čelisti…“ – 236 K, nejvíc lajků 6,5 K (3. 1.)
 3. Bílý žralok u Itálie – 222 K (21. 6.)
@@ -33,6 +39,7 @@ Další silné: „7 metrů svalů a dvě řady zubů“, „Tip na výlet – �
 10. **Čas zveřejnění**: zatím testovat 18:00–20:00 (Praha) ve všední dny a sobotu dopoledne; po 4 týdnech vyhodnotit podle záložky Nejaktivnější časy → Dny.
 
 ## Série k natočení (priorita)
+- **NEJVYŠŠÍ PRIORITA – „Na co v Egyptě šlapeš“ / „Dovolená v Egyptě bez průšvihu“** (navazuje na stonefish 476 K a hit č. 4 z Egypta 88 K): ropušnice (stonefish) díl 2 – co dělat, když na ni šlápneš; perutýn; ježovky; korálová spálenina (fire coral); trnucha modroskvrnná; plžovka (cone snail); proč nosit boty do vody; co dělat při bodnutí (jen ověřené první kroky + „vyhledej lékaře“). CTA: „Pošli tomu, kdo letí do Egypta“ + „Ulož si před dovolenou“. Ideální i pro spolupráci s hotely a cestovkami.
 - **Giganti oceánu** (díly 1–6): Megalodon díl 2 (co víme z fosilií), Deep Blue / největší bílí žraloci, grónský žralok, žralok obrovský (velrybí), tygří žralok, Megalodon vs. bílý žralok.
 - **Zprávy ze světa žraloků**: aktuální pozorování a události, vždy s ověřenými fakty (Florida Museum/ISAF, NSW SharkSmart, oficiální zdroje).
 - **Egypt / Rudé moře**: nebezpečná zvířata u pláže, co potkáš při šnorchlování – navazuje na hit č. 4 a na expedice.
