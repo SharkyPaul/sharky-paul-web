@@ -62,6 +62,7 @@ const jsonLd = {
       url: SITE,
       image: `${SITE}/images/og-sharkypaul.jpg`,
       jobTitle: "Potápěč, tvůrce obsahu a DJ",
+      email: "mailto:info@sharkypaul.com",
       hasCredential: [
         {
           "@type": "EducationalOccupationalCredential",

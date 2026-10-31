@@ -53,6 +53,7 @@ const c: BookingContent = {
   ],
   contactTitle: "Get in touch",
   contactText: "Tell us your venue, dates and what you have in mind (DJ set, Shark Night, content or a combination). We reply with availability and a proposal.",
+  email: "info@sharkypaul.com",
   emailCta: "Send an e-mail",
   igCta: "Message on Instagram",
   listenCta: "Listen on Spotify",

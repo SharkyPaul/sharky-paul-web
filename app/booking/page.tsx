@@ -53,6 +53,7 @@ const c: BookingContent = {
   ],
   contactTitle: "Kontakt",
   contactText: "Napiš místo, termín a o co máš zájem (DJ set, Shark Night, obsah nebo kombinace). Ozveme se s dostupností a návrhem.",
+  email: "info@sharkypaul.com",
   emailCta: "Napsat e-mail",
   igCta: "Napsat na Instagramu",
   listenCta: "Poslechnout na Spotify",
