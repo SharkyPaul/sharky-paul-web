@@ -38,3 +38,10 @@ Další silné: „7 metrů svalů a dvě řady zubů“, „Tip na výlet – �
 - **Egypt / Rudé moře**: nebezpečná zvířata u pláže, co potkáš při šnorchlování – navazuje na hit č. 4 a na expedice.
 
 Fakta vždy ověřit; mýty nikdy jako fakt (viz dovednost sharky-paul-reach).
+
+## Co sledují tvoji diváci jinde (31. 10. 2026)
+Top: Jenda250K (charita „Naděje pro Jiříčka s DMD“), politický obsah (Nerudová, mladí republikáni, Uhrík), Ben Cristovao, Lukas Viderman, lifestyle/humor.
+- Publikum je **široký český mainstream**, ne úzká potápěčská bublina → obsah musí bavit i lidi, co se nikdy nepotápěli (příběh, emoce, „wow“ fakt).
+- **V seznamu není žádný tvůrce o moři/cestování** → mezera na trhu, Sharky Paul ji může obsadit.
+- **Politiku nedělat a na politická videa nereagovat** – rozdělí publikum a škodí spolupracím s hotely/cestovkami.
+- Spolupráce: charitativní obsah (např. Jenda250K) je pozitivní a bezpečný; jinak cílit na české tvůrce cestování, přírody a vzdělávání (hledat přes vyhledávání TikToku).
