@@ -1,9 +1,14 @@
 # Backlog článků (CZ + EN dvojice)
 
+> Před plánováním obsahu čti content/tiktok-insights.md (co na TikToku funguje).
 > Týdenní obsahový balíček piš podle content/weekly/_SABLONA.md (včetně YouTube sekce).
 
 - [x] 9 mýtů o žralocích / 9 shark myths — /myty-o-zralocich, /en/shark-myths
 - [x] Co dělat, když potkáš žraloka (krok za krokem) / What to do if you meet a shark — /co-delat-kdyz-potkas-zraloka, /en/what-to-do-if-you-see-a-shark
+- [ ] Megalodon: existuje ještě? Co víme z fosilií / Megalodon: is it still out there? What fossils tell us
+- [ ] Největší bílí žraloci světa (Deep Blue a další) / The biggest great white sharks ever recorded
+- [ ] Grónský žralok: nejdéle žijící obratlovec / Greenland shark: the longest-living vertebrate
+- [ ] Nebezpečná zvířata u pláží v Egyptě / Dangerous marine animals on Egypt's beaches
 - [ ] Jak žralok vnímá svět: 6 smyslů / How sharks sense the world: 6 senses
 - [ ] Šnorchlování v Rudém moři bezpečně / Safe snorkelling in the Red Sea
 - [ ] Žraloci v Rudém moři: které druhy můžeš potkat / Sharks of the Red Sea: species you may meet
