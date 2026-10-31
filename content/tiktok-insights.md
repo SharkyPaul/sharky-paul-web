@@ -7,6 +7,8 @@ Zdroj: screenshoty TikTok Analytics od Pavla (31. 10. 2026). Číst před každ�
 - Sledující 8 151 celkem, čistý přírůstek +3 K za rok
 - Zdroj přenosu: Pro tebe 90,5 % · profil 7 % · sledující 1,3 % · vyhledávání 1,2 %
 - Publikum: ženy 55 %, muži 45 %
+- Lokality diváků: Česko 82,3 % · Slovensko 14,3 % · Egypt 1,9 % · Polsko 0,2 % · Chorvatsko 0,2 %
+- Aktivita: týden 23.–29. 10. – výrazná špička v sobotu 24. 10. (476), jinak ~100–150 denně; hodinová data zatím nespolehlivá (jen 1 sloupec)
 
 ## Top videa (zobrazení)
 1. Megalodon – „Věříš, že se tam dole stále schovává?“ – 249 K (10. 1.)
@@ -25,6 +27,10 @@ Další silné: „7 metrů svalů a dvě řady zubů“, „Tip na výlet – �
 5. **Sdílení je silné** (5,1 K) → témata „pošli kámošovi, co jede do Egypta“.
 6. **Vyhledávání jen 1,2 %** → do popisku a textu na obrazovce dávat hledaná slova: žralok, megalodon, bílý žralok, Egypt, Rudé moře, potápění.
 7. **Ženy 55 %** → víc příběhů, emocí, cestování a tipů na dovolenou, ne jen „monstra“.
+
+8. **TikTok mluví česky** (96,6 % CZ+SK) → hlavní jazyk zůstává čeština. Angličtinu nasazovat jen tam, kde jde o zahraničí: web /en, YouTube popisky a titulky, nabídky hotelům a centrům.
+9. **Egypt 1,9 %** = místní (hotely, potápěčská centra, průvodci) → videa z Egypta s anglickými titulky a tagem místa pomáhají obchodnímu oslovení.
+10. **Čas zveřejnění**: zatím testovat 18:00–20:00 (Praha) ve všední dny a sobotu dopoledne; po 4 týdnech vyhodnotit podle záložky Nejaktivnější časy → Dny.
 
 ## Série k natočení (priorita)
 - **Giganti oceánu** (díly 1–6): Megalodon díl 2 (co víme z fosilií), Deep Blue / největší bílí žraloci, grónský žralok, žralok obrovský (velrybí), tygří žralok, Megalodon vs. bílý žralok.
