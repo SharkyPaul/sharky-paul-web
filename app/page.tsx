@@ -343,6 +343,14 @@ export default function Home() {
           </p>
         </div>
         <div className="collab-card">
+          <img
+            className="collab-img"
+            src="/images/ocean-gear-pripravujeme.jpg"
+            width={720}
+            height={960}
+            loading="lazy"
+            alt="Sharky Paul Ocean Gear – připravovaná kolekce: rashguard UPF 50+, plavky, dámský rashguard a bikiny"
+          />
           <div className="collab-label">Připravujeme</div>
           <div className="collab-title">
             Ocean Gear <span>×</span> Core Collection

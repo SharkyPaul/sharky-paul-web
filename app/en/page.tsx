@@ -343,6 +343,14 @@ export default function HomeEn() {
           </p>
         </div>
         <div className="collab-card">
+          <img
+            className="collab-img"
+            src="/images/ocean-gear-coming-soon.jpg"
+            width={720}
+            height={960}
+            loading="lazy"
+            alt="Sharky Paul Ocean Gear – upcoming collection: UPF 50+ rashguard, board shorts, women's rashguard and bikini"
+          />
           <div className="collab-label">Coming soon</div>
           <div className="collab-title">
             Ocean Gear <span>×</span> Core Collection
