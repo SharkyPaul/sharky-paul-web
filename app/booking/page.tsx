@@ -25,11 +25,11 @@ const c: BookingContent = {
   homeLabel: "Domů",
   eyebrow: "Booking · Hotely · Cestovky · Kluby · Potápěčská centra",
   title: "Booking Sharky Paul",
-  lead: "Potápěč, popularizátor žraloků a DJ stylu Afro Tribal Bounce. Jeden host, víc zážitků: hudba na večery, příběhy z oceánu pro hosty a obsah, který osloví české a slovenské cestovatele.",
+  lead: "Potápěč, popularizátor žraloků a DJ od roku 1999, dnes se stylem Afro Tribal Bounce. Jeden host, víc zážitků: hudba na večery, příběhy z oceánu pro hosty a obsah, který osloví české a slovenské cestovatele.",
   offers: [
     {
       title: "DJ sety – Afro Tribal Bounce",
-      text: "Sunset sessions, pool a beach party, klubové noci. Africké a kmenové rytmy propojené s moderní elektronickou taneční hudbou.",
+      text: "Sunset sessions, pool a beach party, klubové noci. Africké a kmenové rytmy propojené s moderní elektronickou taneční hudbou. Za pulty od roku 1999 (dříve jako Kristian Calderon): top české kluby, line-upy s Nicky Romerem, W&W, Nari & Milani a Get Far.",
     },
     {
       title: "Shark Night pro hosty",
@@ -47,7 +47,7 @@ const c: BookingContent = {
   whyTitle: "Proč Sharky Paul",
   why: [
     "Jedna objednávka, tři formáty: DJ set, program pro hosty a obsah.",
-    "Mluví přímo k českým a slovenským cestovatelům.",
+    "Mluví přímo k českým a slovenským cestovatelům: 3,6 milionu zhlédnutí na TikToku, 96 % publika z Česka a Slovenska.",
     "Vzdělávání o žralocích podložené odbornými zdroji – hosté se ve vodě cítí jistěji.",
     "Respect the Locals: respekt k mořskému životu i místním komunitám.",
   ],

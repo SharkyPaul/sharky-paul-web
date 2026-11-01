@@ -4,7 +4,7 @@ import MediaKitPage, { type MediaKitContent } from "../components/MediaKitPage";
 export const metadata: Metadata = {
   title: "Media kit – Sharky Paul: dosah na TikToku a Instagramu, UGC a spolupráce",
   description:
-    "Media kit Sharky Paula pro hotely, potápěčská centra a cestovní kanceláře: přes 2 miliony zhlédnutí na TikToku za rok, 37 tisíc sledujících na Instagramu, UGC videa, TikTok LIVE, Shark Night a DJ sety Afro Tribal Bounce.",
+    "Media kit Sharky Paula pro hotely, potápěčská centra a cestovní kanceláře: 3,6 milionu zhlédnutí na TikToku (1,6 milionu za poslední rok), 37 tisíc sledujících na Instagramu, UGC videa, TikTok LIVE, Shark Night a DJ sety Afro Tribal Bounce.",
   alternates: { canonical: "/media-kit", languages: { cs: "/media-kit", en: "/en/media-kit" } },
   openGraph: {
     type: "website",
@@ -26,20 +26,21 @@ const c: MediaKitContent = {
   bookingLabel: "Booking",
   eyebrow: "Media kit · Hotely · Potápěčská centra · Cestovky",
   title: "Sharky Paul – media kit",
-  lead: "Potápěč (AOWD), popularizátor žraloků a DJ stylu Afro Tribal Bounce. Natáčím krátká videa o žralocích, potápění a oceánu pro české a slovenské publikum. S jedním pravidlem: Respect the Locals.",
+  lead: "Potápěč (PADI AOWD, SDI OWD), popularizátor žraloků a DJ od roku 1999, dnes se stylem Afro Tribal Bounce. Natáčím krátká videa o žralocích, potápění a oceánu pro české a slovenské publikum. S jedním pravidlem: Respect the Locals.",
   statsTitle: "Dosah",
-  statsNote: "Údaje k říjnu 2026. Snímky statistik pošlu na vyžádání.",
+  statsNote: "TikTok Analytics 30. 10. 2025 – 29. 10. 2026; celkové počty sečtené z veřejného profilu 1. 11. 2026. Publikum: 82 % Česko, 14 % Slovensko, 55 % ženy. Snímky statistik pošlu na vyžádání.",
   stats: [
-    { value: "2M+", label: "zhlédnutí na TikToku za posledních 12 měsíců" },
-    { value: "97K", label: "lajků na TikToku" },
-    { value: "~500K", label: "zhlédnutí nejsilnějšího videa" },
-    { value: "5", label: "dalších videí přes 200 tisíc zhlédnutí" },
-    { value: "20–25K", label: "běžná zhlédnutí videí ze zahraničí" },
+    { value: "3,6M+", label: "zhlédnutí na TikToku celkem (98 videí)" },
+    { value: "1,6M", label: "zhlédnutí na TikToku za posledních 12 měsíců" },
+    { value: "476K", label: "zhlédnutí nejsilnějšího videa (rada pro dovolenou v Egyptě)" },
+    { value: "20", label: "videí přes 50 tisíc zhlédnutí, z toho 7 přes 100 tisíc" },
+    { value: "16,8K", label: "medián zhlédnutí na jedno video" },
     { value: "37K", label: "sledujících na Instagramu" },
   ],
   aboutTitle: "Publikum a přístup",
   about: [
-    "Čeští a slovenští cestovatelé, potápěči a šnorchlaři – lidé, kteří plánují cestu k moři.",
+    "Čeští a slovenští cestovatelé, potápěči a šnorchlaři – lidé, kteří plánují cestu k moři. 96 % publika na TikToku je z Česka a Slovenska.",
+    "Za DJ pulty od roku 1999 (dříve jako Kristian Calderon): top české kluby, line-upy s Nicky Romerem, W&W, Nari & Milani a Get Far, vlastní značka akcí Pure Electra events. Od roku 2010 vlastní produkce v Ableton Live.",
     "Hlavní kanál je TikTok (@sharkypaul.real) včetně pravidelných TikTok LIVE. Dále Instagram (@sharky_paul_edu) a YouTube (@SharkyPaulOfficial).",
     "Fakta o žralocích podle Florida Museum (International Shark Attack File) a NSW SharkSmart. Žádné mýty, žádné honění, sahání ani krmení.",
     "Expedice v Rudém moři ve spolupráci s DiveZen Red Sea a instruktorem Hamadou.",

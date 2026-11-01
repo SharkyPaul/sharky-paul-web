@@ -4,7 +4,7 @@ import MediaKitPage, { type MediaKitContent } from "../../components/MediaKitPag
 export const metadata: Metadata = {
   title: "Media Kit – Sharky Paul: TikTok & Instagram reach, UGC and partnerships",
   description:
-    "Sharky Paul media kit for hotels, resorts, dive centres and travel agencies: 2M+ TikTok views in the past year, 37K Instagram followers, UGC videos, TikTok LIVE, Shark Night talks and Afro Tribal Bounce DJ sets.",
+    "Sharky Paul media kit for hotels, resorts, dive centres and travel agencies: 3.6M+ TikTok views (1.6M in the past year), 37K Instagram followers, UGC videos, TikTok LIVE, Shark Night talks and Afro Tribal Bounce DJ sets.",
   alternates: { canonical: "/en/media-kit", languages: { en: "/en/media-kit", cs: "/media-kit" } },
   openGraph: {
     type: "website",
@@ -26,20 +26,21 @@ const c: MediaKitContent = {
   bookingLabel: "Booking",
   eyebrow: "Media kit · Hotels · Dive centres · Travel agencies",
   title: "Sharky Paul – Media Kit",
-  lead: "Diver (AOWD), shark educator and DJ behind the Afro Tribal Bounce sound. I make short videos about sharks, diving and the ocean for a Czech and Slovak audience, with one rule: Respect the Locals.",
+  lead: "Diver (PADI AOWD, SDI OWD), shark educator and DJ since 1999 – now behind the Afro Tribal Bounce sound. I make short videos about sharks, diving and the ocean for a Czech and Slovak audience, with one rule: Respect the Locals.",
   statsTitle: "Reach",
-  statsNote: "Figures as of October 2026. Analytics screenshots available on request.",
+  statsNote: "TikTok Analytics, 30 Oct 2025 – 29 Oct 2026; totals summed from the public profile on 1 Nov 2026. Audience: 82% Czech Republic, 14% Slovakia, 55% women. Analytics screenshots available on request.",
   stats: [
-    { value: "2M+", label: "TikTok views in the past 12 months" },
-    { value: "97K", label: "likes on TikTok" },
-    { value: "~500K", label: "views on the top TikTok video" },
-    { value: "5", label: "more videos with 200K+ views" },
-    { value: "20–25K", label: "typical views for videos filmed abroad" },
+    { value: "3.6M+", label: "TikTok views in total (98 videos)" },
+    { value: "1.6M", label: "TikTok views in the past 12 months" },
+    { value: "476K", label: "views on the top video (an Egypt holiday safety tip)" },
+    { value: "20", label: "videos with 50K+ views, 7 of them over 100K" },
+    { value: "16.8K", label: "median views per video" },
     { value: "37K", label: "Instagram followers" },
   ],
   aboutTitle: "Audience and approach",
   about: [
-    "Czech and Slovak travellers, divers and snorkellers – people planning a trip to the sea.",
+    "Czech and Slovak travellers, divers and snorkellers – people planning a trip to the sea. 96% of the TikTok audience is from the Czech Republic and Slovakia.",
+    "On the decks since 1999 (formerly as Kristian Calderon): top Czech clubs, line-ups with Nicky Romero, W&W, Nari & Milani and Get Far, and his own event brand, Pure Electra events. Producing his own tracks in Ableton Live since 2010.",
     "Main channel: TikTok (@sharkypaul.real), including regular TikTok LIVE streams. Also Instagram (@sharky_paul_edu) and YouTube (@SharkyPaulOfficial).",
     "Shark facts follow the Florida Museum (International Shark Attack File) and NSW SharkSmart. No myths, no chasing, touching or feeding marine life.",
     "Red Sea expeditions in partnership with DiveZen Red Sea and instructor Hamada.",

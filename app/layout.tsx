@@ -59,6 +59,7 @@ const jsonLd = {
       "@type": "Person",
       "@id": `${SITE}/#person`,
       name: "Sharky Paul",
+      alternateName: "Kristian Calderon",
       url: SITE,
       image: `${SITE}/images/og-sharkypaul.jpg`,
       jobTitle: "Potápěč, tvůrce obsahu a DJ",

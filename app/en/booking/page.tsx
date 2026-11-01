@@ -25,11 +25,11 @@ const c: BookingContent = {
   homeLabel: "Home",
   eyebrow: "Booking · Hotels · Resorts · Beach clubs · Dive centres",
   title: "Book Sharky Paul",
-  lead: "Diver, shark educator and DJ behind the Afro Tribal Bounce sound. One guest, several experiences: music for your nights, ocean stories for your guests and content that reaches Czech and Slovak travellers.",
+  lead: "Diver, shark educator and DJ since 1999 – now behind the Afro Tribal Bounce sound. One guest, several experiences: music for your nights, ocean stories for your guests and content that reaches Czech and Slovak travellers.",
   offers: [
     {
       title: "DJ sets – Afro Tribal Bounce",
-      text: "Sunset sessions, pool and beach parties, club nights. African and tribal rhythms meet modern electronic dance music – an energetic, travel-friendly sound for resort audiences.",
+      text: "Sunset sessions, pool and beach parties, club nights. African and tribal rhythms meet modern electronic dance music – an energetic, travel-friendly sound for resort audiences. On the decks since 1999 (formerly as Kristian Calderon): top Czech clubs and line-ups with Nicky Romero, W&W, Nari & Milani and Get Far.",
     },
     {
       title: "Shark Night for your guests",
@@ -47,7 +47,7 @@ const c: BookingContent = {
   whyTitle: "Why Sharky Paul",
   why: [
     "One booking, three formats: DJ set, guest programme and content.",
-    "Speaks directly to Czech and Slovak travellers – a key market for the Red Sea.",
+    "Speaks directly to Czech and Slovak travellers: 3.6M+ TikTok views, 96% of the audience from the Czech Republic and Slovakia.",
     "Evidence-based shark education that makes guests feel safer in the water.",
     "Respect the Locals: respect for marine life and for local communities.",
   ],
