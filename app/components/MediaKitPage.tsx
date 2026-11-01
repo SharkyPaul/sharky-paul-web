@@ -133,6 +133,12 @@ export default function MediaKitPage({ c }: { c: MediaKitContent }) {
             <a href={TIKTOK} target="_blank" rel="noopener noreferrer" className="btn">
               {c.tiktokCta}
             </a>
+            <a href="/kit" className="btn">
+              {c.lang === "cs" ? "Prémiový media kit (EN)" : "Premium media kit"}
+            </a>
+            <a href="/downloads/sharky-paul-media-kit.pdf" className="btn">
+              {c.lang === "cs" ? "Stáhnout PDF" : "Download PDF"}
+            </a>
           </div>
         </section>
       </main>
