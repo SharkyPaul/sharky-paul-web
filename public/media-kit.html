@@ -33,9 +33,10 @@ h2{font:800 clamp(30px,5vw,52px)/1.02 Poppins;letter-spacing:-.02em;color:#fff;m
 .hero .bg{position:absolute;inset:0;background:url(/images/media/turtle.jpg) center 35%/cover}
 .hero .fade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,20,31,.65) 0%,rgba(4,20,31,0) 25%,rgba(4,20,31,.15) 55%,var(--ink) 96%)}
 .topbar{position:absolute;top:0;left:0;right:0;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:26px 0}
-.topbar .brand{font:800 15px/1 Poppins;letter-spacing:.26em}
-.topbar .tag{font:600 11px/1 Poppins;letter-spacing:.26em;color:var(--sand)}
+.topbar .brand-t{font:600 11px/1 Poppins;letter-spacing:.2em;color:#fff;text-transform:uppercase}
+.topbar .tag{font:600 11px/1 Poppins;letter-spacing:.26em;color:#fff}
 .hero .inner{position:relative;z-index:2;width:100%;padding-bottom:64px}
+.logo-h1 img{width:clamp(240px,46vw,520px);height:auto;margin-top:14px;filter:drop-shadow(0 6px 30px rgba(0,0,0,.45))}
 .hero h1{font:800 clamp(56px,12vw,148px)/.88 Poppins;letter-spacing:-.035em;color:#fff;text-shadow:0 6px 40px rgba(0,0,0,.4)}
 .hero .role{font:600 clamp(13px,1.8vw,17px)/1.4 Poppins;letter-spacing:.22em;text-transform:uppercase;color:var(--cyan2);margin-top:22px}
 .hero .claim{max-width:620px;font-size:clamp(16px,2vw,19px);color:#D5E7F1;margin-top:16px}
@@ -83,9 +84,9 @@ h2{font:800 clamp(30px,5vw,52px)/1.02 Poppins;letter-spacing:-.02em;color:#fff;m
 .off .n{font:800 13px/1 Poppins;color:var(--ink);background:var(--cyan);width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:18px}
 .off h4{font:700 19px/1.25 Poppins;color:#fff;margin-bottom:10px}
 .off p{font-size:14.5px;color:#C6DCE8}
-.model{margin-top:22px;display:grid;grid-template-columns:auto 1fr;gap:26px;align-items:center;padding:26px 28px;border-radius:20px;border:1px solid rgba(233,216,180,.35);background:linear-gradient(90deg,rgba(233,216,180,.1),rgba(233,216,180,.02))}
-.model .k{font:700 12px/1.3 Poppins;letter-spacing:.22em;text-transform:uppercase;color:var(--sand)}
-.model p{color:#F3EAD7;font-size:15.5px}
+.model{margin-top:22px;display:grid;grid-template-columns:auto 1fr;gap:26px;align-items:center;padding:26px 28px;border-radius:20px;border:1px solid rgba(95,211,242,.35);background:linear-gradient(90deg,rgba(53,194,232,.12),rgba(53,194,232,.02))}
+.model .k{font:700 12px/1.3 Poppins;letter-spacing:.22em;text-transform:uppercase;color:var(--cyan2)}
+.model p{color:#EAF4FA;font-size:15.5px}
 
 /* GALLERY */
 .gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:200px;gap:12px}
@@ -97,6 +98,7 @@ h2{font:800 clamp(30px,5vw,52px)/1.02 Poppins;letter-spacing:-.02em;color:#fff;m
 /* CONTACT */
 .contact{text-align:center;padding:110px 0 70px}
 .contact h2{font-size:clamp(34px,6vw,64px)}
+.rtl{width:170px;height:auto;margin:0 auto 26px}
 .mail{display:inline-block;margin-top:10px;font:700 clamp(20px,3vw,28px)/1 Poppins;color:var(--ink);background:var(--cyan);padding:20px 30px;border-radius:16px;text-decoration:none}
 .links{display:flex;justify-content:center;flex-wrap:wrap;gap:12px 26px;margin-top:30px;font:500 15px Inter;color:#D5E7F1}
 .links a{text-decoration:none;border-bottom:1px solid rgba(95,211,242,.4);padding-bottom:2px}
@@ -128,7 +130,8 @@ h2{font:800 clamp(30px,5vw,52px)/1.02 Poppins;letter-spacing:-.02em;color:#fff;m
   .sec{padding:16mm 0 0}
   .hero{min-height:0}
   .hero .inner{padding-bottom:16mm}
-  .hero h1{font-size:96px}
+  .topbar{padding:12mm 0 0}
+  .logo-h1 img{width:118mm}
   .about{grid-template-columns:5fr 7fr;gap:10mm}
   .about p{font-size:15px;margin-bottom:13px}
   .about .ph{aspect-ratio:1/1.45}
@@ -146,7 +149,8 @@ h2{font:800 clamp(30px,5vw,52px)/1.02 Poppins;letter-spacing:-.02em;color:#fff;m
   .off h4{font-size:16px}
   .model{grid-template-columns:auto 1fr;padding:16px 18px;margin-top:5mm}
   .gal{grid-template-columns:repeat(4,1fr);grid-auto-rows:44mm;gap:3mm}
-  .contact{padding:14mm 0 0}
+  .contact{padding:10mm 0 0}
+  .rtl{width:38mm;margin-bottom:5mm}
   .dl{display:none}
   .stats{grid-template-columns:repeat(4,1fr)}
 }
@@ -158,10 +162,10 @@ h2{font:800 clamp(30px,5vw,52px)/1.02 Poppins;letter-spacing:-.02em;color:#fff;m
 <section class="sheet hero">
   <div class="bg" role="img" aria-label="Sharky Paul diving next to a green sea turtle in the Red Sea"></div>
   <div class="fade"></div>
-  <div class="topbar wrap"><span class="brand">SHARKY PAUL</span><span class="tag">MEDIA KIT · 2026</span></div>
+  <div class="topbar wrap"><span class="brand-t">sharkypaul.com</span><span class="tag">MEDIA KIT · 2026</span></div>
   <div class="inner wrap">
     <div class="eyebrow">Respect the Locals</div>
-    <h1>Sharky<br>Paul</h1>
+    <h1 class="logo-h1"><img src="/images/media/logo-sharkypaul.png" alt="Sharky Paul"></h1>
     <div class="role">Shark educator · Red Sea diver · Creator · DJ</div>
     <p class="claim">I turn fear of the ocean into respect for it. Science-checked shark stories and ocean-safety tips for a fast-growing Czech &amp; Slovak audience – filmed where the sharks actually live.</p>
     <div class="stats">
@@ -179,7 +183,7 @@ h2{font:800 clamp(30px,5vw,52px)/1.02 Poppins;letter-spacing:-.02em;color:#fff;m
     <div class="eyebrow">About</div>
     <h2>Underwater since 2010.</h2>
     <div class="about">
-      <div class="ph"><img src="/images/media/portrait.jpg" alt="Portrait of Sharky Paul"></div>
+      <div class="ph"><img src="/images/media/desert.jpg" alt="Portrait of Sharky Paul in the Egyptian desert"></div>
       <div>
         <p>My first dives were in the summer of 2010 on the island of Brač, Croatia – wrecks at 28 metres, a cave and my first night dive. Since then, every holiday I have has ended up in the ocean.</p>
         <p>The moment that changed everything was in Marsa Alam, Egypt: my first shark, an oceanic whitetip. Not a monster – a calm, curious animal in its own home. That encounter became Sharky Paul.</p>
@@ -274,11 +278,12 @@ h2{font:800 clamp(30px,5vw,52px)/1.02 Poppins;letter-spacing:-.02em;color:#fff;m
     <div class="gal">
       <figure class="g-tall"><img src="/images/media/dugong.jpg" alt="Sharky Paul diving next to a dugong"><figcaption>DUGONG · RED SEA</figcaption></figure>
       <figure class="g-wide"><img src="/images/media/mask.jpg" alt="Underwater selfie of Sharky Paul"><figcaption>RED SEA</figcaption></figure>
-      <figure class="g-tall"><img src="/images/media/desert.jpg" alt="Sharky Paul in a Bedouin tent" style="object-position:center 30%"><figcaption>EGYPTIAN DESERT</figcaption></figure>
+      <figure class="g-tall"><img src="/images/media/jetty.jpg" alt="Sharky Paul on a jetty at the Red Sea" style="object-position:center 40%"><figcaption>RED SEA COAST</figcaption></figure>
       <figure><img src="/images/media/boat.jpg" alt="Sharky Paul on a dive boat" style="object-position:center 35%"><figcaption>DIVE BOAT</figcaption></figure>
       <figure><img src="/images/media/croatia.jpg" alt="Sharky Paul diving in Croatia"><figcaption>CROATIA</figcaption></figure>
     </div>
     <div class="contact">
+      <img class="rtl" src="/images/media/logo-respect.png" alt="Respect the Locals logo">
       <div class="eyebrow">Let’s work together</div>
       <h2>Bring the ocean to your guests.</h2>
       <a class="mail" href="mailto:info@sharkypaul.com">info@sharkypaul.com</a>
