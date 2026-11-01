@@ -16,6 +16,13 @@ Zdroj: screenshoty TikTok Analytics od Pavla (31. 10. 2026). Číst před každ�
 → Nejvyšší uložení a sdílení ze všech videí = **praktická rada pro dovolenou v Egyptě**, kterou si lidé schovají a pošlou kámošovi.
 → Vzorec: obrat strachu („bojíš se žraloků? řeš spíš…“) + konkrétní nebezpečí + Egypt + tvoje tvář + výstražná cedule.
 
+## Celkový dosah za celou dobu (sečteno z profilu 1. 11. 2026)
+- **3,69 M zhlédnutí** (3 688 806, ± ~3 tis. kvůli zaokrouhlení „tis.“) na 98 veřejných videích. Do media kitu uvádíme „3.6M+“.
+- 7 videí přes 100 K, 20 přes 50 K, 64 přes 10 K. **Medián 16,8 K na video.**
+- Nejsilnější starší videa (mimo 365denní okno): „Letíš do Egypta?“ 160 K, „Agresivní ryba v Egyptě“ 146 K, „Bílý žralok v Tunisku update“ 121 K, „Mladé žraloka bílého u Hvaru“ 99 K, „Žraloci bílý v Tunisu?“ 73 K, „Tady žraloci skutečně zaútočili“ 68 K.
+- Nezapočítáno: 2 koncepty, 1 video stažené za porušení pravidel komunity („10 metrů hrůzy“), 1 umlčené video (zvuk odebrán – hudba).
+- Poučení: nejlépe táhne **Egypt / dovolená / konkrétní nebezpečí** a **slavný žralok** (Megalodon, Deep Blue, bílý žralok blízko Evropy). Čistě podvodní záběry bez Pavlovy tváře a textu mají 1–5 K → vždy tvář + hák + text.
+
 ## Top videa (zobrazení, posledních 365 dní)
 1. Megalodon – „Věříš, že se tam dole stále schovává?“ – 249 K (10. 1.)
 2. Deep Blue – „Zapomeňte na Čelisti…“ – 236 K, nejvíc lajků 6,5 K (3. 1.)
