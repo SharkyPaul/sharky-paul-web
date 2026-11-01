@@ -103,6 +103,24 @@ h2{font:800 clamp(30px,5vw,52px)/1.02 Poppins;letter-spacing:-.02em;color:#fff;m
 .links{display:flex;justify-content:center;flex-wrap:wrap;gap:12px 26px;margin-top:30px;font:500 15px Inter;color:#D5E7F1}
 .links a{text-decoration:none;border-bottom:1px solid rgba(95,211,242,.4);padding-bottom:2px}
 .foot{margin-top:56px;font-size:12px;color:#6F93A8;letter-spacing:.04em}
+.music{display:grid;grid-template-columns:5fr 7fr;gap:56px;align-items:start}
+.music .ph{border-radius:22px;overflow:hidden;aspect-ratio:1/1}
+.music .ph img{width:100%;height:100%;object-fit:cover}
+.music .lead{font:700 clamp(20px,2.6vw,26px)/1.3 Poppins;color:#fff;margin-bottom:18px}
+.music p{color:#D5E7F1;margin-bottom:16px;font-size:17px}
+.sets{list-style:none;margin:22px 0 0;display:grid;gap:10px}
+.sets li{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:14px 18px;background:var(--navy);border:1px solid var(--line);border-radius:14px;font-size:15px;color:#D5E7F1}
+.sets b{font:700 12px/1.6 Poppins;letter-spacing:.16em;text-transform:uppercase;color:var(--cyan2)}
+.spot{display:inline-block;margin-top:22px;font:700 15px/1 Poppins;color:var(--ink);background:var(--cyan);padding:15px 22px;border-radius:12px;text-decoration:none}
+.tagline{margin-top:26px;font:600 13px/1.4 Poppins;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.career{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:18px;overflow:hidden;margin-top:40px}
+.career .ct{background:var(--navy);padding:22px 20px}
+.career b{display:block;font:800 clamp(26px,3.4vw,38px)/1 Poppins;color:#fff}
+.career span{display:block;font-size:13px;line-height:1.4;color:var(--muted);margin-top:8px}
+.lineup{margin-top:18px;display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center;padding:20px 24px;border:1px solid rgba(95,211,242,.35);border-radius:18px;background:var(--navy)}
+.lineup .k{font:700 12px/1.3 Poppins;letter-spacing:.2em;text-transform:uppercase;color:var(--cyan2)}
+.lineup .names{display:flex;flex-wrap:wrap;gap:10px 22px;font:700 17px/1.2 Poppins;color:#fff}
+.lineup i{font:600 11px Inter;font-style:normal;color:var(--muted);margin-left:4px;letter-spacing:.1em}
 .band{margin-top:22px;height:300px;border-radius:20px;overflow:hidden;position:relative}
 .band img{width:100%;height:100%;object-fit:cover;object-position:center 40%}
 .band span{position:absolute;left:18px;bottom:16px;font:600 12px/1 Poppins;letter-spacing:.14em;background:rgba(4,20,31,.72);padding:9px 11px;border-radius:9px}
@@ -112,6 +130,10 @@ h2{font:800 clamp(30px,5vw,52px)/1.02 Poppins;letter-spacing:-.02em;color:#fff;m
   .stats{grid-template-columns:repeat(2,1fr)}
   .about,.split{grid-template-columns:1fr;gap:28px}
   .offer{grid-template-columns:1fr}
+  .music{grid-template-columns:1fr;gap:28px}
+  .career{grid-template-columns:1fr}
+  .lineup{grid-template-columns:1fr;gap:12px}
+  .sets li{grid-template-columns:1fr;gap:4px}
   .model{grid-template-columns:1fr;gap:10px}
   .gal{grid-template-columns:repeat(2,1fr);grid-auto-rows:170px}
   .sec{padding:64px 0}
@@ -152,6 +174,22 @@ h2{font:800 clamp(30px,5vw,52px)/1.02 Poppins;letter-spacing:-.02em;color:#fff;m
   .creds span{font-size:12px}
   .band{height:66mm;margin-top:6mm}
   .off{min-height:46mm}
+  .music{grid-template-columns:5fr 7fr;gap:10mm}
+  .music .lead{font-size:21px}
+  .sets li{font-size:13px;padding:11px 14px;grid-template-columns:30mm 1fr}
+  .spot{font-size:13px}
+  .career{margin-top:6mm;grid-template-columns:repeat(3,1fr)}
+  .lineup{grid-template-columns:auto 1fr;gap:16px;padding:14px 18px;margin-top:4mm}
+  .sets{margin-top:14px;gap:7px}
+  .sets li{grid-template-columns:24mm 1fr}
+  .music p{font-size:13.5px;margin-bottom:10px}
+  .music .lead{font-size:19px;margin-bottom:12px}
+  .tagline{margin-top:14px}
+  .spot{margin-top:14px}
+  .career .ct{padding:14px 16px}
+  .lineup .names{font-size:15px}
+  .music .ph{aspect-ratio:1/1.25}
+  .music .ph img{object-position:center 30%}
   h2{font-size:38px;margin:8px 0 14px}
   .split{grid-template-columns:1fr 1fr;gap:6mm}
   .card{padding:18px}
@@ -283,7 +321,40 @@ h2{font:800 clamp(30px,5vw,52px)/1.02 Poppins;letter-spacing:-.02em;color:#fff;m
   </div>
 </section>
 
-<!-- 5 GALLERY + CONTACT -->
+<!-- 5 MUSIC -->
+<section class="sheet sec">
+  <div class="wrap">
+    <div class="eyebrow">Music · DJ · Producer</div>
+    <h2>Afro Tribal Bounce.</h2>
+    <div class="music">
+      <div class="ph"><img src="/images/media/dj.jpg" alt="Sharky Paul – artist portrait"></div>
+      <div>
+        <p class="lead">Where the desert sand meets the ocean tide.</p>
+        <p>Sharky Paul is not just a content creator – he is a DJ and producer with a sound of his own: <b>Afro Tribal Bounce</b>, African and tribal rhythms fused with modern electronic music.</p>
+        <p>Behind the decks since 1999, formerly known as <b>Kristian Calderon</b>: sets in top Czech clubs, line-ups with international headliners and his own event brand, Pure Electra events.</p>
+        <p>The same mission runs through the music as through the videos – protecting the deep blue. From the explosive vibes of tracks like <b>“Zurna Gunpowder”</b> to sunset grooves, every beat is a call to respect the predators of the deep.</p>
+        <ul class="sets">
+          <li><b>Day</b><span>Pool &amp; beach sets – deep and chill Afro</span></li>
+          <li><b>Sunset</b><span>Sunset sessions on the beach or rooftop</span></li>
+          <li><b>Night</b><span>Energetic Afro Tribal Bounce for the evening crowd</span></li>
+        </ul>
+        <a class="spot" href="https://open.spotify.com/artist/2GHTzhhq2NyBqjfnpyXTme">Listen on Spotify →</a>
+        <p class="tagline">No filters. Just the truth of the sea.</p>
+      </div>
+    </div>
+    <div class="career">
+      <div class="ct"><b>1999</b><span>on the Czech dance scene</span></div>
+      <div class="ct"><b>2010</b><span>producing own tracks &amp; remixes in Ableton Live</span></div>
+      <div class="ct"><b>CEO</b><span>of Pure Electra events – promoter across the Czech Republic</span></div>
+    </div>
+    <div class="lineup">
+      <div class="k">Played alongside</div>
+      <div class="names"><span>Nicky Romero <i>NL</i></span><span>W&amp;W <i>NL</i></span><span>Nari &amp; Milani <i>IT</i></span><span>Get Far <i>IT</i></span><span>and many more</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 GALLERY + CONTACT -->
 <section class="sheet sec">
   <div class="wrap">
     <div class="eyebrow">In the field</div>
