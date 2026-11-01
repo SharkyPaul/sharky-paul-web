@@ -342,15 +342,27 @@ export default function HomeEn() {
             beach days.
           </p>
         </div>
-        <div className="collab-card">
-          <img
-            className="collab-img"
-            src="/images/ocean-gear-coming-soon.jpg"
-            width={720}
-            height={960}
-            loading="lazy"
-            alt="Sharky Paul Ocean Gear – upcoming collection: UPF 50+ rashguard, board shorts, women's rashguard and bikini"
-          />
+        <div className="collab-card coll-card">
+          <div className="coll-gallery">
+            <a href="/images/ocean-gear-rashguard.jpg" target="_blank" rel="noopener">
+              <img
+                src="/images/ocean-gear-rashguard.jpg"
+                width={1000}
+                height={1094}
+                loading="lazy"
+                alt="Sharky Paul Ocean Gear Collection – men's UPF 50+ rashguard with the Respect the Locals logo"
+              />
+            </a>
+            <a href="/images/ocean-gear-collection.jpg" target="_blank" rel="noopener">
+              <img
+                src="/images/ocean-gear-collection.jpg"
+                width={1200}
+                height={800}
+                loading="lazy"
+                alt="Sharky Paul Ocean Gear Core Collection – rashguard, women's one-piece rashguard, board shorts and bikini"
+              />
+            </a>
+          </div>
           <div className="collab-label">Coming soon</div>
           <div className="collab-title">
             Ocean Gear <span>×</span> Core Collection
