@@ -32,13 +32,6 @@ export default function Home() {
     setInApp(/TikTok|musical_ly|Bytedance|BytedanceWebview|Instagram|FBAN|FBAV|FB_IAB/i.test(ua));
   }, []);
   const collageImages = Array.from({ length: 12 }, (_, i) => `/images/coll-${i + 1}.jpg`);
-  const collectionItems = [
-    { src: "/images/shop-men1.jpg", tag: "Rash guard — Ash" },
-    { src: "/images/shop-men2.jpg", tag: "Rash guard — Fin Fade" },
-    { src: "/images/shop-men3.jpg", tag: "Rash guard — Scale" },
-    { src: "/images/shop-women1.jpg", tag: "Ocean One-Piece — Respect the Locals" },
-    { src: "/images/shop-women2.jpg", tag: "Ocean One-Piece — Deep Blue" },
-  ];
 
   const shopItems = [
     { num: "01", name: "Egyptské byliny", desc: "Sušené byliny a koření z oáz a trhů Horního Egypta.", status: "Skladem" },
@@ -48,8 +41,8 @@ export default function Home() {
     { num: "05", name: "Pravý jasmínový olej z Egypta", desc: "100% přírodní jasmínový olej a mentolové krystaly z egyptských trhů — intenzivní vůně, inhalace, lázeň.", status: "Skladem" },
     { num: "06", name: "Signature parfém", desc: "Oceánsko-orientální vůně podle vlastní receptury Sharky Paul.", status: "Limitovaně" },
     { num: "07", name: "Ebook: Šnorchlování", desc: "Průvodce šnorchlováním pro každého — český manuál pro Rudé moře.", status: "Ke stažení" },
-    { num: "08", name: "Diving kolekce", desc: "Potápěčské oblečení s žraločí ploutví — camo detaily, odolné materiály.", status: "Brzy" },
-    { num: "09", name: "Beach kolekce", desc: "Trička, ručníky a doplňky pro dny na pláži i po ponoru.", status: "Brzy" },
+    { num: "08", name: "Diving kolekce", desc: "Potápěčské oblečení s žraločí ploutví — camo detaily, odolné materiály.", status: "Připravujeme" },
+    { num: "09", name: "Beach kolekce", desc: "Trička, ručníky a doplňky pro dny na pláži i po ponoru.", status: "Připravujeme" },
   ];
 
   return (
@@ -345,17 +338,19 @@ export default function Home() {
           <div className="eyebrow-sm">05 — Kolekce</div>
           <h2>Diving &amp; Beach</h2>
           <p>
-            Rash guardy pro muže s camo přechodem a plavky s logem Sharky Paul pro ženy.
-            Limitovaná první série.
+            Připravujeme první kolekci Sharky Paul Ocean Gear pro potápění, šnorchlování i dny na
+            pláži.
           </p>
         </div>
-        <div className="coll-grid">
-          {collectionItems.map((item, i) => (
-            <div className="coll-item" key={i}>
-              <img src={item.src} alt={`Sharky Paul kolekce – ${item.tag}`} loading="lazy" />
-              <div className="coll-tag">{item.tag}</div>
-            </div>
-          ))}
+        <div className="collab-card">
+          <div className="collab-label">Připravujeme</div>
+          <div className="collab-title">
+            Ocean Gear <span>×</span> Core Collection
+          </div>
+          <div className="collab-desc">
+            Rashguard UPF 50+ · plavky (board shorts) · dámský jednodílný rashguard UPF 50+ ·
+            bikiny. Spuštění oznámíme na TikToku a Instagramu.
+          </div>
         </div>
       </section>
 

@@ -32,13 +32,6 @@ export default function HomeEn() {
     setInApp(/TikTok|musical_ly|Bytedance|BytedanceWebview|Instagram|FBAN|FBAV|FB_IAB/i.test(ua));
   }, []);
   const collageImages = Array.from({ length: 12 }, (_, i) => `/images/coll-${i + 1}.jpg`);
-  const collectionItems = [
-    { src: "/images/shop-men1.jpg", tag: "Rash guard — Ash" },
-    { src: "/images/shop-men2.jpg", tag: "Rash guard — Fin Fade" },
-    { src: "/images/shop-men3.jpg", tag: "Rash guard — Scale" },
-    { src: "/images/shop-women1.jpg", tag: "Ocean One-Piece — Respect the Locals" },
-    { src: "/images/shop-women2.jpg", tag: "Ocean One-Piece — Deep Blue" },
-  ];
 
   const shopItems = [
     { num: "01", name: "Egyptian herbs", desc: "Dried herbs and spices from the oases and markets of Upper Egypt.", status: "In stock" },
@@ -48,8 +41,8 @@ export default function HomeEn() {
     { num: "05", name: "Pure Egyptian jasmine oil", desc: "100% natural jasmine oil and menthol crystals from Egyptian markets — intense scent, inhalation, bath.", status: "In stock" },
     { num: "06", name: "Signature perfume", desc: "An oceanic-oriental fragrance based on Sharky Paul's own formula.", status: "Limited" },
     { num: "07", name: "Ebook: Snorkelling", desc: "A snorkelling guide for everyone — a Czech manual for the Red Sea.", status: "Download" },
-    { num: "08", name: "Diving collection", desc: "Diving apparel with the shark fin — camo details, durable materials.", status: "Soon" },
-    { num: "09", name: "Beach collection", desc: "T-shirts, towels and accessories for beach days and after the dive.", status: "Soon" },
+    { num: "08", name: "Diving collection", desc: "Diving apparel with the shark fin — camo details, durable materials.", status: "Coming soon" },
+    { num: "09", name: "Beach collection", desc: "T-shirts, towels and accessories for beach days and after the dive.", status: "Coming soon" },
   ];
 
   return (
@@ -345,17 +338,19 @@ export default function HomeEn() {
           <div className="eyebrow-sm">05 — Collection</div>
           <h2>Diving &amp; Beach</h2>
           <p>
-            Men's rash guards with a camo fade and women's swimwear with the Sharky Paul logo.
-            Limited first edition.
+            We are preparing the first Sharky Paul Ocean Gear collection for diving, snorkelling and
+            beach days.
           </p>
         </div>
-        <div className="coll-grid">
-          {collectionItems.map((item, i) => (
-            <div className="coll-item" key={i}>
-              <img src={item.src} alt={`Sharky Paul collection – ${item.tag}`} loading="lazy" />
-              <div className="coll-tag">{item.tag}</div>
-            </div>
-          ))}
+        <div className="collab-card">
+          <div className="collab-label">Coming soon</div>
+          <div className="collab-title">
+            Ocean Gear <span>×</span> Core Collection
+          </div>
+          <div className="collab-desc">
+            Rashguard UPF 50+ · board shorts · women&apos;s one-piece rashguard UPF 50+ · bikini.
+            The launch will be announced on TikTok and Instagram.
+          </div>
         </div>
       </section>
 
