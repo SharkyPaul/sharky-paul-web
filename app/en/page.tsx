@@ -178,12 +178,21 @@ export default function HomeEn() {
             <div className="collab-card">
               <div className="collab-label">Brotherly partnership</div>
               <div className="collab-title">
-                DiveZen Red Sea <span>×</span> Hamada
+                DiveZen Retreats <span>×</span> Hamada
               </div>
               <div className="collab-desc">
-                Our Red Sea expeditions run together with DiveZen Red Sea and instructor Hamada —
-                people I trust and who share the same diving philosophy.
+                Our Red Sea expeditions run together with DiveZen Retreats and instructor Hamada —
+                people I trust and who share the same diving philosophy. Week-long yacht retreats
+                at Sataya Reef, where you can swim with wild spinner dolphins.
               </div>
+              <a
+                href="https://divezenretreats.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="spotify-fallback"
+              >
+                divezenretreats.com →
+              </a>
             </div>
           </div>
 

@@ -41,7 +41,7 @@ const c: BookingContent = {
     },
     {
       title: "Expedice a skupinové zájezdy",
-      text: "Malé privátní skupiny v Rudém moři ve spolupráci s DiveZen Red Sea a instruktorem Hamadou. Otevřeno spolupráci s hotely a centry v dalších destinacích, např. na Kapverdách.",
+      text: "Malé privátní skupiny v Rudém moři ve spolupráci s DiveZen Retreats a instruktorem Hamadou. Otevřeno spolupráci s hotely a centry v dalších destinacích, např. na Kapverdách.",
     },
   ],
   whyTitle: "Proč Sharky Paul",
