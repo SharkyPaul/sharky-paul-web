@@ -130,7 +130,19 @@ h2{font:800 clamp(30px,5vw,52px)/1.02 Poppins;letter-spacing:-.02em;color:#fff;m
   .sec{padding:16mm 0 0}
   .hero{min-height:0}
   .hero .inner{padding-bottom:16mm}
-  .topbar{padding:12mm 0 0}
+  .topbar{padding:12mm 15mm 0}
+  .hero .bg{display:none}
+  .print-cover{display:block!important;position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .hero .fade{display:none}
+  .logo-h1 img{filter:none}
+  .hero .claim,.hero h1{text-shadow:none}
+  .stat{background:#0B2436;backdrop-filter:none}
+  .quote{background:#0A2234}
+  .creds span{background:#0A2234}
+  .big{background:#0B3550}
+  .model{background:#0A2A40}
+  .gal figcaption{background:#04141F}
+  .band span{background:#04141F}
   .logo-h1 img{width:118mm}
   .about{grid-template-columns:5fr 7fr;gap:10mm}
   .about p{font-size:15px;margin-bottom:13px}
@@ -162,6 +174,7 @@ h2{font:800 clamp(30px,5vw,52px)/1.02 Poppins;letter-spacing:-.02em;color:#fff;m
 <section class="sheet hero">
   <div class="bg" role="img" aria-label="Sharky Paul diving next to a green sea turtle in the Red Sea"></div>
   <div class="fade"></div>
+  <img class="print-cover" src="/images/media/cover-print.jpg" alt="" style="display:none">
   <div class="topbar wrap"><span class="brand-t">sharkypaul.com</span><span class="tag">MEDIA KIT · 2026</span></div>
   <div class="inner wrap">
     <div class="eyebrow">Respect the Locals</div>
