@@ -372,6 +372,31 @@ export default function HomeEn() {
             The launch will be announced on TikTok and Instagram.
           </div>
         </div>
+        <div className="collab-card">
+          <div className="coll-gallery single">
+            <a href="/images/sharky-paul-bomber.jpg" target="_blank" rel="noopener">
+              <img
+                src="/images/sharky-paul-bomber.jpg"
+                width={1000}
+                height={1094}
+                loading="lazy"
+                alt="Sharky Paul Luxury Bomber – made-to-order Ultra Limited Edition with Respect the Locals, Shark Educator and Captain of the Harbor patches"
+              />
+            </a>
+          </div>
+          <div className="collab-label">Made to order · Ultra Limited Edition</div>
+          <div className="collab-title">
+            Luxury Bomber <span>×</span> Captain of the Harbor
+          </div>
+          <div className="collab-desc">
+            Black bomber with a red quilted lining and embroidered patches. On the back: Captain of
+            the Harbor – the legend of a giant hammerhead off Florida that even got its own Shark
+            Week episode. Made to order in a limited edition.
+          </div>
+          <a href="mailto:info@sharkypaul.com?subject=Luxury%20Bomber" className="spotify-fallback">
+            Enquire →
+          </a>
+        </div>
       </section>
 
       <div className="rule" />

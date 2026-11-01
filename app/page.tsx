@@ -372,6 +372,31 @@ export default function Home() {
             bikiny. Spuštění oznámíme na TikToku a Instagramu.
           </div>
         </div>
+        <div className="collab-card">
+          <div className="coll-gallery single">
+            <a href="/images/sharky-paul-bomber.jpg" target="_blank" rel="noopener">
+              <img
+                src="/images/sharky-paul-bomber.jpg"
+                width={1000}
+                height={1094}
+                loading="lazy"
+                alt="Sharky Paul Luxury Bomber – Ultra Limited Edition na zakázku s nášivkami Respect the Locals, Shark Educator a Captain of the Harbor"
+              />
+            </a>
+          </div>
+          <div className="collab-label">Na zakázku · Ultra Limited Edition</div>
+          <div className="collab-title">
+            Luxury Bomber <span>×</span> Captain of the Harbor
+          </div>
+          <div className="collab-desc">
+            Černý bomber s červenou prošívanou podšívkou a vyšívanými nášivkami. Na zádech Captain
+            of the Harbor – legenda o obřím kladivounovi z Floridy, o kterém natočil díl i Shark
+            Week. Vyrábí se na zakázku v limitované edici.
+          </div>
+          <a href="mailto:info@sharkypaul.com?subject=Luxury%20Bomber" className="spotify-fallback">
+            Poptat bundu →
+          </a>
+        </div>
       </section>
 
       <div className="rule" />
