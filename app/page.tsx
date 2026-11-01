@@ -181,9 +181,10 @@ export default function Home() {
                 DiveZen Retreats <span>×</span> Hamada
               </div>
               <div className="collab-desc">
-                Expedice v Rudém moři realizujeme ve spolupráci s DiveZen Retreats a instruktorem
+                Expedice v Rudém moři realizujeme ve spolupráci s DiveZen Retreats a PADI instruktorem
                 Hamadou — lidmi, kterým věřím a se kterými sdílím stejnou filozofii potápění.
                 Týdenní pobyty na jachtě u útesu Sataya, kde se dá plavat s divokými delfíny.
+                U Hamady jsem absolvoval i kurz PADI Advanced Open Water.
               </div>
               <a
                 href="https://divezenretreats.com"

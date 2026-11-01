@@ -43,7 +43,7 @@ const c: MediaKitContent = {
     "On the decks since 1999 (formerly as Kristian Calderon): top Czech clubs, line-ups with Nicky Romero, W&W, Nari & Milani and Get Far, and his own event brand, Pure Electra events. Producing his own tracks in Ableton Live since 2010.",
     "Main channel: TikTok (@sharkypaul.real), including regular TikTok LIVE streams. Also Instagram (@sharky_paul_edu) and YouTube (@SharkyPaulOfficial).",
     "Shark facts follow the Florida Museum (International Shark Attack File) and NSW SharkSmart. No myths, no chasing, touching or feeding marine life.",
-    "Red Sea expeditions in partnership with DiveZen Retreats and instructor Hamada.",
+    "Red Sea expeditions in partnership with DiveZen Retreats and PADI instructor Hamada.",
   ],
   formatsTitle: "What I offer",
   formats: [

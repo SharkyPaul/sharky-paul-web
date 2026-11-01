@@ -181,9 +181,10 @@ export default function HomeEn() {
                 DiveZen Retreats <span>×</span> Hamada
               </div>
               <div className="collab-desc">
-                Our Red Sea expeditions run together with DiveZen Retreats and instructor Hamada —
+                Our Red Sea expeditions run together with DiveZen Retreats and PADI instructor Hamada —
                 people I trust and who share the same diving philosophy. Week-long yacht retreats
                 at Sataya Reef, where you can swim with wild spinner dolphins.
+                I completed my PADI Advanced Open Water course with Hamada.
               </div>
               <a
                 href="https://divezenretreats.com"

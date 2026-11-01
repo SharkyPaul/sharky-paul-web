@@ -43,7 +43,7 @@ const c: MediaKitContent = {
     "Za DJ pulty od roku 1999 (dříve jako Kristian Calderon): top české kluby, line-upy s Nicky Romerem, W&W, Nari & Milani a Get Far, vlastní značka akcí Pure Electra events. Od roku 2010 vlastní produkce v Ableton Live.",
     "Hlavní kanál je TikTok (@sharkypaul.real) včetně pravidelných TikTok LIVE. Dále Instagram (@sharky_paul_edu) a YouTube (@SharkyPaulOfficial).",
     "Fakta o žralocích podle Florida Museum (International Shark Attack File) a NSW SharkSmart. Žádné mýty, žádné honění, sahání ani krmení.",
-    "Expedice v Rudém moři ve spolupráci s DiveZen Retreats a instruktorem Hamadou.",
+    "Expedice v Rudém moři ve spolupráci s DiveZen Retreats a PADI instruktorem Hamadou.",
   ],
   formatsTitle: "Co nabízím",
   formats: [

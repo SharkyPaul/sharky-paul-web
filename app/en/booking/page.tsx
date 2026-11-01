@@ -41,7 +41,7 @@ const c: BookingContent = {
     },
     {
       title: "Dive expeditions & group trips",
-      text: "Small private groups to the Red Sea in cooperation with DiveZen Retreats and instructor Hamada. Open to partnerships with hotels and dive centres in other destinations, including Cape Verde.",
+      text: "Small private groups to the Red Sea in cooperation with DiveZen Retreats and PADI instructor Hamada. Open to partnerships with hotels and dive centres in other destinations, including Cape Verde.",
     },
   ],
   whyTitle: "Why Sharky Paul",
