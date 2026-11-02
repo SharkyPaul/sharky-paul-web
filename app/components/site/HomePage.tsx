@@ -4,6 +4,7 @@ import DepthGauge from "./DepthGauge";
 import InAppNote from "./InAppNote";
 import { EMAIL, NAV } from "./nav";
 import Signature from "./Signature";
+import SignatureLive from "./SignatureLive";
 import SiteFooter from "./SiteFooter";
 import SiteHeader from "./SiteHeader";
 import VideoFacade from "./VideoFacade";
@@ -26,7 +27,7 @@ export default function HomePage({ c }: { c: HomeContent }) {
               Respect
               <span className="l2">the Locals</span>
             </h1>
-            <Signature className="hero-sig" label={isCs ? "Podpis Sharky Paul" : "Sharky Paul signature"} />
+            <SignatureLive className="hero-sig" label={isCs ? "Podpis Sharky Paul" : "Sharky Paul signature"} />
             <p className="hero-lead">{c.hero.lead}</p>
             <div className="hero-actions">
               <a href={c.hero.ctaGuideHref} className="btn solid">
