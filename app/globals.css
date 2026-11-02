@@ -201,7 +201,7 @@ h1,h2,h3{font-weight:500;}
 .hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px 28px;margin-top:34px;}
 .hero-proof{margin-top:46px;padding-top:16px;border-top:1px solid var(--hair);max-width:30em;font-size:14.5px;color:var(--mist);}
 .hero-media{position:relative;min-height:100%;overflow:hidden;}
-.hero-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:42% 28%;}
+.hero-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:72% 50%;}
 .hero-media::after{
   content:"";position:absolute;inset:0;pointer-events:none;
   background:
