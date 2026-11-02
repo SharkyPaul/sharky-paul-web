@@ -15,6 +15,13 @@ const COLORS = [
   { name: "blue", css: "#5ccff0", gone: 0 },
 ];
 
+// Popisek k barevným tečkám podle hloubky (pro laiky).
+const COLOR_LABEL = {
+  cs: ["všechny barvy", "mizí červená", "mizí oranžová", "mizí žlutá", "zbývá zelená a modrá"],
+  en: ["all colours", "red is fading", "orange is fading", "yellow is fading", "green and blue remain"],
+};
+const colorStage = (d: number) => (d <= 2 ? 0 : d < 6 ? 1 : d < 15 ? 2 : d < 30 ? 3 : 4);
+
 type Help = { label: string; title: string; items: { b: string; t: string }[]; close: string };
 type Props = { label: string; lang?: "cs" | "en"; title?: string; help?: Help };
 
@@ -27,6 +34,7 @@ export default function DepthGauge({ label, lang = "cs", title, help }: Props) {
   const depthRef = useRef<HTMLElement>(null);
   const presRef = useRef<HTMLElement>(null);
   const dotsRef = useRef<HTMLSpanElement>(null);
+  const colorTxtRef = useRef<HTMLElement>(null);
   const helpRef = useRef<HTMLDetailsElement>(null);
 
   useEffect(() => {
@@ -44,6 +52,7 @@ export default function DepthGauge({ label, lang = "cs", title, help }: Props) {
       const barTxt = lang === "cs" ? bar.toFixed(1).replace(".", ",") : bar.toFixed(1);
       if (depthRef.current) depthRef.current.textContent = `${d} m`;
       if (presRef.current) presRef.current.textContent = `${barTxt} bar · ${psi} PSI`;
+      if (colorTxtRef.current) colorTxtRef.current.textContent = COLOR_LABEL[lang][colorStage(d)];
       const dots = dotsRef.current?.children;
       if (dots) {
         COLORS.forEach((c, i) => {
@@ -76,10 +85,13 @@ export default function DepthGauge({ label, lang = "cs", title, help }: Props) {
         <span className="gauge-read" title={title ?? label}>
           <b ref={depthRef}>0 m</b>
           <small ref={presRef}>{lang === "cs" ? "1,0" : "1.0"} bar · 15 PSI</small>
-          <span className="gauge-colors" ref={dotsRef}>
-            {COLORS.map((c) => (
-              <i key={c.name} style={{ background: c.css }} />
-            ))}
+          <span className="gauge-colorrow">
+            <span className="gauge-colors" ref={dotsRef}>
+              {COLORS.map((c) => (
+                <i key={c.name} style={{ background: c.css }} />
+              ))}
+            </span>
+            <em ref={colorTxtRef}>{COLOR_LABEL[lang][0]}</em>
           </span>
         </span>
       </div>
