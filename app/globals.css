@@ -96,11 +96,10 @@ h1,h2,h3{font-weight:500;}
   border-bottom:1px solid transparent;
   transition:background .35s,padding .35s,border-color .35s;
 }
-.site-head.is-solid{
-  background:rgba(4,20,29,.84);
-  -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
-  padding-top:12px;padding-bottom:12px;border-bottom-color:var(--hair);
-}
+/* pozadí hlavičky je v ::before: backdrop-filter na samotné hlavičce by uvěznil fixní menu uvnitř ní */
+.site-head::before{content:"";position:absolute;inset:0;z-index:-1;background:transparent;transition:background .35s;pointer-events:none;}
+.site-head.is-solid{padding-top:12px;padding-bottom:12px;border-bottom-color:var(--hair);}
+.site-head.is-solid::before{background:rgba(4,20,29,.84);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);}
 .brand{display:flex;align-items:center;flex-shrink:0;}
 .brand img{height:38px;width:auto;display:block;}
 .site-nav{margin-left:auto;display:flex;gap:clamp(16px,2vw,30px);}
@@ -118,7 +117,16 @@ h1,h2,h3{font-weight:500;}
   display:none;align-items:center;gap:10px;height:38px;padding:0 16px;border-radius:999px;
   border:1px solid var(--hair2);background:transparent;color:var(--pearl);font:500 14px/1 var(--sans);cursor:pointer;
 }
-.menu-btn span{display:block;width:16px;height:1px;background:currentColor;box-shadow:0 5px 0 currentColor;transform:translateY(-2px);}
+.menu-ico{display:block;width:16px;height:1px;background:currentColor;box-shadow:0 5px 0 currentColor;transform:translateY(-2px);}
+.menu-wrap{display:none;}
+.menu-wrap > summary{list-style:none;}
+.menu-wrap > summary::-webkit-details-marker{display:none;}
+.menu-wrap > summary::marker{content:"";}
+.menu-wrap:not([open]) .menu{display:none;}
+.m-open{display:none;}
+.menu-wrap[open] .m-open{display:inline;}
+.menu-wrap[open] .m-closed,.menu-wrap[open] .menu-ico{display:none;}
+.menu-wrap[open] > summary{position:fixed;top:22px;right:var(--gutter);z-index:90;background:var(--deep);}
 .menu{
   position:fixed;inset:0;z-index:80;background:var(--deep);
   display:flex;flex-direction:column;padding:22px var(--gutter) 40px;
@@ -143,8 +151,9 @@ h1,h2,h3{font-weight:500;}
 @media (max-width:1080px){
   .site-nav{display:none;}
   .menu-btn{display:inline-flex;}
+  .menu-wrap{display:block;}
   .head-tools{margin-left:auto;}
-  .head-tools .social-row{display:none;}
+  .head-tools > .social-row{display:none;}
 }
 
 /* ---------- hloubkoměr ---------- */
