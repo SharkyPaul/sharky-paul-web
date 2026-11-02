@@ -66,7 +66,10 @@ const c: MythContent = {
   sourcesTitle: "Odborné zdroje",
   sources: SOURCES,
   relatedTitle: "Přečti si také",
-  related: [{ label: "Co dělat, když potkáš žraloka – krok za krokem", url: "/co-delat-kdyz-potkas-zraloka" }],
+  related: [
+    { label: "Co dělat, když potkáš žraloka – krok za krokem", url: "/co-delat-kdyz-potkas-zraloka" },
+    { label: "Na co v Egyptě šlapeš: 7 nebezpečných zvířat u pláže", url: "/nebezpecna-morska-zvirata-egypt" },
+  ],
   disclaimer: "Obecná informace. Nenahrazuje potápěčský výcvik, kurz první pomoci ani pokyny místních autorit.",
 };
 

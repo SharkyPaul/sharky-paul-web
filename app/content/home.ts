@@ -140,6 +140,12 @@ const csRaw: HomeContent = {
     shareText: "Příručka zdarma: Jak se chovat bezpečně v přítomnosti žraloků 🦈",
     reads: [
       {
+        href: "/nebezpecna-morska-zvirata-egypt",
+        title: "Na co v Egyptě šlapeš",
+        text: "7 nebezpečných zvířat u pláží Rudého moře a první pomoc.",
+        go: "Číst článek",
+      },
+      {
         href: "/co-delat-kdyz-potkas-zraloka",
         title: "Co dělat, když potkáš žraloka",
         text: "Sedm kroků pro potápěče a šnorchlaře, krok za krokem.",
@@ -281,6 +287,12 @@ export const en: HomeContent = {
       "Are you inside the TikTok or Instagram app? It often can’t download files. Tap the three dots in the top corner, choose Open in browser and download the guide there.",
     shareText: "Free shark safety guide 🦈",
     reads: [
+      {
+        href: "/en/dangerous-marine-animals-egypt",
+        title: "What you step on in Egypt",
+        text: "7 dangerous animals on Red Sea beaches and first aid.",
+        go: "Read the article",
+      },
       {
         href: "/en/what-to-do-if-you-see-a-shark",
         title: "What to do if you see a shark",

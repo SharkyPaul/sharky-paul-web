@@ -73,6 +73,7 @@ export const NAV: Record<Lang, NavText> = {
       exploreTitle: "Oceán",
       explore: [
         { href: "/prirucka", label: "Příručka Prevence zdarma" },
+        { href: "/nebezpecna-morska-zvirata-egypt", label: "Na co v Egyptě šlapeš" },
         { href: "/co-delat-kdyz-potkas-zraloka", label: "Co dělat, když potkáš žraloka" },
         { href: "/myty-o-zralocich", label: "9 mýtů o žralocích" },
         { href: "/aplikace", label: "Aplikace Sharky Paul" },
@@ -113,6 +114,7 @@ export const NAV: Record<Lang, NavText> = {
       tag: "Respect the Locals – on land and at sea.",
       exploreTitle: "Ocean",
       explore: [
+        { href: "/en/dangerous-marine-animals-egypt", label: "Dangerous animals in Egypt" },
         { href: "/en/what-to-do-if-you-see-a-shark", label: "What to do if you see a shark" },
         { href: "/en/shark-myths", label: "Shark myths" },
         { href: "/en/app", label: "Sharky Paul app" },

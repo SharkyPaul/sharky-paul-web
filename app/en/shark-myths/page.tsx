@@ -66,7 +66,10 @@ const c: MythContent = {
   sourcesTitle: "Sources",
   sources: SOURCES,
   relatedTitle: "Also read",
-  related: [{ label: "What to do if you see a shark – step by step", url: "/en/what-to-do-if-you-see-a-shark" }],
+  related: [
+    { label: "What to do if you see a shark – step by step", url: "/en/what-to-do-if-you-see-a-shark" },
+    { label: "Dangerous marine animals on Egypt's beaches", url: "/en/dangerous-marine-animals-egypt" },
+  ],
   disclaimer: "General information. Not a substitute for dive training, a first-aid course or instructions from local authorities.",
 };
 

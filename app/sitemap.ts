@@ -11,6 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/en/shark-myths`, lastModified: now, changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/myty-o-zralocich`, en: `${SITE}/en/shark-myths` } } },
     { url: `${SITE}/co-delat-kdyz-potkas-zraloka`, lastModified: now, changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/co-delat-kdyz-potkas-zraloka`, en: `${SITE}/en/what-to-do-if-you-see-a-shark` } } },
     { url: `${SITE}/en/what-to-do-if-you-see-a-shark`, lastModified: now, changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/co-delat-kdyz-potkas-zraloka`, en: `${SITE}/en/what-to-do-if-you-see-a-shark` } } },
+    { url: `${SITE}/nebezpecna-morska-zvirata-egypt`, lastModified: now, changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/nebezpecna-morska-zvirata-egypt`, en: `${SITE}/en/dangerous-marine-animals-egypt` } } },
+    { url: `${SITE}/en/dangerous-marine-animals-egypt`, lastModified: now, changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/nebezpecna-morska-zvirata-egypt`, en: `${SITE}/en/dangerous-marine-animals-egypt` } } },
     { url: `${SITE}/aplikace`, lastModified: now, changeFrequency: "monthly", priority: 0.8, alternates: { languages: { cs: `${SITE}/aplikace`, en: `${SITE}/en/app` } } },
     { url: `${SITE}/en/app`, lastModified: now, changeFrequency: "monthly", priority: 0.7, alternates: { languages: { cs: `${SITE}/aplikace`, en: `${SITE}/en/app` } } },
     { url: `${SITE}/booking`, lastModified: now, changeFrequency: "monthly", priority: 0.8, alternates: { languages: { cs: `${SITE}/booking`, en: `${SITE}/en/booking` } } },

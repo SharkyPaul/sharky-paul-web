@@ -93,7 +93,10 @@ export const encounterCs: StepContent = {
   guideCta: "Stáhnout příručku zdarma",
   guideUrl: "/prirucka",
   relatedTitle: "Přečti si také",
-  related: [{ label: "9 mýtů o žralocích, kterým lidé věří", url: "/myty-o-zralocich" }],
+  related: [
+    { label: "9 mýtů o žralocích, kterým lidé věří", url: "/myty-o-zralocich" },
+    { label: "Na co v Egyptě šlapeš: 7 nebezpečných zvířat u pláže", url: "/nebezpecna-morska-zvirata-egypt" },
+  ],
   shareText: "Co dělat, když potkáš žraloka 🦈 Krok za krokem – pošli kámošovi, co jede k moři",
   sourcesTitle: "Odborné zdroje",
   sources: SOURCES_ENCOUNTERCS,
@@ -190,7 +193,10 @@ export const encounterEn: StepContent = {
   guideCta: "Download the free guide",
   guideUrl: "/prirucka",
   relatedTitle: "Also read",
-  related: [{ label: "9 shark myths people still believe", url: "/en/shark-myths" }],
+  related: [
+    { label: "9 shark myths people still believe", url: "/en/shark-myths" },
+    { label: "Dangerous marine animals on Egypt's beaches", url: "/en/dangerous-marine-animals-egypt" },
+  ],
   shareText: "What to do if you see a shark 🦈 Step by step – send it to a friend heading to the sea",
   sourcesTitle: "Sources",
   sources: SOURCES_ENCOUNTEREN,
