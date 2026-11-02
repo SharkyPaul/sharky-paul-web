@@ -175,19 +175,26 @@ h1,h2,h3{font-weight:500;}
 }
 .gauge-read{
   position:absolute;right:20px;top:-9px;white-space:nowrap;
+  display:flex;flex-direction:column;align-items:flex-end;gap:3px;
   font-size:13px;font-weight:500;font-variant-numeric:tabular-nums;color:var(--pearl);
   text-shadow:0 1px 8px rgba(0,0,0,.6);
   transform:translateY(calc(var(--p,0) * 44vh));
 }
+.gauge-read b{font-weight:500;line-height:1;}
+.gauge-read small{font-size:11px;font-weight:400;color:var(--mist);line-height:1.2;}
+.gauge-colors{display:flex;gap:4px;margin-top:2px;}
+.gauge-colors i{width:7px;height:7px;border-radius:50%;transition:opacity .3s;}
 @media (max-width:900px){
   .gauge{top:auto;bottom:14px;right:12px;transform:none;}
   .gauge-scale{width:auto;height:auto;background:none;}
   .gauge-scale::after,.gauge-mark{display:none;}
   .gauge-read{
-    position:static;transform:none;display:block;
+    position:static;transform:none;flex-direction:row;align-items:center;gap:8px;
     padding:6px 12px;border-radius:999px;background:rgba(4,20,29,.72);
     -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid var(--hair);
   }
+  .gauge-colors{margin-top:0;gap:3px;}
+  .gauge-colors i{width:6px;height:6px;}
 }
 
 /* ---------- úvod ---------- */

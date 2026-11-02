@@ -35,6 +35,7 @@ type NavText = {
   langName: string;
   skip: string;
   depth: string;
+  depthTitle: string;
   foot: {
     tag: string;
     exploreTitle: string;
@@ -68,6 +69,7 @@ export const NAV: Record<Lang, NavText> = {
     langName: "English version",
     skip: "Přeskočit na obsah",
     depth: "Hloubka",
+    depthTitle: "Hloubka, absolutní tlak a barvy, které v čisté vodě ještě uvidíš",
     foot: {
       tag: "Respect the Locals – na souši i v moři.",
       exploreTitle: "Oceán",
@@ -88,7 +90,7 @@ export const NAV: Record<Lang, NavText> = {
       followTitle: "Sleduj",
       contactTitle: "Kontakt",
       contactText: "Hotely, cestovky, potápěčská centra i fanoušci:",
-      depthNote: "Dole je 30 metrů. Hranice pro potápěče PADI Advanced Open Water.",
+      depthNote: "Hloubkoměr vpravo ukazuje hloubku, absolutní tlak a barvy: každých 10 m přidá zhruba 1 bar a v čisté vodě mizí červená kolem 6 m, oranžová kolem 15 m a žlutá kolem 30 m. Dole je 30 metrů, hranice pro potápěče PADI Advanced Open Water.",
       rights: "Sharky Paul",
     },
   },
@@ -110,6 +112,7 @@ export const NAV: Record<Lang, NavText> = {
     langName: "Česká verze",
     skip: "Skip to content",
     depth: "Depth",
+    depthTitle: "Depth, absolute pressure and the colours you still see in clear water",
     foot: {
       tag: "Respect the Locals – on land and at sea.",
       exploreTitle: "Ocean",
@@ -130,7 +133,7 @@ export const NAV: Record<Lang, NavText> = {
       followTitle: "Follow",
       contactTitle: "Contact",
       contactText: "Hotels, travel brands, dive centres and fans:",
-      depthNote: "The bottom is 30 metres. The depth limit for PADI Advanced Open Water divers.",
+      depthNote: "The depth gauge on the right shows depth, absolute pressure and colour: every 10 m adds roughly 1 bar, and in clear water red fades by about 6 m, orange by about 15 m and yellow by about 30 m. The bottom is 30 metres, the depth limit for PADI Advanced Open Water divers.",
       rights: "Sharky Paul",
     },
   },
