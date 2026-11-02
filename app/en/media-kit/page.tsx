@@ -50,7 +50,7 @@ const c: MediaKitContent = {
     { title: "UGC videos for your own use", text: "Exclusive vertical videos (9:16, 15–45 s, edited, with subtitles) of your hotel, beach, reef or excursion – for your social media, website and ads." },
     { title: "TikTok LIVE on location", text: "A live stream from your hotel or beach, e.g. a sunset DJ set, reaching viewers in real time." },
     { title: "Posts on my channels", text: "TikToks, Instagram collab Reels and daily stories that tag your property." },
-    { title: "Shark Night", text: "An evening talk for guests about shark myths vs. facts, safe snorkelling and diving – in Czech, Slovak or English." },
+    { title: "Shark Night", text: "An evening talk for guests about shark myths vs. facts, currents and other risks tourists often underestimate, safe snorkelling and diving – in Czech, Slovak or English." },
     { title: "Afro Tribal Bounce DJ sets", text: "Sunset sessions, pool and beach parties with African and tribal rhythms blended with modern electronic dance music." },
   ],
   packageTitle: "Partnership packages",

@@ -33,7 +33,7 @@ const c: BookingContent = {
     },
     {
       title: "Shark Night pro hosty",
-      text: "Večerní program pro rodiny i dospělé v češtině nebo slovenštině: mýty vs. fakta o žralocích, bezpečné šnorchlování a potápění a přístup Respect the Locals. Podle doporučení Florida Museum (ISAF) a SharkSmart.",
+      text: "Večerní program pro rodiny i dospělé v češtině nebo slovenštině: mýty vs. fakta o žralocích, proudy a další situace, které turisté u moře často podceňují, bezpečné šnorchlování a potápění a přístup Respect the Locals. Část o žralocích vychází z doporučení Florida Museum (ISAF) a SharkSmart.",
     },
     {
       title: "Obsahová spolupráce pro CZ/SK trh",

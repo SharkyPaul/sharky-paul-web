@@ -33,7 +33,7 @@ const c: BookingContent = {
     },
     {
       title: "Shark Night for your guests",
-      text: "A family-friendly evening programme in Czech or Slovak: shark myths vs facts, how to behave safely while snorkelling and diving, and the Respect the Locals approach to marine life. Based on Florida Museum (ISAF) and SharkSmart guidance.",
+      text: "A family-friendly evening programme in Czech or Slovak: shark myths vs facts, currents and other situations tourists often underestimate, how to behave safely while snorkelling and diving, and the Respect the Locals approach to marine life. The shark part is based on Florida Museum (ISAF) and SharkSmart guidance.",
     },
     {
       title: "Content partnership for the CZ/SK market",

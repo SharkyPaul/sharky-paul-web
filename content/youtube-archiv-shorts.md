@@ -5,9 +5,9 @@ Pravidla: nahrát originál bez vodoznaku TikToku, pod video vlastní hudbu (Afr
 
 ## 1) Stonefish (476 K na TikToku)
 - **Titulek:** Bojíš se žraloků v Egyptě? Řeš spíš, na co šlapeš 🐟 #egypt #shorts
-- **Popis:** Ropušnice (stonefish) se schovává na dně jako kámen a patří mezi nejjedovatější ryby světa. Do vody v Egyptě choď v botách do vody, na korály a dno nešlapej. Při bodnutí ihned vyhledej lékařskou pomoc. Ulož si to před dovolenou a pošli tomu, kdo letí do Egypta. Příručka zdarma: sharkypaul.com/prirucka
+- **Popis:** Odranec pravý (stonefish) se schovává na dně jako kámen a patří mezi nejjedovatější ryby světa. Do vody v Egyptě choď v botách do vody, na korály a dno nešlapej. Při bodnutí ihned vyhledej lékařskou pomoc. Ulož si to před dovolenou a pošli tomu, kdo letí do Egypta. Příručka zdarma: sharkypaul.com/prirucka
 - **Otázka:** Na co jsi v moři už šlápl/a ty?
-- **Tagy:** ropušnice, stonefish, Egypt, Rudé moře, šnorchlování, dovolená v Egyptě, boty do vody
+- **Tagy:** odranec, stonefish, Egypt, Rudé moře, šnorchlování, dovolená v Egyptě, boty do vody
 
 ## 2) Megalodon (249 K)
 - **Titulek:** Megalodon: schovává se ještě v hlubinách? 🦈 #megalodon #shorts

@@ -107,8 +107,8 @@ const csRaw: HomeContent = {
       "Autor dvou příruček o oceánu",
     ],
     signoff: "Pavel",
-    imgAlt: "Portrét Sharky Paula v egyptské poušti",
-    caption: "Egyptská poušť",
+    imgAlt: "Sharky Paul v neoprenu na lodi",
+    caption: "Na moři",
   },
   exp: {
     title: "Expedice v malé skupině",
@@ -255,8 +255,8 @@ export const en: HomeContent = {
       "Author of two ocean guides",
     ],
     signoff: "Pavel",
-    imgAlt: "Portrait of Sharky Paul in the Egyptian desert",
-    caption: "Egyptian desert",
+    imgAlt: "Sharky Paul in a wetsuit on a boat",
+    caption: "Out at sea",
   },
   exp: {
     title: "Expeditions in small groups",

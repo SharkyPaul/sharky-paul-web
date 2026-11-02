@@ -59,7 +59,7 @@ export default function HomePage({ c }: { c: HomeContent }) {
         <section className="sec" id="mission" aria-labelledby="story-title">
           <div className="wrap story">
             <figure className="story-fig">
-              <img src="/images/brand/desert.webp" alt={c.story.imgAlt} width={900} height={1200} loading="lazy" />
+              <img src="/images/brand/boat.webp" alt={c.story.imgAlt} width={1000} height={1000} loading="lazy" />
               <figcaption className="chart">{c.story.caption}</figcaption>
             </figure>
             <div>

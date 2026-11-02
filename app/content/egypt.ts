@@ -5,7 +5,7 @@ import type { StepContent } from "../components/StepArticle";
 // Nic nepřidávat bez ověření – první pomoc musí odpovídat zdrojům.
 
 const SOURCES_CS = [
-  { name: "DAN – Marine Envenomations: Vertebrates (rejnoci, perutýni, ropušnice)", url: "https://dan.org/alert-diver/article/marine-envenomations-vertebrates/" },
+  { name: "DAN – Marine Envenomations: Vertebrates (rejnoci, perutýni, odranci)", url: "https://dan.org/alert-diver/article/marine-envenomations-vertebrates/" },
   { name: "DAN – Fire Coral (ohnivý korál)", url: "https://dan.org/health-medicine/health-resources/diseases-conditions/fire-coral/" },
   { name: "DAN – Sea Urchins (ježovky)", url: "https://dan.org/health-medicine/health-resources/diseases-conditions/sea-urchins/" },
   { name: "NSW Agency for Clinical Innovation – Venomous marine stings", url: "https://aci.health.nsw.gov.au/networks/eci/clinical/tools/venomous-marine-stings" },
@@ -33,12 +33,12 @@ export const egyptCs: StepContent = {
   datePublished: "2026-11-02",
   steps: [
     {
-      title: "Ropušnice (stonefish)",
-      text: "Leží nehybně na dně nebo mezi kameny a vypadá jako porostlý kámen. Na hřbetě má jedovaté ostny. DAN uvádí, že ropušnice může způsobit i smrtelné bodnutí. Při bodnutí: ponoř místo do co nejteplejší snesitelné vody (asi 45 °C) až na 90 minut, odstraň viditelné úlomky a co nejdřív k lékaři – protijed se podává jen v nemocnici.",
+      title: "Odranec pravý (stonefish)",
+      text: "Leží nehybně na dně nebo mezi kameny a vypadá jako porostlý kámen (často se mu chybně říká ropušnice). Na hřbetě má jedovaté ostny. DAN uvádí, že odranec může způsobit i smrtelné bodnutí. Při bodnutí: ponoř místo do co nejteplejší snesitelné vody (asi 45 °C) až na 90 minut, odstraň viditelné úlomky a co nejdřív k lékaři – protijed se podává jen v nemocnici.",
     },
     {
       title: "Perutýn (lionfish)",
-      text: "Krásná ryba s vějířem ploutví, často u útesu a mol. Jedovaté jsou ostny v ploutvích. Bodnutí je podle DAN velmi bolestivé, ale jen vzácně smrtelné. První pomoc je stejná jako u ropušnice: horká voda, vyčištění rány, lékař. Prevence je jednoduchá – nesahej na něj a nefoť ho z centimetrové vzdálenosti.",
+      text: "Krásná ryba s vějířem ploutví, často u útesu a mol. Jedovaté jsou ostny v ploutvích. Bodnutí je podle DAN velmi bolestivé, ale jen vzácně smrtelné. První pomoc je stejná jako u odrance: horká voda, vyčištění rány, lékař. Prevence je jednoduchá – nesahej na něj a nefoť ho z centimetrové vzdálenosti.",
     },
     {
       title: "Trnucha (rejnok) zahrabaná v písku",
@@ -63,7 +63,7 @@ export const egyptCs: StepContent = {
   ],
   signsTitle: "Jak se tomu vyhnout: 6 pravidel na pláž",
   signs: [
-    "Boty do vody, hlavně na kamenech, korálech a při vstupu z mola – ropušnici ani ježovku na dně často neuvidíš.",
+    "Boty do vody, hlavně na kamenech, korálech a při vstupu z mola – odrance ani ježovku na dně často neuvidíš.",
     "V písčité mělčině šoupej nohama, nedělej dlouhé kroky (rejnoci).",
     "Na nic nesahej, nestoupej na útes a nekleč na korálech. Klečet jen na čistém písku.",
     "Ulity a „kameny“ ze dna nesbírej, nic nekrm a nestrkej ruce do škvír.",
@@ -82,11 +82,11 @@ export const egyptCs: StepContent = {
   faq: [
     {
       q: "Co je v Egyptě nebezpečnější než žraloci?",
-      a: "Pro běžného rekreanta jsou mnohem častějším problémem zranění od zvířat na dně a na útesu: ježovky, ohnivý korál, rejnoci zahrabaní v písku, perutýni a ropušnice. Většině z nich předejdeš botami do vody a tím, že na nic nesaháš.",
+      a: "Pro běžného rekreanta jsou mnohem častějším problémem zranění od zvířat na dně a na útesu: ježovky, ohnivý korál, rejnoci zahrabaní v písku, perutýni a odranci. Většině z nich předejdeš botami do vody a tím, že na nic nesaháš.",
     },
     {
-      q: "Co dělat, když šlápnu na ropušnici?",
-      a: "Vylez z vody, ponoř nohu do co nejteplejší snesitelné vody (asi 45 °C) až na 90 minut a co nejdřív vyhledej lékaře. DAN uvádí, že bodnutí ropušnice může být i smrtelné a protijed se podává jen v nemocnici.",
+      q: "Co dělat, když šlápnu na odrance?",
+      a: "Vylez z vody, ponoř nohu do co nejteplejší snesitelné vody (asi 45 °C) až na 90 minut a co nejdřív vyhledej lékaře. DAN uvádí, že bodnutí odrance může být i smrtelné a protijed se podává jen v nemocnici.",
     },
     {
       q: "Pomáhá na ohnivý korál ocet?",
