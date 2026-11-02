@@ -30,12 +30,12 @@ export type HomeContent = {
     partnerLink: string;
     imgAlt: string;
     caption: string;
-    videoTitle: string;
-    videoPlay: string;
-    videoCaption: string;
   };
   sharks: {
     title: string;
+    videoTitle: string;
+    videoPlay: string;
+    videoCaption: string;
     intro: string;
     guideTitle: string;
     guideText: string;
@@ -122,12 +122,12 @@ const csRaw: HomeContent = {
     partnerLink: "divezenretreats.com",
     imgAlt: "Sharky Paul pod vodou se dvěma želvami na písčitém dně",
     caption: "Karety obrovské u Abu Dabbab, Rudé moře",
-    videoTitle: "Sharky Paul – dokument",
-    videoPlay: "Pustit dokument",
-    videoCaption: "Krátký dokument o tom, jak natáčím a potápím se",
   },
   sharks: {
     title: "Žraloci bez mýtů",
+    videoTitle: "Megalodon dnes? AI vizualizace",
+    videoPlay: "Pustit video",
+    videoCaption: "AI vizualizace: jak by vypadal megalodon, kdyby žil dnes – a proč žít nemůže.",
     intro: "Strach ze žraloků většinou pramení z filmů. Fakta beru od Florida Museum (International Shark Attack File) a programu SharkSmart.",
     guideTitle: "Příručka Prevence",
     guideText:
@@ -270,12 +270,12 @@ export const en: HomeContent = {
     partnerLink: "divezenretreats.com",
     imgAlt: "Sharky Paul underwater with two turtles on a sandy seabed",
     caption: "Green turtles at Abu Dabbab, Red Sea",
-    videoTitle: "Sharky Paul – documentary",
-    videoPlay: "Play the documentary",
-    videoCaption: "A short documentary about how I dive and film",
   },
   sharks: {
     title: "Sharks without the myths",
+    videoTitle: "Megalodon today? An AI visualisation",
+    videoPlay: "Play video",
+    videoCaption: "AI visualisation: what a megalodon would look like if it lived today – and why it can't.",
     intro: "Most fear of sharks comes from films. My facts come from the Florida Museum (International Shark Attack File) and the SharkSmart programme.",
     guideTitle: "Prevention guide",
     guideText:

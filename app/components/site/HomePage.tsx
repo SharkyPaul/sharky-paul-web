@@ -110,10 +110,6 @@ export default function HomePage({ c }: { c: HomeContent }) {
                 </div>
               </div>
             </div>
-            <figure className="video">
-              <VideoFacade id="TBKEMZPfgyw" title={c.exp.videoTitle} playLabel={c.exp.videoPlay} />
-              <figcaption className="chart">{c.exp.videoCaption}</figcaption>
-            </figure>
           </div>
         </section>
 
@@ -154,6 +150,10 @@ export default function HomePage({ c }: { c: HomeContent }) {
                 </li>
               ))}
             </ul>
+            <figure className="video">
+              <VideoFacade id="TBKEMZPfgyw" title={c.sharks.videoTitle} playLabel={c.sharks.videoPlay} />
+              <figcaption className="chart">{c.sharks.videoCaption}</figcaption>
+            </figure>
           </div>
         </section>
 
