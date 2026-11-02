@@ -343,6 +343,20 @@ export default function HomePage({ c }: { c: HomeContent }) {
       </main>
 
       <SiteFooter lang={c.lang} />
+      {/* profilová stránka: hlavní téma je osoba Sharky Paul (pomáhá Googlu propojit web s profily) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ProfilePage",
+            url: isCs ? "https://www.sharkypaul.com/" : "https://www.sharkypaul.com/en",
+            inLanguage: isCs ? "cs-CZ" : "en",
+            mainEntity: { "@id": "https://www.sharkypaul.com/#person" },
+            isPartOf: { "@id": "https://www.sharkypaul.com/#website" },
+          }),
+        }}
+      />
     </div>
   );
 }
