@@ -1,6 +1,23 @@
 import type { Metadata, Viewport } from "next";
+import { Bodoni_Moda, Jost } from "next/font/google";
 import Script from "next/script";
+import SWRegister from "./components/site/SWRegister";
 import "./globals.css";
+
+const serif = Bodoni_Moda({
+  subsets: ["latin", "latin-ext"],
+  style: ["normal", "italic"],
+  axes: ["opsz"],
+  variable: "--font-serif",
+  display: "swap",
+});
+
+const sans = Jost({
+  subsets: ["latin", "latin-ext"],
+  weight: ["300", "400", "500"],
+  variable: "--font-sans",
+  display: "swap",
+});
 
 const SITE = "https://www.sharkypaul.com";
 const DESC =
@@ -46,10 +63,12 @@ export const metadata: Metadata = {
     images: ["/images/og-sharkypaul.jpg"],
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large" } },
+  appleWebApp: { capable: true, title: "Sharky Paul", statusBarStyle: "black-translucent" },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0a0a0a",
+  themeColor: "#0f4656",
+  colorScheme: "dark",
 };
 
 const jsonLd = {
@@ -111,9 +130,10 @@ const jsonLd = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="cs" className="h-full antialiased">
-      <body className="min-h-full flex flex-col">
+    <html lang="cs" className={`${serif.variable} ${sans.variable}`}>
+      <body>
         {children}
+        <SWRegister />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

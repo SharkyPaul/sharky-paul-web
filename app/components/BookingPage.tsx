@@ -1,3 +1,6 @@
+import SiteFooter from "./site/SiteFooter";
+import SiteHeader from "./site/SiteHeader";
+
 export type Offer = { title: string; text: string };
 export type BookingContent = {
   lang: "cs" | "en";
@@ -36,18 +39,9 @@ export default function BookingPage({ c }: { c: BookingContent }) {
 
   return (
     <div lang={c.lang}>
-      <header>
-        <a href={c.homeUrl} className="word" style={{ textDecoration: "none" }}>
-          SHARKY PAUL
-        </a>
-        <nav style={{ display: "flex", gap: 18 }}>
-          <a href={c.homeUrl}>{c.homeLabel}</a>
-          <a href={c.lang === "en" ? "/en/media-kit" : "/media-kit"}>Media kit</a>
-          <a href={c.altUrl}>{c.altLabel}</a>
-        </nav>
-      </header>
+      <SiteHeader lang={c.lang} altHref={c.altUrl} />
 
-      <main className="article">
+      <main className="article" id="obsah">
         <div className="eyebrow-sm">{c.eyebrow}</div>
         <h1>{c.title}</h1>
         <p className="article-lead">{c.lead}</p>
@@ -92,10 +86,7 @@ export default function BookingPage({ c }: { c: BookingContent }) {
         </section>
       </main>
 
-      <footer>
-        <div className="foot-word">SHARKY PAUL</div>
-        <div className="foot-tag">Respect the locals — on land and at sea</div>
-      </footer>
+      <SiteFooter lang={c.lang} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(person) }} />
     </div>

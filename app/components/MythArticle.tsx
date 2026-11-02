@@ -1,3 +1,5 @@
+import SiteFooter from "./site/SiteFooter";
+import SiteHeader from "./site/SiteHeader";
 import ShareButtons from "./ShareButtons";
 
 export type Myth = { myth: string; fact: string };
@@ -53,17 +55,9 @@ export default function MythArticle({ c }: { c: MythContent }) {
 
   return (
     <div lang={c.lang}>
-      <header>
-        <a href={c.homeUrl} className="word" style={{ textDecoration: "none" }}>
-          SHARKY PAUL
-        </a>
-        <nav style={{ display: "flex" }}>
-          <a href={c.homeUrl}>{c.homeLabel}</a>
-          <a href={c.altUrl}>{c.altLabel}</a>
-        </nav>
-      </header>
+      <SiteHeader lang={c.lang} altHref={c.altUrl} />
 
-      <main className="article">
+      <main className="article" id="obsah">
         <div className="eyebrow-sm">{c.eyebrow}</div>
         <h1>{c.title}</h1>
         <p className="article-lead">{c.lead}</p>
@@ -132,10 +126,7 @@ export default function MythArticle({ c }: { c: MythContent }) {
         </section>
       </main>
 
-      <footer>
-        <div className="foot-word">SHARKY PAUL</div>
-        <div className="foot-tag">Respect the locals — on land and at sea</div>
-      </footer>
+      <SiteFooter lang={c.lang} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(article) }} />
