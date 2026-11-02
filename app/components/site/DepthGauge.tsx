@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 
 const MAX_DEPTH = 30; // m – hranice PADI Advanced Open Water
+const PSI_PER_BAR = 14.5;
 
 // Barvy ve slunečním světle v čisté vodě: hloubka (m), ve které zhruba zmizí.
 // Zdroj: scubadiverinfo.com (červená ~6 m, oranžová ~15 m, žlutá ~30 m); zelená a modrá vydrží nejdéle.
@@ -14,16 +15,19 @@ const COLORS = [
   { name: "blue", css: "#5ccff0", gone: 0 },
 ];
 
-type Props = { label: string; lang?: "cs" | "en"; title?: string };
+type Help = { label: string; title: string; items: { b: string; t: string }[]; close: string };
+type Props = { label: string; lang?: "cs" | "en"; title?: string; help?: Help };
 
 // Hloubkoměr: posun stránky = sestup z hladiny do 30 metrů.
 // Ukazuje hloubku, absolutní tlak (bar a PSI; každých 10 m mořské vody přidá zhruba 1 bar)
-// a barvy, které v dané hloubce ještě vidíš.
-export default function DepthGauge({ label, lang = "cs", title }: Props) {
+// a barvy, které v dané hloubce ještě vidíš. Otazník otevře vysvětlení pro laiky
+// (nativní <details>, funguje i bez JavaScriptu).
+export default function DepthGauge({ label, lang = "cs", title, help }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   const depthRef = useRef<HTMLElement>(null);
   const presRef = useRef<HTMLElement>(null);
   const dotsRef = useRef<HTMLSpanElement>(null);
+  const helpRef = useRef<HTMLDetailsElement>(null);
 
   useEffect(() => {
     let raf = 0;
@@ -36,7 +40,7 @@ export default function DepthGauge({ label, lang = "cs", title }: Props) {
       const d = Math.round(p * MAX_DEPTH);
       el.style.setProperty("--p", p.toFixed(4));
       const bar = 1 + d / 10;
-      const psi = Math.round(bar * 14.7);
+      const psi = Math.round(bar * PSI_PER_BAR);
       const barTxt = lang === "cs" ? bar.toFixed(1).replace(".", ",") : bar.toFixed(1);
       if (depthRef.current) depthRef.current.textContent = `${d} m`;
       if (presRef.current) presRef.current.textContent = `${barTxt} bar · ${psi} PSI`;
@@ -61,9 +65,13 @@ export default function DepthGauge({ label, lang = "cs", title }: Props) {
     };
   }, [lang]);
 
+  const closeHelp = () => {
+    if (helpRef.current) helpRef.current.open = false;
+  };
+
   return (
-    <div className="gauge" ref={ref} aria-hidden="true">
-      <div className="gauge-scale">
+    <div className="gauge" ref={ref}>
+      <div className="gauge-scale" aria-hidden="true">
         <i className="gauge-mark" />
         <span className="gauge-read" title={title ?? label}>
           <b ref={depthRef}>0 m</b>
@@ -75,6 +83,27 @@ export default function DepthGauge({ label, lang = "cs", title }: Props) {
           </span>
         </span>
       </div>
+      {help && (
+        <details className="gauge-help" ref={helpRef}>
+          <summary aria-label={help.label} title={help.label}>
+            ?
+          </summary>
+          <div className="gauge-panel" role="note">
+            <p className="gauge-panel-t">{help.title}</p>
+            <dl>
+              {help.items.map((it) => (
+                <div key={it.b}>
+                  <dt>{it.b}</dt>
+                  <dd>{it.t}</dd>
+                </div>
+              ))}
+            </dl>
+            <button type="button" className="link gauge-close" onClick={closeHelp}>
+              {help.close}
+            </button>
+          </div>
+        </details>
+      )}
     </div>
   );
 }

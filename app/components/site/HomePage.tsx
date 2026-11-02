@@ -15,7 +15,7 @@ export default function HomePage({ c }: { c: HomeContent }) {
   return (
     <div lang={c.lang}>
       <SiteHeader lang={c.lang} />
-      <DepthGauge label={NAV[c.lang].depth} lang={c.lang} title={NAV[c.lang].depthTitle} />
+      <DepthGauge label={NAV[c.lang].depth} lang={c.lang} title={NAV[c.lang].depthTitle} help={NAV[c.lang].gaugeHelp} />
 
       <main id="obsah">
         {/* 0 m – hladina */}

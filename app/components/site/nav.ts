@@ -36,6 +36,7 @@ type NavText = {
   skip: string;
   depth: string;
   depthTitle: string;
+  gaugeHelp: { label: string; title: string; items: { b: string; t: string }[]; close: string };
   foot: {
     tag: string;
     exploreTitle: string;
@@ -70,6 +71,17 @@ export const NAV: Record<Lang, NavText> = {
     skip: "Přeskočit na obsah",
     depth: "Hloubka",
     depthTitle: "Hloubka, absolutní tlak a barvy, které v čisté vodě ještě uvidíš",
+    gaugeHelp: {
+      label: "Co ukazuje hloubkoměr?",
+      title: "Co ukazuje hloubkoměr?",
+      items: [
+        { b: "Hloubka", t: "Stránka je jako ponor. Nahoře jsi u hladiny, dole ve 30 metrech, kam smí potápěč s kurzem PADI Advanced Open Water." },
+        { b: "Tlak v barech", t: "Na hladině na tebe tlačí vzduch silou 1 baru. Každých 10 metrů vody přidá další bar, takže v 10 m je tlak dvakrát větší než nahoře. Proto tě při klesání tlačí v uších a musíš je vyrovnávat." },
+        { b: "PSI", t: "Stejný tlak v amerických jednotkách, jak ho ukazují některé potápěčské přístroje. 1 bar je asi 14,5 PSI." },
+        { b: "Barevné tečky", t: "Voda pohlcuje sluneční světlo. V čisté vodě nejdřív zmizí červená (kolem 6 m), pak oranžová (kolem 15 m) a žlutá (kolem 30 m). Proto je pod vodou všechno modrozelené. Svítilna barvy vrátí." },
+      ],
+      close: "Zavřít",
+    },
     foot: {
       tag: "Respect the Locals – na souši i v moři.",
       exploreTitle: "Oceán",
@@ -113,6 +125,17 @@ export const NAV: Record<Lang, NavText> = {
     skip: "Skip to content",
     depth: "Depth",
     depthTitle: "Depth, absolute pressure and the colours you still see in clear water",
+    gaugeHelp: {
+      label: "What does the depth gauge show?",
+      title: "What does the depth gauge show?",
+      items: [
+        { b: "Depth", t: "The page is a dive. At the top you are at the surface, at the bottom you are at 30 metres, the limit for PADI Advanced Open Water divers." },
+        { b: "Pressure in bar", t: "At the surface the air presses on you with 1 bar. Every 10 metres of water adds another bar, so at 10 m the pressure is twice as high as at the top. That is why your ears hurt on the way down and you need to equalise." },
+        { b: "PSI", t: "The same pressure in US units, as some dive computers show it. 1 bar is about 14.5 PSI." },
+        { b: "Colour dots", t: "Water absorbs sunlight. In clear water red goes first (around 6 m), then orange (around 15 m) and yellow (around 30 m). That is why everything looks blue-green underwater. A dive torch brings the colours back." },
+      ],
+      close: "Close",
+    },
     foot: {
       tag: "Respect the Locals – on land and at sea.",
       exploreTitle: "Ocean",
