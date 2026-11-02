@@ -55,12 +55,11 @@ export const NAV: Record<Lang, NavText> = {
   cs: {
     home: "/",
     links: [
-      { href: "/#mission", label: "Příběh" },
-      { href: "/#expedice", label: "Expedice" },
       { href: "/#prirucka", label: "Žraloci" },
+      { href: "/#expedice", label: "Expedice" },
       { href: "/#music", label: "Hudba" },
+      { href: "/#partneri", label: "Spolupráce" },
       { href: "/#kolekce", label: "Kolekce" },
-      { href: "/booking", label: "Booking" },
       { href: "/aplikace", label: "Aplikace" },
     ],
     menu: "Menu",
@@ -109,12 +108,11 @@ export const NAV: Record<Lang, NavText> = {
   en: {
     home: "/en",
     links: [
-      { href: "/en#mission", label: "Story" },
-      { href: "/en#expedice", label: "Expeditions" },
       { href: "/en#prirucka", label: "Sharks" },
+      { href: "/en#expedice", label: "Expeditions" },
       { href: "/en#music", label: "Music" },
+      { href: "/en#partneri", label: "Work with me" },
       { href: "/en#kolekce", label: "Collection" },
-      { href: "/en/booking", label: "Booking" },
       { href: "/en/app", label: "App" },
     ],
     menu: "Menu",

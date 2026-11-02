@@ -8,11 +8,13 @@ export type HomeContent = {
     lead: string;
     ctaGuide: string;
     ctaGuideHref: string;
-    ctaExp: string;
-    proof: string;
-    caption: string;
+    ctaSecond: string;
+    ctaSecondHref: string;
     imgAlt: string;
   };
+  kickers: { story: string; sharks: string; exp: string; music: string; partners: string; coll: string };
+  paths: { title: string; go: string; items: { kicker: string; title: string; href: string; img: string; w: number; h: number; pos: string; alt: string }[] };
+  stats: { title: string; items: { n: string; t: string }[] };
   story: {
     title: string;
     lede: string;
@@ -76,6 +78,8 @@ export type HomeContent = {
     booking: string;
     bookingHref: string;
     mediaKitHref: string;
+    offer: { t: string; d: string }[];
+    imgAlt: string;
   };
 };
 
@@ -86,10 +90,29 @@ const csRaw: HomeContent = {
     lead: "Jsem Pavel – potápěč, popularizátor žraloků a DJ. Ukazuju oceán takový, jaký opravdu je: bez mýtů, bez strachu a s respektem k těm, kdo v něm žijí.",
     ctaGuide: "Stáhnout příručku zdarma",
     ctaGuideHref: "/prirucka",
-    ctaExp: "Expedice v Rudém moři",
-    proof: "3,6 milionu zhlédnutí na TikToku. 96 % diváků je z Česka a Slovenska.",
-    caption: "Na palubě před ponorem v kleci",
+    ctaSecond: "Pro hotely a cestovky",
+    ctaSecondHref: "#partneri",
     imgAlt: "Sharky Paul pod vodou s dugongem, Rudé moře",
+  },
+  kickers: { story: "Příběh", sharks: "Žraloci", exp: "Expedice", music: "Hudba", partners: "Spolupráce", coll: "Kolekce" },
+  paths: {
+    title: "Co tu najdeš",
+    go: "Zjistit víc",
+    items: [
+      { kicker: "Žraloci", title: "Bez mýtů a bez strachu", href: "#prirucka", img: "/images/media/mask.jpg", w: 1600, h: 900, pos: "42% 50%", alt: "Sharky Paul pod vodou v potápěčské masce" },
+      { kicker: "Expedice", title: "Rudé moře v malé skupině", href: "#expedice", img: "/images/media/turtle.jpg", w: 1079, h: 898, pos: "50% 60%", alt: "Sharky Paul pod vodou s mořskou želvou" },
+      { kicker: "Hudba", title: "Afro Tribal Bounce", href: "#music", img: "/images/brand/dj-decks.webp", w: 900, h: 836, pos: "62% 50%", alt: "Sharky Paul za DJ pultem" },
+      { kicker: "Spolupráce", title: "Pro hotely a cestovky", href: "#partneri", img: "/images/media/jetty.jpg", w: 1000, h: 1333, pos: "50% 40%", alt: "Sharky Paul na molu u moře" },
+    ],
+  },
+  stats: {
+    title: "Sharky Paul v číslech",
+    items: [
+      { n: "3,6 mil.", t: "zhlédnutí na TikToku" },
+      { n: "476 tis.", t: "zhlédnutí nejlepšího videa" },
+      { n: "96 %", t: "publika z Česka a Slovenska" },
+      { n: "2010", t: "první ponor" },
+    ],
   },
   story: {
     title: "Oceán není aquapark.",
@@ -222,6 +245,12 @@ const csRaw: HomeContent = {
     booking: "Booking",
     bookingHref: "/booking",
     mediaKitHref: "/kit",
+    offer: [
+      { t: "Přednáška pro hosty", d: "Žraloci bez mýtů, proudy a situace, které turisté u moře podceňují." },
+      { t: "DJ sety", d: "Přes den chill Afro u bazénu, večer Afro Tribal Bounce." },
+      { t: "Obsah pro vaše kanály", d: "Videa, živá vysílání a fotky z vašeho místa." },
+    ],
+    imgAlt: "Portrét Sharky Paula",
   },
 };
 
@@ -234,10 +263,29 @@ export const en: HomeContent = {
     lead: "I’m Pavel – a diver, shark educator and DJ. I show the ocean as it really is: no myths, no fear, and respect for the ones who live there.",
     ctaGuide: "What to do if you see a shark",
     ctaGuideHref: "/en/what-to-do-if-you-see-a-shark",
-    ctaExp: "Red Sea expeditions",
-    proof: "3.6 million views on TikTok. 96% of my audience is from Czechia and Slovakia.",
-    caption: "On deck before a cage dive",
+    ctaSecond: "For hotels and travel brands",
+    ctaSecondHref: "#partneri",
     imgAlt: "Sharky Paul diving with a dugong in the Red Sea",
+  },
+  kickers: { story: "Story", sharks: "Sharks", exp: "Expeditions", music: "Music", partners: "Work with me", coll: "Collection" },
+  paths: {
+    title: "What you’ll find here",
+    go: "Discover",
+    items: [
+      { kicker: "Sharks", title: "No myths, no fear", href: "#prirucka", img: "/images/media/mask.jpg", w: 1600, h: 900, pos: "42% 50%", alt: "Sharky Paul underwater in a diving mask" },
+      { kicker: "Expeditions", title: "The Red Sea in small groups", href: "#expedice", img: "/images/media/turtle.jpg", w: 1079, h: 898, pos: "50% 60%", alt: "Sharky Paul underwater with a sea turtle" },
+      { kicker: "Music", title: "Afro Tribal Bounce", href: "#music", img: "/images/brand/dj-decks.webp", w: 900, h: 836, pos: "62% 50%", alt: "Sharky Paul at the DJ decks" },
+      { kicker: "Work with me", title: "For hotels and travel brands", href: "#partneri", img: "/images/media/jetty.jpg", w: 1000, h: 1333, pos: "50% 40%", alt: "Sharky Paul on a jetty by the sea" },
+    ],
+  },
+  stats: {
+    title: "Sharky Paul in numbers",
+    items: [
+      { n: "3.6M", t: "views on TikTok" },
+      { n: "476K", t: "views on the best video" },
+      { n: "96%", t: "of the audience from Czechia and Slovakia" },
+      { n: "2010", t: "first dive" },
+    ],
   },
   story: {
     title: "The ocean is not a water park.",
@@ -370,5 +418,11 @@ export const en: HomeContent = {
     booking: "Booking",
     bookingHref: "/en/booking",
     mediaKitHref: "/kit",
+    offer: [
+      { t: "A talk for your guests", d: "Sharks without the myths, currents and other situations tourists often underestimate." },
+      { t: "DJ sets", d: "Chill Afro by the pool in the day, Afro Tribal Bounce at night." },
+      { t: "Content for your channels", d: "Videos, live streams and photos from your property." },
+    ],
+    imgAlt: "Portrait of Sharky Paul",
   },
 };

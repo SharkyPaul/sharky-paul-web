@@ -11,6 +11,8 @@ import VideoFacade from "./VideoFacade";
 
 const SPOTIFY_ARTIST = "2GHTzhhq2NyBqjfnpyXTme";
 
+// Úvodní stránka: jedna myšlenka na obrazovku. Pořadí: úvod → rozcestník → čísla → příběh → žraloci
+// → expedice → hudba → spolupráce → kolekce. Bloky s třídou "reveal" se při posunu jemně objeví (jen CSS).
 export default function HomePage({ c }: { c: HomeContent }) {
   const isCs = c.lang === "cs";
   return (
@@ -33,11 +35,10 @@ export default function HomePage({ c }: { c: HomeContent }) {
               <a href={c.hero.ctaGuideHref} className="btn solid">
                 {c.hero.ctaGuide}
               </a>
-              <a href="#expedice" className="link">
-                {c.hero.ctaExp}
+              <a href={c.hero.ctaSecondHref} className="link">
+                {c.hero.ctaSecond}
               </a>
             </div>
-            <p className="hero-proof">{c.hero.proof}</p>
           </div>
           <div className="hero-media">
             <picture>
@@ -55,14 +56,45 @@ export default function HomePage({ c }: { c: HomeContent }) {
           </div>
         </section>
 
+        {/* rozcestník */}
+        <nav className="paths" aria-label={c.paths.title}>
+          <ul className="paths-list">
+            {c.paths.items.map((p) => (
+              <li key={p.href} className="reveal">
+                <a href={p.href} className="path">
+                  <img src={p.img} alt={p.alt} width={p.w} height={p.h} loading="lazy" style={{ objectPosition: p.pos }} />
+                  <span className="path-copy">
+                    <span className="kicker">{p.kicker}</span>
+                    <span className="path-t">{p.title}</span>
+                    <span className="path-go">{c.paths.go}</span>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        {/* čísla */}
+        <section className="stats" aria-label={c.stats.title}>
+          <ul className="stats-list">
+            {c.stats.items.map((s) => (
+              <li key={s.t} className="reveal">
+                <b>{s.n}</b>
+                <span>{s.t}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
         {/* příběh */}
         <section className="sec" id="mission" aria-labelledby="story-title">
           <div className="wrap story">
-            <figure className="story-fig">
+            <figure className="story-fig reveal">
               <img src="/images/brand/boat.webp" alt={c.story.imgAlt} width={1000} height={1000} loading="lazy" />
               <figcaption className="chart">{c.story.caption}</figcaption>
             </figure>
-            <div>
+            <div className="reveal">
+              <p className="kicker">{c.kickers.story}</p>
               <h2 className="sec-title" id="story-title">
                 {c.story.title}
               </h2>
@@ -85,15 +117,63 @@ export default function HomePage({ c }: { c: HomeContent }) {
           </div>
         </section>
 
+        {/* žraloci */}
+        <section className="sec" id="prirucka" aria-labelledby="sharks-title">
+          <div className="wrap">
+            <div className="sec-head reveal">
+              <div>
+                <p className="kicker">{c.kickers.sharks}</p>
+                <h2 className="sec-title" id="sharks-title">
+                  {c.sharks.title}
+                </h2>
+              </div>
+              <p>{c.sharks.intro}</p>
+            </div>
+            <div className="guide reveal">
+              <a href="/prirucka" className="guide-cover" aria-label={c.sharks.guideCta}>
+                <img src="/images/brand/prirucka-prevence.webp" alt={c.sharks.guideAlt} width={600} height={848} loading="lazy" />
+              </a>
+              <div>
+                <h3>{c.sharks.guideTitle}</h3>
+                <p>{c.sharks.guideText}</p>
+                <p className="guide-meta">{c.sharks.guideMeta}</p>
+                <InAppNote text={c.sharks.inApp} />
+                <div className="hero-cta">
+                  <a href="/prirucka" className="btn solid">
+                    {c.sharks.guideCta}
+                  </a>
+                </div>
+                <ShareButtons url="https://www.sharkypaul.com/prirucka" text={c.sharks.shareText} lang={c.lang} />
+              </div>
+            </div>
+            <ul className="reads">
+              {c.sharks.reads.map((r) => (
+                <li key={r.href} className="reveal">
+                  <a href={r.href}>
+                    <span className="reads-t">{r.title}</span>
+                    <span className="reads-d">{r.text}</span>
+                    <span className="reads-go">{r.go}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <figure className="video reveal">
+              <VideoFacade id="TBKEMZPfgyw" title={c.sharks.videoTitle} playLabel={c.sharks.videoPlay} />
+              <figcaption className="chart">{c.sharks.videoCaption}</figcaption>
+            </figure>
+          </div>
+        </section>
+
         {/* expedice */}
         <section className="sec" id="expedice" aria-labelledby="exp-title">
           <div className="wrap">
             <div className="exp">
-              <figure className="exp-fig">
+              <figure className="exp-fig reveal">
                 <img src="/images/brand/turtles.webp" alt={c.exp.imgAlt} width={1074} height={670} loading="lazy" />
                 <figcaption className="chart">{c.exp.caption}</figcaption>
               </figure>
-              <div>
+              <div className="reveal">
+                <p className="kicker">{c.kickers.exp}</p>
                 <h2 className="sec-title" id="exp-title">
                   {c.exp.title}
                 </h2>
@@ -114,58 +194,15 @@ export default function HomePage({ c }: { c: HomeContent }) {
           </div>
         </section>
 
-        {/* žraloci */}
-        <section className="sec" id="prirucka" aria-labelledby="sharks-title">
-          <div className="wrap">
-            <div className="sec-head">
-              <h2 className="sec-title" id="sharks-title">
-                {c.sharks.title}
-              </h2>
-              <p>{c.sharks.intro}</p>
-            </div>
-            <div className="guide">
-              <a href="/prirucka" className="guide-cover" aria-label={c.sharks.guideCta}>
-                <img src="/images/brand/prirucka-prevence.webp" alt={c.sharks.guideAlt} width={600} height={848} loading="lazy" />
-              </a>
-              <div>
-                <h3>{c.sharks.guideTitle}</h3>
-                <p>{c.sharks.guideText}</p>
-                <p className="guide-meta">{c.sharks.guideMeta}</p>
-                <InAppNote text={c.sharks.inApp} />
-                <div className="hero-cta">
-                  <a href="/prirucka" className="btn solid">
-                    {c.sharks.guideCta}
-                  </a>
-                </div>
-                <ShareButtons url="https://www.sharkypaul.com/prirucka" text={c.sharks.shareText} lang={c.lang} />
-              </div>
-            </div>
-            <ul className="reads">
-              {c.sharks.reads.map((r) => (
-                <li key={r.href}>
-                  <a href={r.href}>
-                    <span className="reads-t">{r.title}</span>
-                    <span className="reads-d">{r.text}</span>
-                    <span className="reads-go">{r.go}</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
-            <figure className="video">
-              <VideoFacade id="TBKEMZPfgyw" title={c.sharks.videoTitle} playLabel={c.sharks.videoPlay} />
-              <figcaption className="chart">{c.sharks.videoCaption}</figcaption>
-            </figure>
-          </div>
-        </section>
-
         {/* hudba */}
         <section className="sec" id="music" aria-labelledby="music-title">
           <div className="wrap music">
-            <div className="music-figs">
+            <div className="music-figs reveal">
               <img className="a" src="/images/brand/dj.webp" alt={c.music.imgAlt} width={896} height={894} loading="lazy" />
               <img className="b" src="/images/brand/dj-decks.webp" alt={c.music.imgAlt2} width={900} height={836} loading="lazy" />
             </div>
-            <div>
+            <div className="reveal">
+              <p className="kicker">{c.kickers.music}</p>
               <h2 className="sec-title" id="music-title">
                 {c.music.title}
               </h2>
@@ -209,51 +246,85 @@ export default function HomePage({ c }: { c: HomeContent }) {
           </div>
         </section>
 
+        {/* spolupráce */}
+        <section className="sec" id="partneri" aria-labelledby="partners-title">
+          <div className="wrap partners">
+            <figure className="partners-fig reveal">
+              <img src="/images/media/portrait.jpg" alt={c.partners.imgAlt} width={1000} height={1000} loading="lazy" />
+            </figure>
+            <div className="reveal">
+              <p className="kicker">{c.kickers.partners}</p>
+              <h2 className="sec-title" id="partners-title">
+                {c.partners.title}
+              </h2>
+              <p className="partners-text">{c.partners.text}</p>
+              <ul className="offer">
+                {c.partners.offer.map((o) => (
+                  <li key={o.t}>
+                    <b>{o.t}</b>
+                    <span>{o.d}</span>
+                  </li>
+                ))}
+              </ul>
+              <div className="hero-cta">
+                <a href={c.partners.mediaKitHref} className="btn solid">
+                  {c.partners.kit}
+                </a>
+                <a href="/downloads/sharky-paul-media-kit.pdf" className="btn">
+                  {c.partners.kitPdf}
+                </a>
+                <a href={c.partners.bookingHref} className="link">
+                  {c.partners.booking}
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* kolekce */}
         <section className="sec" id="kolekce" aria-labelledby="coll-title">
           <div className="wrap">
-            <div className="sec-head">
-              <h2 className="sec-title" id="coll-title">
-                {c.coll.title}
-              </h2>
+            <div className="sec-head reveal">
+              <div>
+                <p className="kicker">{c.kickers.coll}</p>
+                <h2 className="sec-title" id="coll-title">
+                  {c.coll.title}
+                </h2>
+              </div>
               <p>{c.coll.intro}</p>
             </div>
 
-            <article className="drop">
-              <div className="drop-media">
-                <a href="/images/ocean-gear-rashguard.jpg" target="_blank" rel="noopener">
+            <div className="products">
+              <article className="product reveal">
+                <a href="/images/ocean-gear-rashguard.jpg" target="_blank" rel="noopener" className="product-img">
                   <img src="/images/ocean-gear-rashguard.jpg" alt={c.coll.gear.alt1} width={1000} height={1094} loading="lazy" />
                 </a>
-                <a href="/images/ocean-gear-collection.jpg" target="_blank" rel="noopener">
-                  <img src="/images/ocean-gear-collection.jpg" alt={c.coll.gear.alt2} width={1200} height={800} loading="lazy" />
-                </a>
-              </div>
-              <div>
                 <span className="drop-state">{c.coll.gear.state}</span>
                 <h3>{c.coll.gear.title}</h3>
                 <p>{c.coll.gear.text}</p>
-              </div>
-            </article>
+                <a href="/images/ocean-gear-collection.jpg" target="_blank" rel="noopener" className="link">
+                  {isCs ? "Celá kolekce" : "The full collection"}
+                </a>
+              </article>
 
-            <article className="drop rev">
-              <div className="drop-media single">
-                <a href="/images/sharky-paul-bomber.jpg" target="_blank" rel="noopener">
+              <article className="product reveal" id="shop">
+                <a href="/images/sharky-paul-bomber.jpg" target="_blank" rel="noopener" className="product-img">
                   <img src="/images/sharky-paul-bomber.jpg" alt={c.coll.bomber.alt} width={1000} height={1094} loading="lazy" />
                 </a>
-              </div>
-              <div>
                 <span className="drop-state">{c.coll.bomber.state}</span>
                 <h3>{c.coll.bomber.title}</h3>
                 <p>{c.coll.bomber.text}</p>
                 <a href={`mailto:${EMAIL}?subject=Luxury%20Bomber`} className="btn solid">
                   {c.coll.bomber.cta}
                 </a>
-              </div>
-            </article>
+              </article>
+            </div>
 
-            <div className="cargo" id="shop">
-              <h3>{c.coll.cargoTitle}</h3>
-              <p>{c.coll.cargoText}</p>
+            <details className="cargo reveal">
+              <summary>
+                <span className="cargo-h">{c.coll.cargoTitle}</span>
+                <span className="cargo-sub">{c.coll.cargoText}</span>
+              </summary>
               <ul className="cargo-list">
                 {c.coll.cargo.map((it) => (
                   <li key={it.name}>
@@ -266,30 +337,7 @@ export default function HomePage({ c }: { c: HomeContent }) {
               <a className="link" href={`mailto:${EMAIL}?subject=${encodeURIComponent(c.coll.cargoTitle)}`}>
                 {c.coll.cargoCta}
               </a>
-            </div>
-          </div>
-        </section>
-
-        {/* partneři */}
-        <section className="sec" id="partneri" aria-labelledby="partners-title" style={{ paddingTop: 0 }}>
-          <div className="wrap partners">
-            <div>
-              <h2 className="sec-title" id="partners-title" style={{ fontSize: "clamp(34px,3.6vw,54px)" }}>
-                {c.partners.title}
-              </h2>
-              <p>{c.partners.text}</p>
-            </div>
-            <div className="hero-cta">
-              <a href={c.partners.mediaKitHref} className="btn solid">
-                {c.partners.kit}
-              </a>
-              <a href="/downloads/sharky-paul-media-kit.pdf" className="btn">
-                {c.partners.kitPdf}
-              </a>
-              <a href={c.partners.bookingHref} className="btn">
-                {c.partners.booking}
-              </a>
-            </div>
+            </details>
           </div>
         </section>
       </main>
