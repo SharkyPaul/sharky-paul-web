@@ -228,7 +228,7 @@ h1,h2,h3{font-weight:500;}
 /* Příběh */
 .story{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(40px,7vw,120px);align-items:start;}
 .story-fig{position:relative;}
-.story-fig img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:2px;}
+.story-fig img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 35%;border-radius:2px;}
 .story-fig figcaption{margin-top:12px;}
 .story .lede{margin:26px 0 34px;max-width:20em;}
 .creds{list-style:none;display:grid;grid-template-columns:1fr 1fr;margin-top:40px;border-top:1px solid var(--hair);}
@@ -244,7 +244,7 @@ h1,h2,h3{font-weight:500;}
 
 /* Expedice */
 .exp{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(36px,6vw,96px);align-items:center;}
-.exp-fig img{display:block;width:100%;aspect-ratio:1074/670;object-fit:cover;border-radius:2px;}
+.exp-fig img{display:block;width:100%;height:auto;aspect-ratio:1074/670;object-fit:cover;border-radius:2px;}
 .exp-fig figcaption{margin-top:12px;}
 .partner{margin-top:36px;padding-top:26px;border-top:1px solid var(--hair);}
 .partner h3{font-family:var(--serif);font-size:32px;line-height:1.1;}
@@ -290,7 +290,7 @@ h1,h2,h3{font-weight:500;}
 /* Hudba */
 .music{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(40px,7vw,110px);align-items:start;}
 .music-figs{position:relative;padding-bottom:22%;}
-.music-figs img{display:block;border-radius:2px;object-fit:cover;}
+.music-figs img{display:block;height:auto;border-radius:2px;object-fit:cover;}
 .music-figs .a{width:82%;aspect-ratio:1/1;}
 .music-figs .b{position:absolute;right:0;bottom:0;width:52%;aspect-ratio:900/836;border:6px solid var(--deep);filter:grayscale(1);}
 .sets{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);margin-top:42px;position:relative;}
@@ -315,6 +315,10 @@ h1,h2,h3{font-weight:500;}
 }
 
 /* Kolekce */
+@media (max-width:900px){
+  .music-figs{padding-bottom:0;display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+  .music-figs .a,.music-figs .b{position:static;width:100%;aspect-ratio:3/4;border:0;}
+}
 .drop{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(32px,5vw,80px);align-items:center;padding:clamp(40px,5vw,64px) 0;border-top:1px solid var(--hair);}
 .drop:first-of-type{border-top:0;padding-top:0;}
 .drop.rev{grid-template-columns:minmax(0,5fr) minmax(0,7fr);}
