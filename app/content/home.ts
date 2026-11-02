@@ -163,6 +163,12 @@ const csRaw: HomeContent = {
     shareText: "Příručka zdarma: Jak se chovat bezpečně v přítomnosti žraloků 🦈",
     reads: [
       {
+        href: "/zraloci-v-egypte",
+        title: "Žraloci v Egyptě",
+        text: "Jak velké je riziko u Hurghady a Marsa Alamu a jak se chovat.",
+        go: "Číst článek",
+      },
+      {
         href: "/nebezpecna-morska-zvirata-egypt",
         title: "Na co v Egyptě šlapeš",
         text: "7 nebezpečných zvířat u pláží Rudého moře a první pomoc.",

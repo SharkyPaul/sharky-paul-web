@@ -86,6 +86,7 @@ export const NAV: Record<Lang, NavText> = {
       exploreTitle: "Oceán",
       explore: [
         { href: "/prirucka", label: "Příručka Prevence zdarma" },
+        { href: "/zraloci-v-egypte", label: "Žraloci v Egyptě" },
         { href: "/nebezpecna-morska-zvirata-egypt", label: "Na co v Egyptě šlapeš" },
         { href: "/co-delat-kdyz-potkas-zraloka", label: "Co dělat, když potkáš žraloka" },
         { href: "/myty-o-zralocich", label: "9 mýtů o žralocích" },

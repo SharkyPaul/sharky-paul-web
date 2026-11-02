@@ -107,6 +107,7 @@ export const egyptCs: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Přečti si také",
   related: [
+    { label: "Žraloci v Egyptě – jak velké je riziko a jak se chovat", url: "/zraloci-v-egypte" },
     { label: "Co dělat, když potkáš žraloka – krok za krokem", url: "/co-delat-kdyz-potkas-zraloka" },
     { label: "9 mýtů o žralocích, kterým lidé věří", url: "/myty-o-zralocich" },
   ],
