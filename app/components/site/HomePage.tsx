@@ -41,14 +41,14 @@ export default function HomePage({ c }: { c: HomeContent }) {
           </div>
           <div className="hero-media">
             <picture>
-              <source type="image/webp" srcSet="/images/brand/hero-turtle-800.webp 800w, /images/brand/hero-turtle-1079.webp 1079w" sizes="(max-width: 900px) 100vw, 52vw" />
+              <source type="image/webp" srcSet="/images/brand/hero-dugong-800.webp 800w, /images/brand/hero-dugong-1190.webp 1190w" sizes="(max-width: 900px) 100vw, 52vw" />
               <img
-                src="/images/brand/hero-turtle-1079.jpg"
-                srcSet="/images/brand/hero-turtle-800.jpg 800w, /images/brand/hero-turtle-1079.jpg 1079w"
+                src="/images/brand/hero-dugong-1190.jpg"
+                srcSet="/images/brand/hero-dugong-800.jpg 800w, /images/brand/hero-dugong-1190.jpg 1190w"
                 sizes="(max-width: 900px) 100vw, 52vw"
                 alt={c.hero.imgAlt}
-                width={1079}
-                height={898}
+                width={1190}
+                height={1920}
                 fetchPriority="high"
               />
             </picture>

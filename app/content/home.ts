@@ -89,7 +89,7 @@ const csRaw: HomeContent = {
     ctaExp: "Expedice v Rudém moři",
     proof: "3,6 milionu zhlédnutí na TikToku. 96 % diváků je z Česka a Slovenska.",
     caption: "Na palubě před ponorem v kleci",
-    imgAlt: "Sharky Paul pod vodou s mořskou želvou u Abu Dabbab, Rudé moře",
+    imgAlt: "Sharky Paul pod vodou s dugongem, Rudé moře",
   },
   story: {
     title: "Oceán není aquapark.",
@@ -237,7 +237,7 @@ export const en: HomeContent = {
     ctaExp: "Red Sea expeditions",
     proof: "3.6 million views on TikTok. 96% of my audience is from Czechia and Slovakia.",
     caption: "On deck before a cage dive",
-    imgAlt: "Sharky Paul diving with a sea turtle at Abu Dabbab, Red Sea",
+    imgAlt: "Sharky Paul diving with a dugong in the Red Sea",
   },
   story: {
     title: "The ocean is not a water park.",
