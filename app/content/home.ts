@@ -187,6 +187,18 @@ const csRaw: HomeContent = {
         go: "Číst mýty",
       },
       {
+        href: "/zralok-bily",
+        title: "Žralok bílý",
+        text: "Velikost, potrava, věk a ohrožení podle NOAA a National Geographic.",
+        go: "Číst článek",
+      },
+      {
+        href: "/zralok-megalodon",
+        title: "Žralok megalodon",
+        text: "Kdy žil, jak velký byl a proč nemůže žít v Mariánském příkopu.",
+        go: "Číst článek",
+      },
+      {
         href: "/aplikace",
         title: "Aplikace Sharky Paul",
         text: "Postup při setkání se žralokem a příručka i bez signálu na lodi.",

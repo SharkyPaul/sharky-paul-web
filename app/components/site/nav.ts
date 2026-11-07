@@ -90,6 +90,8 @@ export const NAV: Record<Lang, NavText> = {
         { href: "/nebezpecna-morska-zvirata-egypt", label: "Na co v Egyptě šlapeš" },
         { href: "/co-delat-kdyz-potkas-zraloka", label: "Co dělat, když potkáš žraloka" },
         { href: "/myty-o-zralocich", label: "9 mýtů o žralocích" },
+        { href: "/zralok-bily", label: "Žralok bílý" },
+        { href: "/zralok-megalodon", label: "Žralok megalodon" },
         { href: "/aplikace", label: "Aplikace Sharky Paul" },
       ],
       workTitle: "Spolupráce",
