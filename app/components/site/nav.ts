@@ -92,6 +92,7 @@ export const NAV: Record<Lang, NavText> = {
         { href: "/myty-o-zralocich", label: "9 mýtů o žralocích" },
         { href: "/zralok-bily", label: "Žralok bílý" },
         { href: "/zralok-obrovsky", label: "Žralok obrovský" },
+        { href: "/zralok-tygri", label: "Žralok tygří" },
         { href: "/zralok-megalodon", label: "Žralok megalodon" },
         { href: "/aplikace", label: "Aplikace Sharky Paul" },
       ],

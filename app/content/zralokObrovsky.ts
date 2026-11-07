@@ -103,6 +103,7 @@ export const zralokObrovskyCs: StepContent = {
   related: [
     { label: "Žralok bílý: velikost, potrava, věk a ohrožení", url: "/zralok-bily" },
     { label: "Žralok megalodon: kdy žil a proč vyhynul", url: "/zralok-megalodon" },
+    { label: "Žralok tygří: velikost, potrava, věk a jestli je nebezpečný", url: "/zralok-tygri" },
     { label: "9 mýtů o žralocích, kterým lidé věří", url: "/myty-o-zralocich" },
     { label: "Žraloci v Egyptě: jak velké je riziko", url: "/zraloci-v-egypte" },
   ],
