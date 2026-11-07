@@ -94,6 +94,7 @@ export const NAV: Record<Lang, NavText> = {
         { href: "/zralok-obrovsky", label: "Žralok obrovský" },
         { href: "/zralok-tygri", label: "Žralok tygří" },
         { href: "/zralok-megalodon", label: "Žralok megalodon" },
+        { href: "/pirati-z-karibiku", label: "Piráti doopravdy" },
         { href: "/aplikace", label: "Aplikace Sharky Paul" },
       ],
       workTitle: "Spolupráce",

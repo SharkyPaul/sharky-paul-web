@@ -211,6 +211,12 @@ const csRaw: HomeContent = {
         go: "Číst článek",
       },
       {
+        href: "/pirati-z-karibiku",
+        title: "Piráti z Karibiku doopravdy",
+        text: "Černovous, dvě pirátky, Morgan a potopené město Port Royal.",
+        go: "Číst článek",
+      },
+      {
         href: "/aplikace",
         title: "Aplikace Sharky Paul",
         text: "Postup při setkání se žralokem a příručka i bez signálu na lodi.",

@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/zralok-bily`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE}/zralok-obrovsky`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE}/zralok-tygri`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE}/pirati-z-karibiku`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE}/zraloci-v-egypte`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE}/nebezpecna-morska-zvirata-egypt`, lastModified: now, changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/nebezpecna-morska-zvirata-egypt`, en: `${SITE}/en/dangerous-marine-animals-egypt` } } },
     { url: `${SITE}/en/dangerous-marine-animals-egypt`, lastModified: now, changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/nebezpecna-morska-zvirata-egypt`, en: `${SITE}/en/dangerous-marine-animals-egypt` } } },
