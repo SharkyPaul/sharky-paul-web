@@ -42,7 +42,7 @@ export const zralokObrovskyCs: StepContent = {
     },
     {
       title: "Jak rychle plave",
-      text: "Pomalu. Marine Conservation Society uvádí rychlost kolem 2 mil za hodinu, tedy asi 3 kilometry za hodinu. Proto se mu říká mírný obr.",
+      text: "Pomalu. Marine Conservation Society uvádí rychlost kolem 2 mil za hodinu, tedy asi 3 kilometry za hodinu.",
     },
     {
       title: "Jak dlouho žije",
@@ -50,7 +50,7 @@ export const zralokObrovskyCs: StepContent = {
     },
     {
       title: "Je nebezpečný",
-      text: "Ne. National Geographic o něm píše, že je pro lidi zcela neškodný. Přesto je dobré se řídit zásadami pro setkání s velkými zvířaty: nesahat na ně, nehonit je a držet odstup.",
+      text: "Ne. National Geographic o něm píše, že je pro lidi zcela neškodný.",
     },
     {
       title: "Je ohrožený",
@@ -69,7 +69,7 @@ export const zralokObrovskyCs: StepContent = {
   worksTitle: "Mýty o žralokovi obrovském",
   works: [
     "„Je to nejnebezpečnější žralok, protože je největší.“ Naopak: žere jen plankton a je pro lidi neškodný.",
-    "„Má zuby jako dravec, tak se musí bát.“ Zuby sice má, ale podle Marine Conservation Society z nich při krmení nic nepoužívá.",
+    "„Má hodně zubů, tak je to dravec.“ Marine Conservation Society uvádí, že přes velikost a mnoho zubů má jednoduchý jídelníček z planktonu.",
     "„Je jich pořád dost.“ IUCN ho vede jako ohrožený druh.",
   ],
   faqTitle: "Časté otázky",
