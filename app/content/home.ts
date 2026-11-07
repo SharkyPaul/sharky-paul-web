@@ -193,6 +193,12 @@ const csRaw: HomeContent = {
         go: "Číst článek",
       },
       {
+        href: "/zralok-obrovsky",
+        title: "Žralok obrovský",
+        text: "Druhý největší žralok světa žere jen plankton a lidem neublíží.",
+        go: "Číst článek",
+      },
+      {
         href: "/zralok-megalodon",
         title: "Žralok megalodon",
         text: "Kdy žil, jak velký byl a proč nemůže žít v Mariánském příkopu.",
