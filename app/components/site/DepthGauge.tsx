@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 
 const MAX_DEPTH = 30; // m – hranice PADI Advanced Open Water
 const PSI_PER_BAR = 14.5;
+const ALARM_DEPTH = 30.1; // m – po překročení 30 m zapípá jako potápěčský počítač
 
 // Barvy ve slunečním světle v čisté vodě: hloubka (m), ve které zhruba zmizí.
 // Zdroj: scubadiverinfo.com (červená ~6 m, oranžová ~15 m, žlutá ~30 m); zelená a modrá vydrží nejdéle.
@@ -39,18 +40,55 @@ export default function DepthGauge({ label, lang = "cs", title, help }: Props) {
 
   useEffect(() => {
     let raf = 0;
+    let ctx: AudioContext | null = null;
+    let armed = true;
+    // Prohlížeče povolí zvuk až po klepnutí/klávese (samotné scrollování nestačí).
+    const unlock = () => {
+      try {
+        const AC = window.AudioContext || (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+        if (!ctx && AC) ctx = new AC();
+        if (ctx && ctx.state === "suspended") void ctx.resume();
+      } catch {}
+    };
+    const alarm = () => {
+      if (!ctx || ctx.state !== "running") return;
+      try {
+        // 3 krátké pípnutí, tichá hlasitost
+        for (let i = 0; i < 3; i++) {
+          const t = ctx.currentTime + i * 0.25;
+          const o = ctx.createOscillator();
+          const g = ctx.createGain();
+          o.type = "square";
+          o.frequency.value = 2400;
+          g.gain.setValueAtTime(0.0001, t);
+          g.gain.exponentialRampToValueAtTime(0.08, t + 0.01);
+          g.gain.exponentialRampToValueAtTime(0.0001, t + 0.15);
+          o.connect(g).connect(ctx.destination);
+          o.start(t);
+          o.stop(t + 0.16);
+        }
+      } catch {}
+    };
     const update = () => {
       raf = 0;
       const el = ref.current;
       if (!el) return;
       const max = document.documentElement.scrollHeight - window.innerHeight;
       const p = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
-      const d = Math.round(p * MAX_DEPTH);
+      const atBottom = p >= 0.995;
+      const d = atBottom ? ALARM_DEPTH : Math.round(p * MAX_DEPTH);
+      if (atBottom && armed) {
+        armed = false;
+        alarm();
+      } else if (p < 0.9) {
+        armed = true;
+      }
       el.style.setProperty("--p", p.toFixed(4));
       const bar = 1 + d / 10;
       const psi = Math.round(bar * PSI_PER_BAR);
       const barTxt = lang === "cs" ? bar.toFixed(1).replace(".", ",") : bar.toFixed(1);
-      if (depthRef.current) depthRef.current.textContent = `${d} m`;
+      const dTxt = lang === "cs" ? String(d).replace(".", ",") : String(d);
+      if (depthRef.current) depthRef.current.textContent = `${dTxt} m`;
       if (presRef.current) presRef.current.textContent = `${barTxt} bar · ${psi} PSI`;
       if (colorTxtRef.current) colorTxtRef.current.textContent = COLOR_LABEL[lang][colorStage(d)];
       const dots = dotsRef.current?.children;
@@ -65,11 +103,15 @@ export default function DepthGauge({ label, lang = "cs", title, help }: Props) {
       if (!raf) raf = requestAnimationFrame(update);
     };
     update();
+    const evs = ["pointerdown", "touchend", "keydown"] as const;
+    evs.forEach((e) => window.addEventListener(e, unlock, { passive: true }));
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onScroll);
     return () => {
+      evs.forEach((e) => window.removeEventListener(e, unlock));
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
+      if (ctx) void ctx.close().catch(() => {});
       if (raf) cancelAnimationFrame(raf);
     };
   }, [lang]);
