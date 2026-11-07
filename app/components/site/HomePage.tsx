@@ -26,7 +26,7 @@ export default function HomePage({ c }: { c: HomeContent }) {
           <div className="hero-copy">
             <h1 className="hero-title" id="hero-title">
               <span className="sr-only">{c.hero.srTitle}</span>
-              Respect
+              Respect{" "}
               <span className="l2">the Locals</span>
             </h1>
             <SignatureLive className="hero-sig" label={isCs ? "Podpis Sharky Paul" : "Sharky Paul signature"} />
