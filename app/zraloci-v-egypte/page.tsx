@@ -5,7 +5,7 @@ import { sharksEgyptCs } from "../content/sharksEgypt";
 const URL = "https://www.sharkypaul.com/zraloci-v-egypte";
 
 export const metadata: Metadata = {
-  title: "Žraloci v Egyptě: jak velké je riziko a jak se chovat (Hurghada, Marsa Alam)",
+  title: "Žraloci v Egyptě: jak velké je riziko",
   description:
     "Jsou v Egyptě žraloci a je bezpečné se koupat a šnorchlovat? Co se stalo u Hurghady a Marsa Alamu, jak velké je riziko podle ISAF a 6 pravidel u moře.",
   alternates: { canonical: "/zraloci-v-egypte" },

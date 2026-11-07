@@ -3,9 +3,9 @@ import AppPage from "../../components/site/AppPage";
 import { appEn } from "../../content/app";
 
 export const metadata: Metadata = {
-  title: "Sharky Paul app – what to do if you meet a shark, even offline",
+  title: "Sharky Paul app: what to do if you meet a shark",
   description:
-    "What to do when you meet a shark, a checklist before you get in the water, emergency numbers and a safety guide. Add the app to your home screen and use it without signal.",
+    "What to do when you meet a shark, a checklist before you get in the water, emergency numbers and a safety guide.",
   alternates: { canonical: "/en/app", languages: { en: "/en/app", cs: "/aplikace" } },
   openGraph: {
     type: "website",

@@ -103,6 +103,7 @@ export const sharksEgyptCs: StepContent = {
     { label: "Co dělat, když potkáš žraloka – krok za krokem", url: "/co-delat-kdyz-potkas-zraloka" },
     { label: "Na co v Egyptě šlapeš – 7 nebezpečných zvířat u pláže", url: "/nebezpecna-morska-zvirata-egypt" },
     { label: "9 mýtů o žralocích, kterým lidé věří", url: "/myty-o-zralocich" },
+    { label: "Žralok megalodon: kdy žil a proč vyhynul", url: "/zralok-megalodon" },
   ],
   shareText: "Žraloci v Egyptě 🦈 Jak velké je riziko a jak se chovat u moře – pošli tomu, kdo letí do Hurghady nebo Marsa Alamu",
   sourcesTitle: "Zdroje",

@@ -5,9 +5,9 @@ import { encounterEn } from "../../content/encounter";
 const URL = "https://www.sharkypaul.com/en/what-to-do-if-you-see-a-shark";
 
 export const metadata: Metadata = {
-  title: "What to Do If You See a Shark: 7 Steps for Divers and Snorkelers",
+  title: "What to Do If You See a Shark: 7 Steps",
   description:
-    "Met a shark while diving or snorkelling? Stay calm, keep watching it and leave the water smoothly. Step by step, based on Florida Museum and NSW SharkSmart advice.",
+    "Met a shark while diving or snorkelling? Stay calm, keep watching it and leave the water smoothly.",
   alternates: {
     canonical: "/en/what-to-do-if-you-see-a-shark",
     languages: { en: "/en/what-to-do-if-you-see-a-shark", cs: "/co-delat-kdyz-potkas-zraloka" },

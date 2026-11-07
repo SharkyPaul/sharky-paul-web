@@ -5,9 +5,9 @@ import { egyptEn } from "../../content/egypt";
 const URL = "https://www.sharkypaul.com/en/dangerous-marine-animals-egypt";
 
 export const metadata: Metadata = {
-  title: "Dangerous Marine Animals in Egypt: Stonefish, Urchins, Stingrays and First Aid",
+  title: "Dangerous Marine Animals in Egypt: First Aid",
   description:
-    "What you step on in Egypt: stonefish, lionfish, stingrays, sea urchins, fire coral, cone snails and moray eels. How to avoid them on Red Sea beaches and first aid based on DAN. Hurghada, Marsa Alam, Sharm El Sheikh.",
+    "What you step on in Egypt: stonefish, lionfish, stingrays, sea urchins, fire coral, cone snails and moray eels.",
   alternates: {
     canonical: "/en/dangerous-marine-animals-egypt",
     languages: { en: "/en/dangerous-marine-animals-egypt", cs: "/nebezpecna-morska-zvirata-egypt" },

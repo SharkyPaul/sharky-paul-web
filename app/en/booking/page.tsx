@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import BookingPage, { type BookingContent } from "../../components/BookingPage";
 
 export const metadata: Metadata = {
-  title: "Book Sharky Paul – DJ Sets, Shark Nights & Content for Hotels and Resorts",
+  title: "Book Sharky Paul: DJ Sets, Shark Nights, Content",
   description:
-    "Book Sharky Paul for your hotel, resort, beach club or dive centre: Afro Tribal Bounce DJ sets, family 'Shark Night' talks for Czech & Slovak guests, video content for the CZ/SK market and Red Sea dive expeditions.",
+    "Book Sharky Paul for your hotel, resort, beach club or dive centre: Afro Tribal Bounce DJ sets, family 'Shark Night' talks for Czech & Slovak guests.",
   alternates: { canonical: "/en/booking", languages: { en: "/en/booking", cs: "/booking" } },
   openGraph: {
     type: "website",

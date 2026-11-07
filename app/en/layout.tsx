@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 const DESC =
-  "Sharky Paul – diver, content creator and DJ. Sharks, ocean education and Red Sea diving expeditions in small groups, Afro Tribal Bounce music and a free shark safety guide. Respect the Locals.";
+  "Sharky Paul – diver, content creator and DJ. Sharks, ocean education and Red Sea diving expeditions in small groups.";
 
 export const metadata: Metadata = {
   title: { absolute: "Sharky Paul – Respect the Locals | Sharks, Diving, Red Sea" },

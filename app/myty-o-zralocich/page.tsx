@@ -4,7 +4,7 @@ import MythArticle, { type MythContent } from "../components/MythArticle";
 const URL = "https://www.sharkypaul.com/myty-o-zralocich";
 
 export const metadata: Metadata = {
-  title: "9 mýtů o žralocích, kterým lidé věří – a co je pravda",
+  title: "9 mýtů o žralocích a co je pravda",
   description:
     "Ucítí žralok kapku krve na kilometry? Pomůže oční kontakt nebo úder do žaber? Fakta podle odborných zdrojů. Sharky Paul vyvrací nejčastější mýty o žralocích.",
   alternates: { canonical: "/myty-o-zralocich", languages: { cs: "/myty-o-zralocich", en: "/en/shark-myths" } },

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import MediaKitPage, { type MediaKitContent } from "../../components/MediaKitPage";
 
 export const metadata: Metadata = {
-  title: "Media Kit – Sharky Paul: TikTok & Instagram reach, UGC and partnerships",
+  title: "Media Kit – Sharky Paul: reach, UGC, partnerships",
   description:
-    "Sharky Paul media kit for hotels, resorts, dive centres and travel agencies: 3.6M+ TikTok views (1.6M in the past year), 37K Instagram followers, UGC videos, TikTok LIVE, Shark Night talks and Afro Tribal Bounce DJ sets.",
+    "Sharky Paul media kit for hotels, resorts, dive centres and travel agencies: 3.6M+ TikTok views (1.6M in the past year), 37K Instagram followers.",
   alternates: { canonical: "/en/media-kit", languages: { en: "/en/media-kit", cs: "/media-kit" } },
   openGraph: {
     type: "website",

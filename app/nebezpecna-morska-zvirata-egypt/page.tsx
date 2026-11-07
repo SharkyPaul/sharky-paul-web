@@ -5,9 +5,9 @@ import { egyptCs } from "../content/egypt";
 const URL = "https://www.sharkypaul.com/nebezpecna-morska-zvirata-egypt";
 
 export const metadata: Metadata = {
-  title: "Nebezpečná zvířata v moři v Egyptě: odranec, ježovky, rejnoci a první pomoc",
+  title: "Nebezpečná zvířata v Egyptě: první pomoc",
   description:
-    "Na co v Egyptě šlapeš: odranec, perutýn, rejnok, ježovky, ohnivý korál, homolice a muréna. Jak se jim vyhnout u pláže v Rudém moři a první pomoc podle DAN. Hurghada, Marsa Alam, Sharm.",
+    "Na co v Egyptě šlapeš: odranec, perutýn, rejnok, ježovky, ohnivý korál, homolice a muréna. Jak se jim vyhnout u pláže v Rudém moři a první pomoc podle DAN.",
   alternates: {
     canonical: "/nebezpecna-morska-zvirata-egypt",
     languages: { cs: "/nebezpecna-morska-zvirata-egypt", en: "/en/dangerous-marine-animals-egypt" },

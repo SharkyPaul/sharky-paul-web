@@ -5,9 +5,9 @@ import { encounterCs } from "../content/encounter";
 const URL = "https://www.sharkypaul.com/co-delat-kdyz-potkas-zraloka";
 
 export const metadata: Metadata = {
-  title: "Co dělat, když potkáš žraloka: 7 kroků pro potápěče a šnorchlaře",
+  title: "Co dělat, když potkáš žraloka: 7 kroků",
   description:
-    "Žralok při potápění nebo šnorchlování? Zachovej klid, sleduj ho a plynule opusť vodu. Krok za krokem podle Florida Museum a NSW SharkSmart: znaky vzrušení, obrana, první kroky.",
+    "Žralok při potápění nebo šnorchlování? Zachovej klid, sleduj ho a plynule opusť vodu. Krok za krokem podle Florida Museum a NSW SharkSmart: znaky vzrušení.",
   alternates: {
     canonical: "/co-delat-kdyz-potkas-zraloka",
     languages: { cs: "/co-delat-kdyz-potkas-zraloka", en: "/en/what-to-do-if-you-see-a-shark" },

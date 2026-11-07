@@ -4,9 +4,9 @@ import MythArticle, { type MythContent } from "../../components/MythArticle";
 const URL = "https://www.sharkypaul.com/en/shark-myths";
 
 export const metadata: Metadata = {
-  title: "9 Shark Myths People Still Believe – and What's Actually True",
+  title: "9 Shark Myths People Still Believe",
   description:
-    "Can a shark smell a drop of blood miles away? Does eye contact or punching the gills keep you safe? Evidence-based answers from Sharky Paul, diver and shark educator.",
+    "Can a shark smell a drop of blood miles away? Does eye contact or punching the gills keep you safe? Evidence-based answers from Sharky Paul.",
   alternates: { canonical: "/en/shark-myths", languages: { en: "/en/shark-myths", cs: "/myty-o-zralocich" } },
   openGraph: {
     type: "article",

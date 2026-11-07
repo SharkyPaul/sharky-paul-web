@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import BookingPage, { type BookingContent } from "../components/BookingPage";
 
 export const metadata: Metadata = {
-  title: "Booking Sharky Paul – DJ, přednášky o žralocích a spolupráce",
+  title: "Booking: DJ a přednášky o žralocích",
   description:
-    "Objednej si Sharky Paula: DJ sety Afro Tribal Bounce, večery „Shark Night“ o žralocích pro hosty hotelů, videoobsah pro český a slovenský trh a potápěčské expedice v Rudém moři.",
+    "Objednej si Sharky Paula: DJ sety Afro Tribal Bounce, večery „Shark Night“ o žralocích pro hosty hotelů.",
   alternates: { canonical: "/booking", languages: { cs: "/booking", en: "/en/booking" } },
   openGraph: {
     type: "website",

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import MediaKitPage, { type MediaKitContent } from "../components/MediaKitPage";
 
 export const metadata: Metadata = {
-  title: "Media kit – Sharky Paul: dosah na TikToku a Instagramu, UGC a spolupráce",
+  title: "Media kit Sharky Paul: dosah, UGC, spolupráce",
   description:
-    "Media kit Sharky Paula pro hotely, potápěčská centra a cestovní kanceláře: 3,6 milionu zhlédnutí na TikToku (1,6 milionu za poslední rok), 37 tisíc sledujících na Instagramu, UGC videa, TikTok LIVE, Shark Night a DJ sety Afro Tribal Bounce.",
+    "Media kit Sharky Paula pro hotely, potápěčská centra a cestovní kanceláře: 3,6 milionu zhlédnutí na TikToku (1,6 milionu za poslední rok).",
   alternates: { canonical: "/media-kit", languages: { cs: "/media-kit", en: "/en/media-kit" } },
   openGraph: {
     type: "website",

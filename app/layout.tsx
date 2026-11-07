@@ -21,12 +21,12 @@ const sans = Jost({
 
 const SITE = "https://www.sharkypaul.com";
 const DESC =
-  "Sharky Paul – potápěč, tvůrce obsahu a DJ. Oceán, žraloci a potápění v Rudém moři, expedice v malých skupinách, hudba Afro Tribal Bounce a příručka Prevence zdarma ke stažení. Respect the Locals.";
+  "Sharky Paul – potápěč, tvůrce obsahu a DJ. Oceán, žraloci a potápění v Rudém moři, expedice v malých skupinách.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
   title: {
-    default: "Sharky Paul – Respect the Locals | Potápění, žraloci, Rudé moře",
+    default: "Sharky Paul – Respect the Locals | Žraloci, Rudé moře",
     template: "%s | Sharky Paul",
   },
   description: DESC,
