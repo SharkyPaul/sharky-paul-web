@@ -1,13 +1,13 @@
 import type { Metadata, Viewport } from "next";
-import { Bodoni_Moda, Jost } from "next/font/google";
+import { Barlow_Condensed, Jost } from "next/font/google";
 import Script from "next/script";
 import SWRegister from "./components/site/SWRegister";
 import "./globals.css";
 
-const serif = Bodoni_Moda({
+const serif = Barlow_Condensed({
   subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
-  axes: ["opsz"],
   variable: "--font-serif",
   display: "swap",
 });

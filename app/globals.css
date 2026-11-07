@@ -17,7 +17,7 @@
   --glow:#5ccff0;
   --hair:rgba(238,242,239,.14);
   --hair2:rgba(238,242,239,.28);
-  --serif:var(--font-serif,"Bodoni Moda"),Didot,"Bodoni 72",Georgia,serif;
+  --serif:var(--font-serif,"Barlow Condensed"),"Arial Narrow",Impact,sans-serif;
   --sans:var(--font-sans,"Jost"),system-ui,-apple-system,"Segoe UI",sans-serif;
   --gutter:clamp(20px,6vw,96px);
   --maxw:1240px;
@@ -577,3 +577,9 @@ h1,h2,h3{font-weight:500;}
   html{scroll-behavior:auto;}
   *,*::before,*::after{animation-duration:.01ms !important;animation-delay:0s !important;transition-duration:.01ms !important;}
 }
+
+/* Font Barlow Condensed: drsnější nadpisy, logo v patičce */
+.article h1,.article h2,.app h1,.app-block h2,.redirect h1,.guide h3,.partner h3,.product h3,.cargo-h,.path-t,.reads-t,.gauge-panel-t,.foot-cols h2{text-transform:uppercase;letter-spacing:.015em;font-weight:600;}
+.article h1,.app h1,.redirect h1{font-weight:700;line-height:.95;}
+.lede,.chart,.eyebrow,.eyebrow-sm,.signoff span{font-style:normal;font-weight:500;letter-spacing:.02em;}
+.site-foot .foot-logo{display:block;margin:0 auto 34px;width:min(190px,48vw);height:auto;}

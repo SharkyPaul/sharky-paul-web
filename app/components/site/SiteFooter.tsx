@@ -5,6 +5,14 @@ export default function SiteFooter({ lang }: { lang: Lang }) {
   const t = NAV[lang].foot;
   return (
     <footer className="site-foot" id="kontakt">
+      <img
+        className="foot-logo"
+        src="/images/brand/respect-the-locals-logo.webp"
+        alt="Respect the Locals – logo Sharky Paul"
+        width={768}
+        height={679}
+        loading="lazy"
+      />
       <Signature label={lang === "cs" ? "Podpis Sharky Paul" : "Sharky Paul signature"} />
       <p className="chart foot-tag">{t.tag}</p>
 
