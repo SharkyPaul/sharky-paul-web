@@ -587,3 +587,8 @@ h1,h2,h3{font-weight:500;}
 h1,h2,h3,h4,.sec-title,.hero-title,.hero-title .l2,.gauge-panel-t,.sets b,.offer b,.cargo-name,.tiles a b,.myth-num,.stats-list b,.mk-stat-value{text-transform:uppercase;}
 h1,h2,h3,h4,.sec-title,.hero-title{font-weight:600;letter-spacing:.015em;}
 .hero-title{font-weight:700;}
+
+.article-figure{margin:16px 0 4px;padding:0}
+.article-figure img{display:block;width:100%;height:auto;max-height:560px;object-fit:contain;border-radius:10px;background:rgba(127,127,127,.08)}
+.article-figure figcaption{margin-top:6px;font-size:12px;opacity:.7}
+.article-figure figcaption a{color:inherit;text-decoration:underline}

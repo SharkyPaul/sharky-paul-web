@@ -37,6 +37,14 @@ export const piratiZKaribikuCs: StepContent = {
     {
       title: "Černovous: nejslavnější pirát",
       text: "Edward Teach (též Thatch) se narodil kolem roku 1680, pravděpodobně v Bristolu. V listopadu 1717 zajal francouzskou loď La Concorde a přejmenoval ji na Queen Anne's Revenge. Podle National Park Service měla zhruba 300 mužů posádky a 40 děl. Jeho vlajka podle téhož zdroje zobrazovala krvácející srdce a kostlivce s přesýpacími hodinami a kopím a sloužila jen k zastrašování.",
+      image: {
+        src: "https://commons.wikimedia.org/wiki/Special:FilePath/Edward_Teach_Commonly_Call%27d_Black_Beard_(1734).jpg?width=900",
+        alt: "Rytina Edwarda Teache, zvaného Černovous, z roku 1734",
+        width: 900,
+        height: 1328,
+        credit: "Rytina Edwarda Teache (1734), volné dílo, Wikimedia Commons",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:Edward_Teach_Commonly_Call%27d_Black_Beard_(1734).jpg",
+      },
     },
     {
       title: "Jak Černovous skončil",
@@ -49,6 +57,14 @@ export const piratiZKaribikuCs: StepContent = {
     {
       title: "Soud a konec",
       text: "Rackham byl souzen 16. listopadu 1720 a oběšen 18. listopadu v Port Royalu. Bonny a Read soudili 28. listopadu ve Spanish Townu a odsoudili k smrti, ale obě uvedly, že jsou těhotné, a poprava se odložila. Read podle Royal Museums Greenwich zemřela v žaláři na horečku v dubnu 1721. Osud Anne Bonny není znám. Podle kapitána Johnsona řekla Rackhamovi, že kdyby bojoval jako muž, nemusel by viset jako pes.",
+      image: {
+        src: "https://commons.wikimedia.org/wiki/Special:FilePath/General_History_of_the_Pyrates_-_Ann_Bonny_and_Mary_Read.jpg?width=900",
+        alt: "Rytina Anne Bonny a Mary Read odsouzených za pirátství v roce 1720, Benjamin Cole, kolem roku 1724",
+        width: 900,
+        height: 505,
+        credit: "Rytina Benjamina Colea (kolem 1724), volné dílo, Wikimedia Commons",
+        creditUrl: "https://commons.wikimedia.org/wiki/File:General_History_of_the_Pyrates_-_Ann_Bonny_and_Mary_Read.jpg",
+      },
     },
     {
       title: "Henry Morgan: pirát, který se stal guvernérem",

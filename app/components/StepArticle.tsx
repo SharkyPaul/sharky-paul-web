@@ -2,7 +2,15 @@ import SiteFooter from "./site/SiteFooter";
 import SiteHeader from "./site/SiteHeader";
 import ShareButtons from "./ShareButtons";
 
-export type Step = { title: string; text: string };
+export type ArticleImage = {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  credit?: string;
+  creditUrl?: string;
+};
+export type Step = { title: string; text: string; image?: ArticleImage };
 export type Faq = { q: string; a: string };
 export type StepContent = {
   lang: "cs" | "en";
@@ -14,6 +22,7 @@ export type StepContent = {
   eyebrow: string;
   title: string;
   lead: string;
+  heroImage?: ArticleImage;
   steps: Step[];
   signsTitle: string;
   signs: string[];
@@ -33,6 +42,26 @@ export type StepContent = {
   disclaimer: string;
   datePublished: string;
 };
+
+function Figure({ img }: { img: ArticleImage }) {
+  return (
+    <figure className="article-figure">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={img.src} alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" />
+      {img.credit && (
+        <figcaption>
+          {img.creditUrl ? (
+            <a href={img.creditUrl} target="_blank" rel="noopener noreferrer">
+              {img.credit}
+            </a>
+          ) : (
+            img.credit
+          )}
+        </figcaption>
+      )}
+    </figure>
+  );
+}
 
 export default function StepArticle({ c }: { c: StepContent }) {
   const inLanguage = c.lang === "en" ? "en" : "cs-CZ";
@@ -54,7 +83,7 @@ export default function StepArticle({ c }: { c: StepContent }) {
     inLanguage,
     url: c.url,
     datePublished: c.datePublished,
-    image: "https://www.sharkypaul.com/images/og-sharkypaul.jpg",
+    image: c.heroImage ? c.heroImage.src : "https://www.sharkypaul.com/images/og-sharkypaul.jpg",
     author: { "@type": "Person", name: "Sharky Paul", url: "https://www.sharkypaul.com" },
     publisher: { "@type": "Person", name: "Sharky Paul" },
   };
@@ -67,6 +96,7 @@ export default function StepArticle({ c }: { c: StepContent }) {
         <div className="eyebrow-sm">{c.eyebrow}</div>
         <h1>{c.title}</h1>
         <p className="article-lead">{c.lead}</p>
+        {c.heroImage && <Figure img={c.heroImage} />}
         <ShareButtons url={c.url} text={c.shareText} lang={c.lang} />
 
         <ol className="myth-list">
@@ -76,6 +106,7 @@ export default function StepArticle({ c }: { c: StepContent }) {
               <div>
                 <h2 className="myth-q">{s.title}</h2>
                 <p className="myth-a">{s.text}</p>
+                {s.image && <Figure img={s.image} />}
               </div>
             </li>
           ))}
