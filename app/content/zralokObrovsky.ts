@@ -22,6 +22,14 @@ export const zralokObrovskyCs: StepContent = {
   eyebrow: "Sharky Paul · Žraloci · Druhy",
   title: "Žralok obrovský: druhý největší žralok, který žere jen plankton",
   lead: "Žralok obrovský je obr, který pro lidi není nebezpečný. Odborně se jmenuje Cetorhinus maximus a česky se mu říká žralok veliký, často ho lidé hledají i jako žralok obrovský. Tady je, jak je velký, čím se živí, jak dlouho žije a proč je ohrožený.",
+  heroImage: {
+    src: "https://commons.wikimedia.org/wiki/Special:FilePath/CINMS_basking_shark_(50199589201).jpg?width=900",
+    alt: "Žralok obrovský (basking shark) při pohledu shora v chráněné oblasti Channel Islands National Marine Sanctuary",
+    width: 900,
+    height: 448,
+    credit: "Foto: Kristin Campbell / Newport Coastal Adventure, NOAA, volné dílo, Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File:CINMS_basking_shark_(50199589201).jpg",
+  },
   datePublished: "2026-11-07",
   steps: [
     {

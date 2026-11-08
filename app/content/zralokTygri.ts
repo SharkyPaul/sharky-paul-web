@@ -24,6 +24,14 @@ export const zralokTygriCs: StepContent = {
   eyebrow: "Sharky Paul · Žraloci · Druhy",
   title: "Žralok tygří: velikost, potrava, věk a jestli je nebezpečný",
   lead: "Žralok tygří je jeden z největších žraloků na světě a po žralokovi bílém napadá lidi nejčastěji. Odborně se jmenuje Galeocerdo cuvier. Tady je, jak je velký, čím se živí, jak dlouho žije a proč je ohrožený.",
+  heroImage: {
+    src: "https://commons.wikimedia.org/wiki/Special:FilePath/HIHWNMS_tiger_shark_(50199857407).jpg?width=900",
+    alt: "Žralok tygří plave směrem ke kameře v chráněné oblasti Hawaiian Islands Humpback Whale National Marine Sanctuary",
+    width: 900,
+    height: 762,
+    credit: "Foto: Ed Lyman / NOAA, volné dílo, Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File:HIHWNMS_tiger_shark_(50199857407).jpg",
+  },
   datePublished: "2026-11-07",
   steps: [
     {
