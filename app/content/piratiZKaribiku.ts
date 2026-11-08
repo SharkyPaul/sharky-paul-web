@@ -82,7 +82,7 @@ export const piratiZKaribikuCs: StepContent = {
   signsTitle: "Rychlé shrnutí",
   signs: [
     "Černovous: Queen Anne's Revenge (40 děl, asi 300 mužů), zemřel 22. 11. 1718 u Ocracoke, vrak nalezen 1996.",
-    "Bonny a Read: odsouzeny 28. 11. 1720, obě unikly oprávnění těhotenstvím, Read zemřela ve vězení, Bonny zmizela ze záznamů.",
+    "Bonny a Read: odsouzeny 28. 11. 1720, popravu obě oddálily těhotenstvím, Read zemřela ve vězení, Bonny zmizela ze záznamů.",
     "Morgan: pirát, který se stal místoguvernérem Jamajky a zemřel v roce 1688 v posteli.",
     "Port Royal: 7. 6. 1692 ho zničilo zemětřesení o síle asi 7,5.",
     "Tortuga: ostrov u Haiti, 17. století, pevnost Jeana Le Vasseura z roku 1642.",
