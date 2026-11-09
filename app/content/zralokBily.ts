@@ -22,6 +22,14 @@ export const zralokBilyCs: StepContent = {
   eyebrow: "Sharky Paul · Žraloci · Druhy",
   title: "Žralok bílý: velikost, potrava, věk a ohrožení",
   lead: "Žralok bílý je nejznámější žralok na světě, a přitom se o jeho životě ví překvapivě málo. Tady jsou ověřená fakta: jak je velký, čím se živí, jak dlouho žije, kde se vyskytuje a proč je ohrožený.",
+  heroImage: {
+    src: "https://commons.wikimedia.org/wiki/Special:FilePath/Great_White_Shark_(Carcharodon_carcharias)_(32532118720).jpg?width=900",
+    alt: "Žralok bílý u hladiny v oblasti The Shallows u Gansbaai v Jižní Africe",
+    width: 900,
+    height: 600,
+    credit: "Foto: Bernard Dupont, CC BY-SA 2.0, Wikimedia Commons",
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Great_White_Shark_(Carcharodon_carcharias)_(32532118720).jpg",
+  },
   datePublished: "2026-11-07",
   steps: [
     {
