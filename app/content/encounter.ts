@@ -94,6 +94,7 @@ export const encounterCs: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Přečti si také",
   related: [
+    { label: "Žralok megalodon: žije ještě? Fakta a mýty", url: "/zralok-megalodon" },
     { label: "9 mýtů o žralocích, kterým lidé věří", url: "/myty-o-zralocich" },
     { label: "Na co v Egyptě šlapeš: 7 nebezpečných zvířat u pláže", url: "/nebezpecna-morska-zvirata-egypt" },
   ],
@@ -194,6 +195,7 @@ export const encounterEn: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Also read",
   related: [
+    { label: "Megalodon: is it still alive? Facts and myths", url: "/en/megalodon-shark" },
     { label: "9 shark myths people still believe", url: "/en/shark-myths" },
     { label: "Dangerous marine animals on Egypt's beaches", url: "/en/dangerous-marine-animals-egypt" },
   ],

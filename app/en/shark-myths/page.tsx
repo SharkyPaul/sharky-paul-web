@@ -69,6 +69,7 @@ const c: MythContent = {
   related: [
     { label: "What to do if you see a shark – step by step", url: "/en/what-to-do-if-you-see-a-shark" },
     { label: "Dangerous marine animals on Egypt's beaches", url: "/en/dangerous-marine-animals-egypt" },
+    { label: "Megalodon: is it still alive? Facts and myths", url: "/en/megalodon-shark" },
   ],
   disclaimer: "General information. Not a substitute for dive training, a first-aid course or instructions from local authorities.",
 };

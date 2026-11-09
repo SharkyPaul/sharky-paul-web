@@ -204,6 +204,7 @@ export const egyptEn: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Also read",
   related: [
+    { label: "Megalodon: is it still alive? Facts and myths", url: "/en/megalodon-shark" },
     { label: "What to do if you see a shark – step by step", url: "/en/what-to-do-if-you-see-a-shark" },
     { label: "9 shark myths people still believe", url: "/en/shark-myths" },
   ],

@@ -8,7 +8,10 @@ export const metadata: Metadata = {
   title: "Žralok megalodon: kdy žil a proč vyhynul",
   description:
     "Žije megalodon ještě? Kdy žil, jak velký byl, proč vyhynul a proč nemůže žít v Mariánském příkopu. Fakta z Natural History Museum.",
-  alternates: { canonical: "/zralok-megalodon" },
+  alternates: {
+    canonical: "/zralok-megalodon",
+    languages: { cs: "/zralok-megalodon", en: "/en/megalodon-shark" },
+  },
   openGraph: {
     type: "article",
     url: URL,

@@ -69,6 +69,7 @@ const c: MythContent = {
   related: [
     { label: "Co dělat, když potkáš žraloka – krok za krokem", url: "/co-delat-kdyz-potkas-zraloka" },
     { label: "Na co v Egyptě šlapeš: 7 nebezpečných zvířat u pláže", url: "/nebezpecna-morska-zvirata-egypt" },
+    { label: "Žralok megalodon: žije ještě? Fakta a mýty", url: "/zralok-megalodon" },
   ],
   disclaimer: "Obecná informace. Nenahrazuje potápěčský výcvik, kurz první pomoci ani pokyny místních autorit.",
 };

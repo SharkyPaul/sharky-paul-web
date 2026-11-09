@@ -384,6 +384,12 @@ export const en: HomeContent = {
         go: "Read the steps",
       },
       {
+        href: "/en/megalodon-shark",
+        title: "Megalodon shark",
+        text: "When it lived, how big it was and why it can't live in the Mariana Trench.",
+        go: "Read the article",
+      },
+      {
         href: "/en/shark-myths",
         title: "Shark myths",
         text: "What people believe and what we actually know.",
