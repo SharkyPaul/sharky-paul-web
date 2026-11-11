@@ -41,6 +41,7 @@ export type StepContent = {
   sources: { name: string; url: string }[];
   disclaimer: string;
   datePublished: string;
+  dateModified?: string;
 };
 
 function Figure({ img }: { img: ArticleImage }) {
@@ -83,6 +84,7 @@ export default function StepArticle({ c }: { c: StepContent }) {
     inLanguage,
     url: c.url,
     datePublished: c.datePublished,
+    dateModified: c.dateModified ?? c.datePublished,
     image: c.heroImage ? c.heroImage.src : "https://www.sharkypaul.com/images/og-sharkypaul.jpg",
     author: { "@type": "Person", name: "Sharky Paul", url: "https://www.sharkypaul.com" },
     publisher: { "@type": "Person", name: "Sharky Paul" },
