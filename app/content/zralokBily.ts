@@ -31,6 +31,7 @@ export const zralokBilyCs: StepContent = {
     creditUrl: "https://commons.wikimedia.org/wiki/File:Great_White_Shark_(Carcharodon_carcharias)_(32532118720).jpg",
   },
   datePublished: "2026-11-07",
+  dateModified: "2026-11-16",
   steps: [
     {
       title: "Co je žralok bílý",
@@ -113,6 +114,7 @@ export const zralokBilyCs: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Přečti si také",
   related: [
+    { label: "Největší bílí žraloci světa: Deep Blue a skutečné rekordy", url: "/nejvetsi-bili-zraloci" },
     { label: "Žralok obrovský: druhý největší žralok, který žere jen plankton", url: "/zralok-obrovsky" },
     { label: "Žralok megalodon: kdy žil a proč vyhynul", url: "/zralok-megalodon" },
     { label: "Žralok tygří: velikost, potrava, věk a jestli je nebezpečný", url: "/zralok-tygri" },

@@ -187,6 +187,12 @@ const csRaw: HomeContent = {
         go: "Číst mýty",
       },
       {
+        href: "/nejvetsi-bili-zraloci",
+        title: "Největší bílí žraloci světa",
+        text: "Deep Blue, rekord 6,1 m a proč 10metroví bílí žraloci nejsou doloženi.",
+        go: "Číst článek",
+      },
+      {
         href: "/zralok-bily",
         title: "Žralok bílý",
         text: "Velikost, potrava, věk a ohrožení podle NOAA a National Geographic.",
@@ -382,6 +388,12 @@ export const en: HomeContent = {
         title: "What to do if you see a shark",
         text: "Seven steps for divers and snorkellers.",
         go: "Read the steps",
+      },
+      {
+        href: "/en/biggest-great-white-sharks",
+        title: "Biggest great white sharks",
+        text: "Deep Blue, the 6.1 m record and why 10-metre great whites aren't documented.",
+        go: "Read the article",
       },
       {
         href: "/en/megalodon-shark",

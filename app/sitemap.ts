@@ -6,15 +6,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Datum poslední skutečné změny obsahu (z historie gitu). Při úpravě stránky datum aktualizuj.
   const d = (iso: string) => new Date(`${iso}T00:00:00Z`);
   return [
-    { url: `${SITE}/`, lastModified: d("2026-11-09"), changeFrequency: "weekly", priority: 1, alternates: { languages: { cs: `${SITE}/`, en: `${SITE}/en` } } },
-    { url: `${SITE}/en`, lastModified: d("2026-11-09"), changeFrequency: "weekly", priority: 0.9, alternates: { languages: { cs: `${SITE}/`, en: `${SITE}/en` } } },
+    { url: `${SITE}/`, lastModified: d("2026-11-16"), changeFrequency: "weekly", priority: 1, alternates: { languages: { cs: `${SITE}/`, en: `${SITE}/en` } } },
+    { url: `${SITE}/en`, lastModified: d("2026-11-16"), changeFrequency: "weekly", priority: 0.9, alternates: { languages: { cs: `${SITE}/`, en: `${SITE}/en` } } },
     { url: `${SITE}/myty-o-zralocich`, lastModified: d("2026-11-09"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/myty-o-zralocich`, en: `${SITE}/en/shark-myths` } } },
     { url: `${SITE}/en/shark-myths`, lastModified: d("2026-11-09"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/myty-o-zralocich`, en: `${SITE}/en/shark-myths` } } },
     { url: `${SITE}/co-delat-kdyz-potkas-zraloka`, lastModified: d("2026-11-09"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/co-delat-kdyz-potkas-zraloka`, en: `${SITE}/en/what-to-do-if-you-see-a-shark` } } },
     { url: `${SITE}/en/what-to-do-if-you-see-a-shark`, lastModified: d("2026-11-09"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/co-delat-kdyz-potkas-zraloka`, en: `${SITE}/en/what-to-do-if-you-see-a-shark` } } },
-    { url: `${SITE}/zralok-megalodon`, lastModified: d("2026-11-09"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/zralok-megalodon`, en: `${SITE}/en/megalodon-shark` } } },
-    { url: `${SITE}/en/megalodon-shark`, lastModified: d("2026-11-09"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/zralok-megalodon`, en: `${SITE}/en/megalodon-shark` } } },
-    { url: `${SITE}/zralok-bily`, lastModified: d("2026-11-09"), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE}/zralok-megalodon`, lastModified: d("2026-11-16"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/zralok-megalodon`, en: `${SITE}/en/megalodon-shark` } } },
+    { url: `${SITE}/en/megalodon-shark`, lastModified: d("2026-11-16"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/zralok-megalodon`, en: `${SITE}/en/megalodon-shark` } } },
+    { url: `${SITE}/nejvetsi-bili-zraloci`, lastModified: d("2026-11-16"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/nejvetsi-bili-zraloci`, en: `${SITE}/en/biggest-great-white-sharks` } } },
+    { url: `${SITE}/en/biggest-great-white-sharks`, lastModified: d("2026-11-16"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/nejvetsi-bili-zraloci`, en: `${SITE}/en/biggest-great-white-sharks` } } },
+    { url: `${SITE}/zralok-bily`, lastModified: d("2026-11-16"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE}/zralok-obrovsky`, lastModified: d("2026-11-08"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE}/zralok-tygri`, lastModified: d("2026-11-08"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE}/pirati-z-karibiku`, lastModified: d("2026-11-08"), changeFrequency: "monthly", priority: 0.8 },

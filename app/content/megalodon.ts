@@ -22,6 +22,7 @@ export const megalodonCs: StepContent = {
   title: "Žralok megalodon: kdy žil, jak velký byl a proč vyhynul",
   lead: "Megalodon je největší žralok, jaký kdy žil, a internet o něm šíří historky, že pořád plave někde v hlubinách. Tady je, co o něm opravdu víme: kdy žil, jak velký byl, proč zmizel a proč nemůže žít v Mariánském příkopu.",
   datePublished: "2026-11-07",
+  dateModified: "2026-11-16",
   steps: [
     {
       title: "Co byl megalodon",
@@ -95,6 +96,7 @@ export const megalodonCs: StepContent = {
   related: [
     { label: "Video: Megalodon v Mariánském příkopu, pravda, nebo fikce?", url: "https://youtu.be/TBKEMZPfgyw" },
     { label: "Žralok bílý: velikost, potrava, věk a ohrožení", url: "/zralok-bily" },
+    { label: "Největší bílí žraloci světa: Deep Blue a skutečné rekordy", url: "/nejvetsi-bili-zraloci" },
     { label: "9 mýtů o žralocích, kterým lidé věří", url: "/myty-o-zralocich" },
     { label: "Žraloci v Egyptě: jak velké je riziko", url: "/zraloci-v-egypte" },
     { label: "Co dělat, když potkáš žraloka – krok za krokem", url: "/co-delat-kdyz-potkas-zraloka" },
@@ -119,6 +121,7 @@ export const megalodonEn: StepContent = {
   title: "Megalodon: Is It Still Alive? When It Lived, How Big It Was and Why It Died Out",
   lead: "Megalodon is the largest shark that ever lived, and the internet keeps claiming it still swims somewhere in the deep. Here is what we actually know: when it lived, how big it was, why it disappeared and why it cannot be hiding in the Mariana Trench.",
   datePublished: "2026-11-09",
+  dateModified: "2026-11-16",
   steps: [
     {
       title: "What megalodon was",
@@ -191,6 +194,7 @@ export const megalodonEn: StepContent = {
   relatedTitle: "Also read",
   related: [
     { label: "Video: Megalodon in the Mariana Trench – fact or fiction?", url: "https://youtu.be/TBKEMZPfgyw" },
+    { label: "The biggest great white sharks ever recorded: Deep Blue and the real records", url: "/en/biggest-great-white-sharks" },
     { label: "9 shark myths people still believe", url: "/en/shark-myths" },
     { label: "What to do if you see a shark – step by step", url: "/en/what-to-do-if-you-see-a-shark" },
     { label: "Dangerous marine animals on Egypt's beaches", url: "/en/dangerous-marine-animals-egypt" },
