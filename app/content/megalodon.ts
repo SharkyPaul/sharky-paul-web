@@ -97,6 +97,8 @@ export const megalodonCs: StepContent = {
     { label: "Video: Megalodon v Mariánském příkopu, pravda, nebo fikce?", url: "https://youtu.be/TBKEMZPfgyw" },
     { label: "Žralok bílý: velikost, potrava, věk a ohrožení", url: "/zralok-bily" },
     { label: "Největší bílí žraloci světa: Deep Blue a skutečné rekordy", url: "/nejvetsi-bili-zraloci" },
+    { label: "Žralok obrovský: druhý největší žralok, který žere jen plankton", url: "/zralok-obrovsky" },
+    { label: "Žralok tygří: velikost, potrava, věk a jestli je nebezpečný", url: "/zralok-tygri" },
     { label: "9 mýtů o žralocích, kterým lidé věří", url: "/myty-o-zralocich" },
     { label: "Žraloci v Egyptě: jak velké je riziko", url: "/zraloci-v-egypte" },
     { label: "Co dělat, když potkáš žraloka – krok za krokem", url: "/co-delat-kdyz-potkas-zraloka" },

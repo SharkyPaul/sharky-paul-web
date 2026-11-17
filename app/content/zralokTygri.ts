@@ -113,6 +113,8 @@ export const zralokTygriCs: StepContent = {
   related: [
     { label: "Žralok bílý: velikost, potrava, věk a ohrožení", url: "/zralok-bily" },
     { label: "Žralok obrovský: druhý největší žralok, který žere jen plankton", url: "/zralok-obrovsky" },
+    { label: "Žralok megalodon: kdy žil a proč vyhynul", url: "/zralok-megalodon" },
+    { label: "Největší bílí žraloci světa: Deep Blue a skutečné rekordy", url: "/nejvetsi-bili-zraloci" },
     { label: "9 mýtů o žralocích, kterým lidé věří", url: "/myty-o-zralocich" },
     { label: "Žraloci v Egyptě: jak velké je riziko", url: "/zraloci-v-egypte" },
   ],
