@@ -40,19 +40,22 @@ export default function HomePage({ c }: { c: HomeContent }) {
               </a>
             </div>
           </div>
-          <div className="hero-media">
-            <picture>
-              <source type="image/webp" srcSet="/images/brand/hero-dugong-800.webp 800w, /images/brand/hero-dugong-1190.webp 1190w" sizes="(max-width: 900px) 100vw, 52vw" />
-              <img
-                src="/images/brand/hero-dugong-1190.jpg"
-                srcSet="/images/brand/hero-dugong-800.jpg 800w, /images/brand/hero-dugong-1190.jpg 1190w"
-                sizes="(max-width: 900px) 100vw, 52vw"
-                alt={c.hero.imgAlt}
-                width={1190}
-                height={1920}
-                fetchPriority="high"
-              />
-            </picture>
+          {/* NÁHLED: celoplošná smyčka s vlastním záběrem žraloka; při posunu se video přibližuje a tmavne (jen CSS) */}
+          <div className="hero-media hero-video" aria-hidden="true">
+            <video
+              className="hero-video-el"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              poster="/video/hero-zralok-poster.jpg"
+            >
+              <source src="/video/hero-zralok-720.mp4" type="video/mp4" media="(max-width: 900px)" />
+              <source src="/video/hero-zralok-1280.webm" type="video/webm" />
+              <source src="/video/hero-zralok-1280.mp4" type="video/mp4" />
+            </video>
+            <img className="hero-video-poster" src="/video/hero-zralok-poster.jpg" alt="" width={1280} height={720} fetchPriority="high" />
           </div>
         </section>
 
