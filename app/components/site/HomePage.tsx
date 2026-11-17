@@ -40,27 +40,28 @@ export default function HomePage({ c }: { c: HomeContent }) {
               </a>
             </div>
           </div>
-          {/* NÁHLED: celoplošná smyčka s vlastním záběrem žraloka; při posunu se video přibližuje a tmavne (jen CSS) */}
+          {/* Úvod: celoplošná smyčka s vlastním záběrem; při posunu se obraz přibližuje a tmavne jako při ponoru (jen CSS) */}
           <div className="hero-media hero-video" aria-hidden="true">
-            <video
-              className="hero-video-el"
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="metadata"
-              poster="/video/hero-zralok-poster.jpg"
-            >
+            <picture>
+              <source type="image/webp" srcSet="/video/hero-zralok-poster.webp" />
+              <img className="hero-video-poster" src="/video/hero-zralok-poster.jpg" alt="" width={1600} height={900} fetchPriority="high" />
+            </picture>
+            <video className="hero-video-el" autoPlay muted loop playsInline preload="metadata" poster="/video/hero-zralok-poster.jpg">
               <source src="/video/hero-zralok-720.mp4" type="video/mp4" media="(max-width: 900px)" />
-              <source src="/video/hero-zralok-1280.webm" type="video/webm" />
-              <source src="/video/hero-zralok-1280.mp4" type="video/mp4" />
+              <source src="/video/hero-zralok-1600.webm" type="video/webm" />
+              <source src="/video/hero-zralok-1600.mp4" type="video/mp4" />
             </video>
-            <img className="hero-video-poster" src="/video/hero-zralok-poster.jpg" alt="" width={1280} height={720} fetchPriority="high" />
+            <span className="hero-video-grain" />
           </div>
+          <p className="hero-video-cap">{isCs ? "Vlastní záběr · žádná AI" : "Own footage · no AI"}</p>
+          <a href="#obsah-dal" className="hero-cue">
+            <span>{isCs ? "Ponoř se" : "Dive in"}</span>
+            <i aria-hidden="true" />
+          </a>
         </section>
 
         {/* rozcestník */}
-        <nav className="paths" aria-label={c.paths.title}>
+        <nav className="paths" id="obsah-dal" aria-label={c.paths.title}>
           <ul className="paths-list">
             {c.paths.items.map((p) => (
               <li key={p.href} className="reveal">
