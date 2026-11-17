@@ -16,6 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/en/megalodon-shark`, lastModified: d("2026-11-16"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/zralok-megalodon`, en: `${SITE}/en/megalodon-shark` } } },
     { url: `${SITE}/nejvetsi-bili-zraloci`, lastModified: d("2026-11-16"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/nejvetsi-bili-zraloci`, en: `${SITE}/en/biggest-great-white-sharks` } } },
     { url: `${SITE}/en/biggest-great-white-sharks`, lastModified: d("2026-11-16"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/nejvetsi-bili-zraloci`, en: `${SITE}/en/biggest-great-white-sharks` } } },
+    { url: `${SITE}/uss-indianapolis`, lastModified: d("2026-11-17"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/uss-indianapolis`, en: `${SITE}/en/uss-indianapolis` } } },
+    { url: `${SITE}/en/uss-indianapolis`, lastModified: d("2026-11-17"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/uss-indianapolis`, en: `${SITE}/en/uss-indianapolis` } } },
     { url: `${SITE}/zralok-bily`, lastModified: d("2026-11-16"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE}/zralok-obrovsky`, lastModified: d("2026-11-08"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE}/zralok-tygri`, lastModified: d("2026-11-08"), changeFrequency: "monthly", priority: 0.9 },
