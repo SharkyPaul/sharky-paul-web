@@ -31,6 +31,7 @@ export const zralokObrovskyCs: StepContent = {
     creditUrl: "https://commons.wikimedia.org/wiki/File:CINMS_basking_shark_(50199589201).jpg",
   },
   datePublished: "2026-11-07",
+  dateModified: "2026-11-17",
   steps: [
     {
       title: "Co je žralok obrovský",

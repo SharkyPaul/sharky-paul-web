@@ -33,6 +33,7 @@ export const zralokTygriCs: StepContent = {
     creditUrl: "https://commons.wikimedia.org/wiki/File:HIHWNMS_tiger_shark_(50199857407).jpg",
   },
   datePublished: "2026-11-07",
+  dateModified: "2026-11-17",
   steps: [
     {
       title: "Proč se jmenuje tygří",
