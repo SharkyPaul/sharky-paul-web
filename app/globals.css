@@ -6,11 +6,11 @@
    ========================================================= */
 
 :root{
-  --surface:#0f4656;
-  --mid:#0a3143;
-  --deep:#061f2c;
-  --trench:#04141d;
-  --abyss:#020a10;
+  --surface:#104b7a;
+  --mid:#0b3659;
+  --deep:#07223b;
+  --trench:#041527;
+  --abyss:#020a15;
   --pearl:#eef2ef;
   --mist:#a8c2cb;
   --sand:#e7d3aa;
@@ -32,7 +32,7 @@ body{
   font-weight:300;
   font-size:17px;
   line-height:1.7;
-  background:linear-gradient(180deg,var(--surface) 0,var(--mid) 20%,var(--deep) 48%,var(--trench) 78%,var(--abyss) 100%);
+  background:linear-gradient(180deg,var(--surface) 0,#0d3f69 12%,var(--mid) 28%,var(--deep) 52%,var(--trench) 80%,var(--abyss) 100%);
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
 }
@@ -282,7 +282,7 @@ h1,h2,h3{font-weight:500;}
 /* ---------- úvod s videem přes celou plochu ---------- */
 .hero:has(.hero-video){grid-template-columns:minmax(0,1fr);overflow:hidden;isolation:isolate;}
 .hero:has(.hero-video) .hero-copy{width:100%;max-width:calc(var(--maxw) + 2*var(--gutter));}
-.hero-video{position:absolute;inset:0;z-index:-1;min-height:0;height:auto;order:0;background:var(--trench,#04141d);}
+.hero-video{position:absolute;inset:0;z-index:-1;min-height:0;height:auto;order:0;background:var(--surface);}
 .hero-video-el,.hero-video-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 45%;}
 .hero-video-el{transform-origin:55% 50%;}
 /* jemné zrno – působí filmověji a schová měkkost záběru z akční kamery */
@@ -294,8 +294,8 @@ h1,h2,h3{font-weight:500;}
 .hero-video::after{
   content:"";position:absolute;inset:0;pointer-events:none;
   background:
-    radial-gradient(120% 90% at 8% 62%,rgba(2,12,19,.78) 0%,rgba(2,12,19,.42) 38%,rgba(2,12,19,0) 66%),
-    linear-gradient(180deg,rgba(2,12,19,.42) 0%,rgba(2,12,19,0) 22%,rgba(2,12,19,0) 70%,var(--trench,#04141d) 100%);
+    radial-gradient(120% 90% at 8% 62%,rgba(3,16,32,.72) 0%,rgba(3,16,32,.38) 38%,rgba(3,16,32,0) 66%),
+    linear-gradient(180deg,rgba(3,16,32,.40) 0%,rgba(3,16,32,0) 22%,rgba(16,75,122,0) 62%,rgba(16,75,122,.75) 86%,var(--surface) 100%);
 }
 .hero-video-cap{
   position:absolute;right:var(--gutter);bottom:32px;z-index:2;margin:0;
@@ -311,10 +311,10 @@ h1,h2,h3{font-weight:500;}
 @media (max-width:900px){
   .hero:has(.hero-video){min-height:100svh;align-content:end;}
   .hero:has(.hero-video) .hero-copy{margin-top:0;padding:120px var(--gutter) 110px;}
-  .hero-video::after{background:linear-gradient(180deg,rgba(2,12,19,.38) 0%,rgba(2,12,19,0) 26%,rgba(2,12,19,.25) 48%,rgba(2,12,19,.86) 76%,var(--trench,#04141d) 100%);}
+  .hero-video::after{background:linear-gradient(180deg,rgba(3,16,32,.36) 0%,rgba(3,16,32,0) 26%,rgba(8,40,70,.35) 48%,rgba(12,60,100,.88) 76%,var(--surface) 100%);}
   .hero-video-cap{display:none;}
 }
-@keyframes hero-dive{from{transform:scale(1.02);filter:brightness(1) saturate(1);}to{transform:scale(1.07);filter:brightness(.3) saturate(.8);}}
+@keyframes hero-dive{from{transform:scale(1.02);filter:brightness(1) saturate(1);}to{transform:scale(1.07);filter:brightness(.55) saturate(.9);}}
 @keyframes hero-copy-out{to{opacity:0;transform:translateY(-48px);}}
 @keyframes hero-cue-line{0%{transform:scaleY(0);}45%{transform:scaleY(1);}100%{transform:scaleY(1);opacity:0;}}
 @keyframes hero-fade-out{to{opacity:0;}}
