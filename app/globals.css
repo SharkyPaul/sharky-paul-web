@@ -314,7 +314,7 @@ h1,h2,h3{font-weight:500;}
   .hero-video::after{background:linear-gradient(180deg,rgba(2,12,19,.38) 0%,rgba(2,12,19,0) 26%,rgba(2,12,19,.25) 48%,rgba(2,12,19,.86) 76%,var(--trench,#04141d) 100%);}
   .hero-video-cap{display:none;}
 }
-@keyframes hero-dive{from{transform:scale(1.02);filter:brightness(1) saturate(1);}to{transform:scale(1.16);filter:brightness(.3) saturate(.8);}}
+@keyframes hero-dive{from{transform:scale(1.02);filter:brightness(1) saturate(1);}to{transform:scale(1.07);filter:brightness(.3) saturate(.8);}}
 @keyframes hero-copy-out{to{opacity:0;transform:translateY(-48px);}}
 @keyframes hero-cue-line{0%{transform:scaleY(0);}45%{transform:scaleY(1);}100%{transform:scaleY(1);opacity:0;}}
 @keyframes hero-fade-out{to{opacity:0;}}
