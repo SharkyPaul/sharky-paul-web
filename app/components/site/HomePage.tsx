@@ -53,7 +53,7 @@ export default function HomePage({ c }: { c: HomeContent }) {
             </video>
             <span className="hero-video-grain" />
           </div>
-          <p className="hero-video-cap">{isCs ? "Vlastní záběr · žádná AI" : "Own footage · no AI"}</p>
+          <p className="hero-video-cap">{isCs ? "Žraloci šedí útesoví · skutečný záběr, žádná AI · Pexels" : "Grey reef sharks · real footage, no AI · Pexels"}</p>
           <a href="#obsah-dal" className="hero-cue">
             <span>{isCs ? "Ponoř se" : "Dive in"}</span>
             <i aria-hidden="true" />
