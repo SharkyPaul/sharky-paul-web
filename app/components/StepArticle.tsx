@@ -83,11 +83,21 @@ export default function StepArticle({ c }: { c: StepContent }) {
     description: c.lead,
     inLanguage,
     url: c.url,
+    mainEntityOfPage: c.url,
     datePublished: c.datePublished,
     dateModified: c.dateModified ?? c.datePublished,
     image: c.heroImage ? c.heroImage.src : "https://www.sharkypaul.com/images/og-sharkypaul.jpg",
     author: { "@type": "Person", name: "Sharky Paul", url: "https://www.sharkypaul.com" },
     publisher: { "@type": "Person", name: "Sharky Paul" },
+  };
+
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Sharky Paul", item: c.lang === "en" ? "https://www.sharkypaul.com/en" : "https://www.sharkypaul.com" },
+      { "@type": "ListItem", position: 2, name: c.title, item: c.url },
+    ],
   };
 
   return (
@@ -184,6 +194,7 @@ export default function StepArticle({ c }: { c: StepContent }) {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(article) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
     </div>
   );
 }

@@ -48,9 +48,19 @@ export default function MythArticle({ c }: { c: MythContent }) {
     description: c.lead,
     inLanguage: c.lang === "en" ? "en" : "cs-CZ",
     url: c.url,
+    mainEntityOfPage: c.url,
     image: "https://www.sharkypaul.com/images/og-sharkypaul.jpg",
     author: { "@type": "Person", name: "Sharky Paul", url: "https://www.sharkypaul.com" },
     publisher: { "@type": "Person", name: "Sharky Paul" },
+  };
+
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Sharky Paul", item: c.lang === "en" ? "https://www.sharkypaul.com/en" : "https://www.sharkypaul.com" },
+      { "@type": "ListItem", position: 2, name: c.title, item: c.url },
+    ],
   };
 
   return (
@@ -130,6 +140,7 @@ export default function MythArticle({ c }: { c: MythContent }) {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(article) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
     </div>
   );
 }
