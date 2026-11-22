@@ -59,6 +59,7 @@ export type HomeContent = {
     bookingCta: string;
     imgAlt: string;
     imgAlt2: string;
+    video: { kicker: string; title: string; id: string };
   };
   coll: {
     title: string;
@@ -254,6 +255,11 @@ const csRaw: HomeContent = {
     bookingCta: "Objednat DJ set",
     imgAlt: "Sharky Paul – portrét na modrém podmořském pozadí",
     imgAlt2: "Sharky Paul za DJ pultem",
+    video: {
+      kicker: "Oficiální videoklip",
+      title: "Sharky Paul – Nuru ya Usiku (Official Video)",
+      id: "CpmlO8su3iA",
+    },
   },
   coll: {
     title: "Kolekce",
@@ -445,6 +451,11 @@ export const en: HomeContent = {
     bookingCta: "Book a DJ set",
     imgAlt: "Sharky Paul – portrait against a blue underwater background",
     imgAlt2: "Sharky Paul at the DJ decks",
+    video: {
+      kicker: "Official music video",
+      title: "Sharky Paul – Nuru ya Usiku (Official Video)",
+      id: "CpmlO8su3iA",
+    },
   },
   coll: {
     title: "Collection",

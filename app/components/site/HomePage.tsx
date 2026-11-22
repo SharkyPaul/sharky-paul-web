@@ -229,6 +229,21 @@ export default function HomePage({ c }: { c: HomeContent }) {
               <p className="lineup">
                 {c.music.lineupLabel} <strong>{c.music.lineup}</strong>.
               </p>
+              <figure className="music-video reveal">
+                <p className="kicker" style={{ marginBottom: 12 }}>
+                  {c.music.video.kicker}
+                </p>
+                <div className="video-frame">
+                  <iframe
+                    src={`https://www.youtube-nocookie.com/embed/${c.music.video.id}?rel=0&modestbranding=1`}
+                    title={c.music.video.title}
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+                <figcaption className="music-video-caption">{c.music.video.title}</figcaption>
+              </figure>
               <div className="spotify">
                 <iframe
                   src={`https://open.spotify.com/embed/artist/${SPOTIFY_ARTIST}?utm_source=generator&theme=0`}

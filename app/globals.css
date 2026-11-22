@@ -470,6 +470,10 @@ h1,h2,h3{font-weight:500;}
 .lineup strong{color:var(--pearl);font-weight:400;}
 .spotify{margin-top:36px;border-radius:12px;overflow:hidden;max-width:640px;}
 .spotify iframe{display:block;border:0;width:100%;}
+.music-video{margin:36px 0 0;max-width:640px;}
+.music-video .kicker{color:var(--sand);}
+.music-video .video-frame{border-radius:2px;}
+.music-video-caption{margin-top:12px;font:400 14px/1.5 var(--sans);color:var(--pearl);opacity:.78;}
 @media (max-width:900px){
   .music{grid-template-columns:1fr;}
   .music-figs{max-width:520px;}
