@@ -107,6 +107,7 @@ export const egyptCs: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Přečti si také",
   related: [
+    { label: "Grónský žralok: nejdéle žijící obratlovec na Zemi", url: "/gronsky-zralok" },
     { label: "Žraloci v Egyptě – jak velké je riziko a jak se chovat", url: "/zraloci-v-egypte" },
     { label: "Co dělat, když potkáš žraloka – krok za krokem", url: "/co-delat-kdyz-potkas-zraloka" },
     { label: "9 mýtů o žralocích, kterým lidé věří", url: "/myty-o-zralocich" },
@@ -204,6 +205,7 @@ export const egyptEn: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Also read",
   related: [
+    { label: "Greenland shark: the longest-living vertebrate on Earth", url: "/en/greenland-shark" },
     { label: "Megalodon: is it still alive? Facts and myths", url: "/en/megalodon-shark" },
     { label: "What to do if you see a shark – step by step", url: "/en/what-to-do-if-you-see-a-shark" },
     { label: "9 shark myths people still believe", url: "/en/shark-myths" },

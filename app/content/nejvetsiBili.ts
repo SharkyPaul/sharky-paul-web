@@ -109,6 +109,7 @@ export const nejvetsiBiliCs: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Přečti si také",
   related: [
+    { label: "Grónský žralok: nejdéle žijící obratlovec na Zemi", url: "/gronsky-zralok" },
     { label: "USS Indianapolis: 4 dny mezi žraloky a skutečný příběh za Čelistmi", url: "/uss-indianapolis" },
     { label: "Žralok bílý: velikost, potrava, věk a ohrožení", url: "/zralok-bily" },
     { label: "Žralok megalodon: kdy žil a proč vyhynul", url: "/zralok-megalodon" },
@@ -218,6 +219,7 @@ export const nejvetsiBiliEn: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Also read",
   related: [
+    { label: "Greenland shark: the longest-living vertebrate on Earth", url: "/en/greenland-shark" },
     { label: "Megalodon: is it still alive? Size, age and extinction", url: "/en/megalodon-shark" },
     { label: "9 shark myths people still believe", url: "/en/shark-myths" },
     { label: "What to do if you see a shark – step by step", url: "/en/what-to-do-if-you-see-a-shark" },

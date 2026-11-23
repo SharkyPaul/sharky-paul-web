@@ -112,6 +112,7 @@ export const zralokTygriCs: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Přečti si také",
   related: [
+    { label: "Grónský žralok: nejdéle žijící obratlovec na Zemi", url: "/gronsky-zralok" },
     { label: "USS Indianapolis: 4 dny mezi žraloky a skutečný příběh za Čelistmi", url: "/uss-indianapolis" },
     { label: "Žralok bílý: velikost, potrava, věk a ohrožení", url: "/zralok-bily" },
     { label: "Žralok obrovský: druhý největší žralok, který žere jen plankton", url: "/zralok-obrovsky" },

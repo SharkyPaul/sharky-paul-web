@@ -94,6 +94,7 @@ export const megalodonCs: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Přečti si také",
   related: [
+    { label: "Grónský žralok: nejdéle žijící obratlovec na Zemi", url: "/gronsky-zralok" },
     { label: "Video: Megalodon v Mariánském příkopu, pravda, nebo fikce?", url: "https://youtu.be/TBKEMZPfgyw" },
     { label: "Žralok bílý: velikost, potrava, věk a ohrožení", url: "/zralok-bily" },
     { label: "Největší bílí žraloci světa: Deep Blue a skutečné rekordy", url: "/nejvetsi-bili-zraloci" },
@@ -195,6 +196,7 @@ export const megalodonEn: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Also read",
   related: [
+    { label: "Greenland shark: the longest-living vertebrate on Earth", url: "/en/greenland-shark" },
     { label: "Video: Megalodon in the Mariana Trench – fact or fiction?", url: "https://youtu.be/TBKEMZPfgyw" },
     { label: "The biggest great white sharks ever recorded: Deep Blue and the real records", url: "/en/biggest-great-white-sharks" },
     { label: "9 shark myths people still believe", url: "/en/shark-myths" },

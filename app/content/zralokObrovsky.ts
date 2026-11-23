@@ -110,6 +110,7 @@ export const zralokObrovskyCs: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Přečti si také",
   related: [
+    { label: "Grónský žralok: nejdéle žijící obratlovec na Zemi", url: "/gronsky-zralok" },
     { label: "Žralok bílý: velikost, potrava, věk a ohrožení", url: "/zralok-bily" },
     { label: "Žralok megalodon: kdy žil a proč vyhynul", url: "/zralok-megalodon" },
     { label: "Žralok tygří: velikost, potrava, věk a jestli je nebezpečný", url: "/zralok-tygri" },

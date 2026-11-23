@@ -164,9 +164,15 @@ const csRaw: HomeContent = {
     shareText: "Příručka zdarma: Jak se chovat bezpečně v přítomnosti žraloků 🦈",
     reads: [
       {
+        href: "/gronsky-zralok",
+        title: "Grónský žralok: starší než USA",
+        text: "Nejdéle žijící obratlovec: nejméně 272 let, roste pod 1 cm ročně. Novinka.",
+        go: "Číst článek",
+      },
+      {
         href: "/uss-indianapolis",
         title: "USS Indianapolis: 4 dny mezi žraloky",
-        text: "Loď, která vezla bombu pro Hirošimu, a největší útok žraloků v historii. Novinka.",
+        text: "Loď, která vezla bombu pro Hirošimu, a největší útok žraloků v historii.",
         go: "Číst článek",
       },
       {
@@ -390,9 +396,15 @@ export const en: HomeContent = {
     shareText: "Free shark safety guide 🦈",
     reads: [
       {
+        href: "/en/greenland-shark",
+        title: "Greenland shark: older than the USA",
+        text: "The longest-living vertebrate: at least 272 years, growing under 1 cm a year. New.",
+        go: "Read the article",
+      },
+      {
         href: "/en/uss-indianapolis",
         title: "USS Indianapolis: 4 days among sharks",
-        text: "The ship that carried the Hiroshima bomb and the worst shark attack in history. New.",
+        text: "The ship that carried the Hiroshima bomb and the worst shark attack in history.",
         go: "Read the article",
       },
       {

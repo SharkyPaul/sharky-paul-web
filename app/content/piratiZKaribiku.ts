@@ -122,6 +122,7 @@ export const piratiZKaribikuCs: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Přečti si také",
   related: [
+    { label: "Grónský žralok: nejdéle žijící obratlovec na Zemi", url: "/gronsky-zralok" },
     { label: "9 mýtů o žralocích, kterým lidé věří", url: "/myty-o-zralocich" },
     { label: "Žraloci v Egyptě: jak velké je riziko", url: "/zraloci-v-egypte" },
     { label: "Žralok megalodon: kdy žil a jak velký byl", url: "/zralok-megalodon" },

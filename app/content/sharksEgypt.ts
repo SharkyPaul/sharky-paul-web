@@ -100,6 +100,7 @@ export const sharksEgyptCs: StepContent = {
   guideUrl: "/prirucka",
   relatedTitle: "Přečti si také",
   related: [
+    { label: "Grónský žralok: nejdéle žijící obratlovec na Zemi", url: "/gronsky-zralok" },
     { label: "Co dělat, když potkáš žraloka – krok za krokem", url: "/co-delat-kdyz-potkas-zraloka" },
     { label: "Na co v Egyptě šlapeš – 7 nebezpečných zvířat u pláže", url: "/nebezpecna-morska-zvirata-egypt" },
     { label: "9 mýtů o žralocích, kterým lidé věří", url: "/myty-o-zralocich" },
