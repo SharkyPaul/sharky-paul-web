@@ -3,7 +3,7 @@ import StepArticle from "../components/StepArticle";
 import { daryCs } from "../content/dary";
 
 export const metadata: Metadata = {
-  title: "10 Kč z každého e-booku na ochranu žraloků | Sharky Paul",
+  title: "10 Kč z každého e-booku na ochranu žraloků",
   description:
     "Transparentní přehled darů: z každého prodaného e-booku Sharky Paula jde 10 Kč na ochranu žraloků přes Be Sea. Každý dar zveřejněný s datem a částkou.",
   alternates: { canonical: "/dary" },
