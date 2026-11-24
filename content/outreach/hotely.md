@@ -1,7 +1,7 @@
 ---
 name: Databáze hotelových kontaktů
 owner: Sharky Paul
-updated: 2026-11-22
+updated: 2026-11-24
 description: Centrální přehled oslovených a připravených hotelů pro barter spolupráce (ubytování + AI pro 2 výměnou za přednášku, DJ sety, UGC)
 ---
 
@@ -24,20 +24,20 @@ description: Centrální přehled oslovených a připravených hotelů pro barte
 
 ---
 
-## 1. vlna — Marsa Alam (odesláno/drafty)
+## 1. vlna — Marsa Alam (odesláno 23. 11. 2026 z info@sharkypaul.com)
 
 | Teplota | Hotel | Kontakt | Osoba | Stav | Poznámka |
 |---|---|---|---|---|---|
-| 🔥🔥 | Blend Elphistone Resort | info@blendresorts.com | — | draft | Byl host s Blue Style. Head Office in property. Tel +20 12 22 189203 |
-| 🔥🔥 | Shoni Bay Resort | frontoffice@shoni-bay.com, cc ecommerce@shoni-bay.com | — | draft | Byl host s Blue Style. Owner: Royal Touristic Investments. 212 pokojů, 1 km beach. Tel +20 1555141821 |
-| 🔥🔥 | Dream Lagoon Resort & Aqua Park | dos@grandlagoonresorts.com, cc assistant.marketing@grandlagoonresorts.com | Director of Sales (neznámý) | draft | Byl host, chce zpět, Bedouin party tent. Management: Grand Lagoon Resorts. FO@grandlagoonresorts.com, reservation.manager@grandlagoonresorts.com |
-| ⭐🎯 | Pickalbatros (29 hotelů) | Marketing@pickalbatros.com | — | draft | Dedikovaný influencer mail. Pokrývá Portofino Vita/Villaggio, Sea World, Oasis Port Ghalib, Palace Port Ghalib, Sands, Aqua Blu Sharm, Water Valley Neverland, Beach Albatros |
-| 📋 | Steigenberger Resort Alaya | reservation.alaya@steigenberger.com | GM **Ayman Saad** (LinkedIn) | draft | 5★ adults 16+, 290 pokojů. V mailu žádost o přeposlání na Aymana |
-| 🎯 | Jaz Hotel Group centrála | centralreservation@jazhotels.com | Area GM **Ibrahim Redwan** (LinkedIn — Marsa Alam, Ras Soma & Luxor) | draft | Žádost o přeposlání na marketing. Pokrývá Costa Mares, Solaya, Elite Rivera, Madinat Coraya, Makadina, Makadi Oasis, Aquaviva, Aquamarine, Samaya |
-| 🔥 | Meliá Tortuga Beach — Sal, Kapverdy | melia.tortuga@melia.com | — | draft | Mail zmiňuje Shark Bay + baby lemon sharks. Tel +238 242 92 00 |
-| 📋 | Jaz Makadi Oasis + Makadina + Aquaviva (cluster) | fo.makadioasis@jazhotels.com, cc fo.makadina, fo.aquaviva | — | draft | 3 Makadi Bay hotely jedním mailem |
+| 🔥🔥 | Blend Elphistone Resort | info@blendresorts.com | — | sent 23. 11. | Byl host s Blue Style. Head Office in property. Tel +20 12 22 189203 |
+| 🔥🔥 | Shoni Bay Resort | frontoffice@shoni-bay.com, cc ecommerce@shoni-bay.com | — | sent 23. 11. | Byl host s Blue Style. Owner: Royal Touristic Investments. 212 pokojů, 1 km beach. Tel +20 1555141821 |
+| 🔥🔥 | Dream Lagoon Resort & Aqua Park | dos@grandlagoonresorts.com, cc assistant.marketing@grandlagoonresorts.com | Director of Sales (neznámý) | sent 23. 11. | Byl host, chce zpět, Bedouin party tent. Management: Grand Lagoon Resorts. FO@grandlagoonresorts.com, reservation.manager@grandlagoonresorts.com |
+| ⭐🎯 | Pickalbatros (29 hotelů) | Marketing@pickalbatros.com | — | sent 23. 11. | Dedikovaný influencer mail. Pokrývá Portofino Vita/Villaggio, Sea World, Oasis Port Ghalib, Palace Port Ghalib, Sands, Aqua Blu Sharm, Water Valley Neverland, Beach Albatros |
+| 📋 | Steigenberger Resort Alaya | reservation.alaya@steigenberger.com | GM **Ayman Saad** (LinkedIn) | sent 23. 11. | 5★ adults 16+, 290 pokojů. V mailu žádost o přeposlání na Aymana |
+| 🎯 | Jaz Hotel Group centrála | centralreservation@jazhotels.com | Area GM **Ibrahim Redwan** (LinkedIn — Marsa Alam, Ras Soma & Luxor) | sent 23. 11. | Žádost o přeposlání na marketing. Pokrývá Costa Mares, Solaya, Elite Rivera, Madinat Coraya, Makadina, Makadi Oasis, Aquaviva, Aquamarine, Samaya |
+| 🔥 | Meliá Tortuga Beach — Sal, Kapverdy | melia.tortuga@melia.com | — | sent 23. 11. | Mail zmiňuje Shark Bay + baby lemon sharks. Tel +238 242 92 00 |
+| 📋 | Jaz Makadi Oasis + Makadina + Aquaviva (cluster) | fo.makadioasis@jazhotels.com, cc fo.makadina, fo.aquaviva | — | sent 23. 11. | 3 Makadi Bay hotely jedním mailem |
 
-**Celkem 1. vlna: 8 draftů → ~60+ hotelů pokryto.**
+**Celkem 1. vlna: 8 e-mailů odesláno 23. 11. 2026 (bez odpovědi k 24. 11.). Follow-up nejdřív 30. 11. Blend, Shoni Bay a Dream Lagoon už měly follow-upy ze vlny 2 → u nich follow-up nedělat.**
 
 ---
 
