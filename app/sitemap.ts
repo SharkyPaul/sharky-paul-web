@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/zralok-tygri`, lastModified: d("2026-11-17"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE}/pirati-z-karibiku`, lastModified: d("2026-11-08"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE}/zraloci-v-egypte`, lastModified: d("2026-11-07"), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE}/egypt`, lastModified: d("2026-11-24"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE}/nebezpecna-morska-zvirata-egypt`, lastModified: d("2026-11-09"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/nebezpecna-morska-zvirata-egypt`, en: `${SITE}/en/dangerous-marine-animals-egypt` } } },
     { url: `${SITE}/en/dangerous-marine-animals-egypt`, lastModified: d("2026-11-09"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/nebezpecna-morska-zvirata-egypt`, en: `${SITE}/en/dangerous-marine-animals-egypt` } } },
     { url: `${SITE}/aplikace`, lastModified: d("2026-11-07"), changeFrequency: "monthly", priority: 0.8, alternates: { languages: { cs: `${SITE}/aplikace`, en: `${SITE}/en/app` } } },
