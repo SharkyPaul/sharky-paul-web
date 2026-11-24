@@ -1,7 +1,7 @@
 # E-book na Payhip – podklady k vložení
 
 ## Název produktu
-Sharky Paul – Průvodce šnorchlováním pro každého (e-book, 41 stran)
+Sharky Paul – Průvodce šnorchlováním pro každého (e-book, 62 stran)
 
 ## Cena
 199 Kč (nebo 7,99 €). Úvodní akce pro sledující: 149 Kč první týden (kód SHARKY).
@@ -24,17 +24,29 @@ Co v něm najdeš:
 - Pravidla reefu – Respect the Locals
 - Krizové situace a jak je přežít (proudy, panika, křeče)
 
+- Ze šnorchlaře potápěčem
+- Mořské legendy (Kraken, Megalodon, Bermudský trojúhelník…)
+- Legendy potápění: od Halleyho zvonu po Jamese Camerona
+
+🦈 10 Kč z každého prodaného e-booku posílám na ochranu žraloků přes organizaci Be Sea (Nadační fond CCBC). Potvrzení o daru zveřejňuju jednou za čtvrtletí na Instagramu @sharky_paul_edu.
+
 Pro koho: pro každého, kdo jede k moři – od úplného začátečníka po toho, kdo chce šnorchlovat bezpečněji a vidět víc.
 
-Formát: PDF, 41 stran, čeština. Stáhneš ihned po zaplacení.
+Formát: PDF, 62 stran, plné fotek z mých ponorů, čeština. Stáhneš ihned po zaplacení.
 
 Obecná informace, nenahrazuje výcvik ani pokyny místního průvodce.
 
 ## Soubor
-/mnt/attach/outputs/Sharky_Paul_Pruvodce_snorchlovanim_V5.pdf (V5)
+/mnt/attach/outputs/Sharky_Paul_Pruvodce_snorchlovanim_V16.pdf (V16, finální)
 
 ## Prompt na obálku (Gemini / Nano Banana)
 Vertical ebook cover, 1600x2560. Underwater Red Sea scene in clear turquoise water, sunlight rays from the surface, a colorful coral reef at the bottom, a snorkeler silhouette at the surface seen from below. Bold white title text at the top: "PRŮVODCE ŠNORCHLOVÁNÍM", smaller subtitle below: "pro každého". At the bottom in bold: "SHARKY PAUL". Clean modern typography, high contrast, no other text, no logos of other brands, no real people's faces, photorealistic.
 
 ## Po spuštění
 Odkaz z Payhipu vložit do stránky sharkypaul.com/egypt (blok „Chceš víc?“) a do bia.
+
+## Dar na ochranu žraloků (závazek z popisu produktu)
+- Komu: Be Sea, Nadační fond CCBC – https://www.darujme.cz/projekt/1205750
+- Kolik: 10 Kč za každý prodaný kus (počet prodejů z Payhip → Sales)
+- Kdy: první týden v lednu, dubnu, červenci a říjnu za předchozí čtvrtletí
+- Důkaz: potvrzení z Darujme.cz → story na Instagramu + záznam do tabulky „Dary Be Sea“ v řídicím dokumentu
