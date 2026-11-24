@@ -37,7 +37,7 @@ Formát: PDF, 63 stran, plné fotek z mých ponorů, čeština. Stáhneš ihned 
 Obecná informace, nenahrazuje výcvik ani pokyny místního průvodce.
 
 ## Soubor
-/mnt/attach/outputs/Sharky_Paul_Pruvodce_snorchlovanim_V16.pdf (V16, finální)
+/mnt/attach/outputs/Sharky_Paul_Pruvodce_snorchlovanim_V17.pdf (V17, finální)
 
 ## Prompt na obálku (Gemini / Nano Banana)
 Vertical ebook cover, 1600x2560. Underwater Red Sea scene in clear turquoise water, sunlight rays from the surface, a colorful coral reef at the bottom, a snorkeler silhouette at the surface seen from below. Bold white title text at the top: "PRŮVODCE ŠNORCHLOVÁNÍM", smaller subtitle below: "pro každého". At the bottom in bold: "SHARKY PAUL". Clean modern typography, high contrast, no other text, no logos of other brands, no real people's faces, photorealistic.
