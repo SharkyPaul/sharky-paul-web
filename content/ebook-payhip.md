@@ -1,13 +1,13 @@
 # E-book na Payhip – podklady k vložení
 
 ## Název produktu
-Sharky Paul – Průvodce šnorchlováním pro každého (e-book, 63 stran)
+Dovolená u moře bez průšvihu – Šnorchlování, žraloci a respekt k útesu (e-book Sharky Paul, 72 stran)
 
 ## Cena
 199 Kč (nebo 7,99 €). Úvodní akce pro sledující: 149 Kč první týden (kód SHARKY).
 
 ## Krátký popis (1 věta)
-Všechno, co potřebuješ vědět, než skočíš do moře: vybavení, žraloci, proudy, krizové situace a moje nejlepší destinace.
+Všechno, co potřebuješ vědět, než skočíš do moře: bezpečné šnorchlování, žraloci a jedovatí tvorové, první pomoc u moře a respekt k útesu.
 
 ## Popis produktu
 Šnorchluju a potápím se od roku 2010, od chorvatského Brače až po longimany v Rudém moři. Do tohohle e-booku jsem dal všechno, co bych chtěl vědět já, když jsem začínal.
@@ -23,7 +23,7 @@ Co v něm najdeš:
 - Top destinace očima Sharky Paula (Egypt, Maledivy, Azory, Chorvatsko…)
 - Pravidla reefu – Respect the Locals
 - Krizové situace a jak je přežít (proudy, panika, křeče)
-
+- NOVĚ: První pomoc u moře – škrtidlo a silné krvácení, bodnutí odrancem a perutýnem, homolice, chobotnice kroužkovaná, mořský had, medúzy, anafylaktický šok, resuscitace a tonutí, „masožravá bakterie“ (prevence), lékárnička na lodní výlet a tahák „co na co“
 - Ze šnorchlaře potápěčem
 - Mořské legendy (Kraken, Megalodon, Bermudský trojúhelník…)
 - Legendy potápění: od Halleyho zvonu po Jamese Camerona
@@ -32,12 +32,13 @@ Co v něm najdeš:
 
 Pro koho: pro každého, kdo jede k moři – od úplného začátečníka po toho, kdo chce šnorchlovat bezpečněji a vidět víc.
 
-Formát: PDF, 63 stran, plné fotek z mých ponorů, čeština. Stáhneš ihned po zaplacení.
+Formát: PDF, 72 stran, plné fotek z mých ponorů, čeština. Stáhneš ihned po zaplacení.
 
-Obecná informace, nenahrazuje výcvik ani pokyny místního průvodce.
+Obecná informace, nenahrazuje kurz první pomoci, výcvik ani pokyny místního průvodce. Při ohrožení života volej záchranku (v Egyptě 123, v EU 112).
 
 ## Soubor
-/mnt/attach/outputs/Sharky_Paul_Pruvodce_snorchlovanim_V17.pdf (V17, finální)
+/mnt/attach/outputs/Sharky_Paul_Dovolena_u_more_bez_prusvihu_V18.pdf (V18)
+Obálka pro Payhip: /mnt/attach/outputs/Obalka_Dovolena_u_more_bez_prusvihu_v2.jpg (1600×2560; žralok: Hamada, se svolením)
 
 ## Prompt na obálku (Gemini / Nano Banana)
 Vertical ebook cover, 1600x2560. Underwater Red Sea scene in clear turquoise water, sunlight rays from the surface, a colorful coral reef at the bottom, a snorkeler silhouette at the surface seen from below. Bold white title text at the top: "PRŮVODCE ŠNORCHLOVÁNÍM", smaller subtitle below: "pro každého". At the bottom in bold: "SHARKY PAUL". Clean modern typography, high contrast, no other text, no logos of other brands, no real people's faces, photorealistic.
