@@ -113,7 +113,7 @@ description: Centrální přehled oslovených a připravených hotelů pro barte
 | **Čedok** | Produktový tým Egypt + Kapverdy | pending | Mají Jaz Costa Mares a další Jaz v nabídce |
 | **Invia** | Marketing — brand partnership | pending | Dle tiktok-insights nejsilnější hotely pro Čechy |
 | **DAN Europe** | Barter/paid: pojišťovna pro potápěče | pending | Pavel preferuje DAN. Natáčí ve sportu = ideální testimonial |
-| **AXA Assistance** | Cestovní pojištění — paid promo video | pending | — |
+| **AXA Assistance** | Cestovní pojištění — paid promo video + partnerství e-booku (logo, strana partnera) | jednáme: 24. 11. Radana R. přidala Val Saškovou (MarketUp, influencer agentura); 24. 11. poslána nabídka videa + partner e-booku, odměna dle jejich návrhu | čekáme na Val |
 | **ERV Evropská pojišťovna** | Cestovní pojištění — paid promo video | pending | — |
 
 ---
