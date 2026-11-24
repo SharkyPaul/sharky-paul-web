@@ -28,7 +28,7 @@ Co v něm najdeš:
 - Mořské legendy (Kraken, Megalodon, Bermudský trojúhelník…)
 - Legendy potápění: od Halleyho zvonu po Jamese Camerona
 
-🦈 10 Kč z každého prodaného e-booku posílám na ochranu žraloků přes organizaci Be Sea (Nadační fond CCBC). Potvrzení o daru zveřejňuju jednou za čtvrtletí na Instagramu @sharky_paul_edu.
+🦈 10 Kč z každého prodaného e-booku posílám na ochranu žraloků přes organizaci Be Sea (Nadační fond CCBC). Každý dar zveřejňuju jednou za čtvrtletí na sharkypaul.com/dary.
 
 Pro koho: pro každého, kdo jede k moři – od úplného začátečníka po toho, kdo chce šnorchlovat bezpečněji a vidět víc.
 
@@ -49,4 +49,4 @@ Odkaz z Payhipu vložit do stránky sharkypaul.com/egypt (blok „Chceš víc?�
 - Komu: Be Sea, Nadační fond CCBC – https://www.darujme.cz/projekt/1205750
 - Kolik: 10 Kč za každý prodaný kus (počet prodejů z Payhip → Sales)
 - Kdy: první týden v lednu, dubnu, červenci a říjnu za předchozí čtvrtletí
-- Důkaz: potvrzení z Darujme.cz → story na Instagramu + záznam do tabulky „Dary Be Sea“ v řídicím dokumentu
+- Důkaz: nový řádek v app/content/dary.ts (období, kusy, částka, datum) → stránka sharkypaul.com/dary; záznam i do tabulky „Dary Be Sea“ v řídicím dokumentu
