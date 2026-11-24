@@ -1,7 +1,7 @@
 # E-book na Payhip – podklady k vložení
 
 ## Název produktu
-Sharky Paul – Průvodce šnorchlováním pro každého (e-book, 62 stran)
+Sharky Paul – Průvodce šnorchlováním pro každého (e-book, 63 stran)
 
 ## Cena
 199 Kč (nebo 7,99 €). Úvodní akce pro sledující: 149 Kč první týden (kód SHARKY).
@@ -32,7 +32,7 @@ Co v něm najdeš:
 
 Pro koho: pro každého, kdo jede k moři – od úplného začátečníka po toho, kdo chce šnorchlovat bezpečněji a vidět víc.
 
-Formát: PDF, 62 stran, plné fotek z mých ponorů, čeština. Stáhneš ihned po zaplacení.
+Formát: PDF, 63 stran, plné fotek z mých ponorů, čeština. Stáhneš ihned po zaplacení.
 
 Obecná informace, nenahrazuje výcvik ani pokyny místního průvodce.
 
