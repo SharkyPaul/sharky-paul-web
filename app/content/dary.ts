@@ -27,10 +27,10 @@ export const daryCs: StepContent = {
   homeLabel: "Domů",
   eyebrow: "Sharky Paul · Respect the Locals · Dary",
   title: "10 Kč z každého e-booku na ochranu žraloků",
-  lead: `Z každého prodaného e-booku Průvodce šnorchlováním pro každého posílám 10 Kč organizaci Be Sea, která chrání žraloky. Jednou za čtvrtletí dar odešlu a potvrzení zveřejním na této stránce. Zatím odesláno celkem: ${celkem} Kč.`,
+  lead: `Z každého prodaného e-booku Dovolená u moře bez průšvihu posílám 10 Kč organizaci Be Sea, která chrání žraloky. Jednou za čtvrtletí dar odešlu a potvrzení zveřejním na této stránce. Zatím odesláno celkem: ${celkem} Kč.`,
   datePublished: "2026-11-24",
   steps: [
-    { title: "Koupíš si e-book", text: "Průvodce šnorchlováním pro každého: vybavení, žraloci, proudy, krizové situace, legendy potápění a moje nejlepší destinace." },
+    { title: "Koupíš si e-book", text: "Dovolená u moře bez průšvihu: vybavení, žraloci, proudy, krizové situace, první pomoc u moře a moje nejlepší destinace." },
     { title: "10 Kč jde stranou", text: "Z každého prodaného kusu si 10 Kč odkládám na ochranu žraloků. Částka je pevná, platí i při slevě." },
     { title: "Jednou za čtvrtletí odešlu dar", text: "Na začátku ledna, dubna, července a října spočítám prodeje za předchozí čtvrtletí podle Payhipu a pošlu dar přes Darujme.cz." },
     { title: "Potvrzení najdeš tady", text: "Každý dar zapíšu do přehledu níže i s datem a částkou. Žádné sliby do větru." },

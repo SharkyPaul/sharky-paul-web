@@ -1,7 +1,7 @@
 import type { StepContent } from "../components/StepArticle";
 
 // Checklist „Šnorchlování v Egyptě“ (CZ). Obsah převzatý z e-booku Sharky Paul –
-// Průvodce šnorchlováním pro každého (kap. 04 Vybavení, 08 Destinace, 10 Krizové situace)
+// E-book Dovolená u moře bez průšvihu (kap. 04 Vybavení, 08 Destinace, 10 Krizové situace)
 // a z ověřených zdrojů článku Žraloci v Egyptě. Nic nepřidávat bez ověření.
 
 export const egyptChecklistCs: StepContent = {
