@@ -22,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/en/uss-indianapolis`, lastModified: d("2026-11-17"), changeFrequency: "monthly", priority: 0.9, alternates: { languages: { cs: `${SITE}/uss-indianapolis`, en: `${SITE}/en/uss-indianapolis` } } },
     { url: `${SITE}/zralok-bily`, lastModified: d("2026-11-16"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE}/zralok-obrovsky`, lastModified: d("2026-11-17"), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE}/odpuzovace-zraloku`, lastModified: d("2026-11-28"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE}/zralok-tygri`, lastModified: d("2026-11-17"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE}/pirati-z-karibiku`, lastModified: d("2026-11-08"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE}/zraloci-v-egypte`, lastModified: d("2026-11-07"), changeFrequency: "monthly", priority: 0.9 },

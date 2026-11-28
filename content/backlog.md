@@ -13,7 +13,7 @@
 - [ ] Šnorchlování v Rudém moři bezpečně / Safe snorkelling in the Red Sea
 - [ ] Žraloci v Rudém moři: které druhy můžeš potkat / Sharks of the Red Sea: species you may meet
 - [ ] Proč oceán potřebuje žraloky / Why the ocean needs sharks
-- [ ] Odpuzovače žraloků: co funguje a co ne / Shark repellents: what works and what doesn't
+- [x] Odpuzovače žraloků: co funguje a co ne — /odpuzovace-zraloku (CZ hotovo 28. 11.; EN /en/shark-repellents zatím chybí) / Shark repellents: what works and what doesn't
 - [ ] První kroky po kousnutí žralokem / First steps after a shark bite
 - [ ] Respect the Locals: etika potápění a cestování / Respect the Locals: diving and travel ethics
 - [ ] Potápění v Egyptě pro začátečníky / Diving in Egypt for beginners
